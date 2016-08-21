@@ -1,0 +1,6864 @@
+[
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Ascites( Fluid in the Abdomen)"
+      },
+      {
+        "id": 1,
+        "name": "Celiac Disease( celiac Sprue)"
+      },
+      {
+        "id": 2,
+        "name": "Constipation"
+      },
+      {
+        "id": 3,
+        "name": "Inguinal Hernia( groin Hernia)"
+      },
+      {
+        "id": 4,
+        "name": "Irritable Bowel Syndrome(IBS, chronic Intestinal Pain and Cramping)"
+      },
+      {
+        "id": 5,
+        "name": "Lactose Intolerance"
+      },
+      {
+        "id": 6,
+        "name": "Malabsorption Syndrome(abnormal Intestinal Digestion)"
+      },
+      {
+        "id": 7,
+        "name": "Paralytic Lleus(Intestinal Paralysis)"
+      },
+      {
+        "id": 8,
+        "name": "Urine Rentention( Inability to urinate)"
+      }
+    ],
+    "id": 0,
+    "name": "Abdominal Distension"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Ascites (Fluid in the Abdomen)"
+      },
+      {
+        "id": 1,
+        "name": "Celiac Disease (celiac Sprue)"
+      },
+      {
+        "id": 2,
+        "name": "Constipation"
+      },
+      {
+        "id": 3,
+        "name": "Inguinal Hernia (groin Hernia)"
+      },
+      {
+        "id": 4,
+        "name": "Irritable Bowel Syndrome (IBS, chronic Intestinal Pain and Cramping)"
+      },
+      {
+        "id": 5,
+        "name": "Lactose Intolerance"
+      },
+      {
+        "id": 6,
+        "name": "Malabsorption Syndrome (abnormal Intestinal Digestion)"
+      },
+      {
+        "id": 7,
+        "name": "Paralytic Lleus (Intestinal Paralysis)"
+      },
+      {
+        "id": 8,
+        "name": "Urine Rentention (Inability to urinate)"
+      }
+    ],
+    "id": 1,
+    "name": "Abdominal Swelling(Stomach Swelling)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcohol abuse"
+      },
+      {
+        "id": 1,
+        "name": "Allergy"
+      },
+      {
+        "id": 2,
+        "name": "Nasal polyps (growths)"
+      },
+      {
+        "id": 3,
+        "name": "Obesity"
+      },
+      {
+        "id": 4,
+        "name": "Rhinitis (nasal inflammation)"
+      },
+      {
+        "id": 5,
+        "name": "Sinusitis(Sinus Infection)"
+      },
+      {
+        "id": 6,
+        "name": "Sleep Apnea( Chronic Sleep Disruption)"
+      },
+      {
+        "id": 7,
+        "name": "Tonsillitis( Tonsil Infection)"
+      },
+      {
+        "id": 8,
+        "name": "Upper Respiratory Tract Infection( URI, common Cold)"
+      }
+    ],
+    "id": 2,
+    "name": "Adnormal Breathing Sounds"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Anorectal (perirectal) Abscess"
+      },
+      {
+        "id": 1,
+        "name": "Carbuncle"
+      },
+      {
+        "id": 2,
+        "name": "Dental Abscess (Tooth Infection)"
+      },
+      {
+        "id": 3,
+        "name": "MRSA"
+      },
+      {
+        "id": 4,
+        "name": "Peritonsillar Abscess (Collection of pus Around Tonsils)"
+      },
+      {
+        "id": 5,
+        "name": "Skin Abscess (Collection of pus)"
+      },
+      {
+        "id": 6,
+        "name": "Staphylococcuss aureus (Type of Bacteria)"
+      }
+    ],
+    "id": 3,
+    "name": "Abscess\/ Boil (Collection of pus)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcohol (ethanol) intoxication"
+      },
+      {
+        "id": 1,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 2,
+        "name": "Caffeine use"
+      },
+      {
+        "id": 3,
+        "name": "Depression"
+      },
+      {
+        "id": 4,
+        "name": "Medication reaction"
+      }
+    ],
+    "id": 4,
+    "name": "Agitated"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcoholism"
+      },
+      {
+        "id": 1,
+        "name": "Alcohol (ethanol) intoxication"
+      },
+      {
+        "id": 2,
+        "name": "Major depressive disorder (severe depression)"
+      },
+      {
+        "id": 3,
+        "name": "Prescription drug abuse"
+      },
+      {
+        "id": 4,
+        "name": "Narcotic (morphine, heroin) abuse"
+      },
+      {
+        "id": 5,
+        "name": "Alcohol (ethanol) poisoning (overdose)"
+      },
+      {
+        "id": 6,
+        "name": "Cirrhosis (liver failure and scarring)"
+      },
+      {
+        "id": 7,
+        "name": "Marijuana use"
+      },
+      {
+        "id": 8,
+        "name": "Phobias (irrational fear)"
+      },
+      {
+        "id": 9,
+        "name": "Depression (excessive sadness)"
+      },
+      {
+        "id": 10,
+        "name": "Alcohol withdrawal syndrome"
+      },
+      {
+        "id": 11,
+        "name": "Schizophrenia (chronic impaired reality perception)"
+      },
+      {
+        "id": 12,
+        "name": "Delirium tremens (\"DTs\", severe alcohol withdrawal)"
+      },
+      {
+        "id": 13,
+        "name": "Gastric ulcer (stomach ulcer)"
+      },
+      {
+        "id": 14,
+        "name": "Pancreatitis (pancreas inflammation)"
+      },
+      {
+        "id": 15,
+        "name": "Bipolar disorder (manic depressive disorder)"
+      }
+    ],
+    "id": 5,
+    "name": "Alcohol Abuse"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Hair loss (alopecia)"
+      },
+      {
+        "id": 1,
+        "name": "Male pattern hair loss (hereditary-patterned baldness"
+      }
+    ],
+    "id": 6,
+    "name": "Alopecia"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcohol (ethanol) abuse"
+      },
+      {
+        "id": 1,
+        "name": "Alcohol withdrawal syndrome (mild)"
+      },
+      {
+        "id": 2,
+        "name": "Alzheimer's disease (dementia)"
+      },
+      {
+        "id": 3,
+        "name": "Carbon monoxide poisoning (odorless, poisonous gas)"
+      },
+      {
+        "id": 4,
+        "name": "Dehydration"
+      },
+      {
+        "id": 5,
+        "name": "Dementia (decline in mental ability)"
+      },
+      {
+        "id": 6,
+        "name": "Diabetic ketoacidosis (DKA, a complication of poorly controlled diabetes)"
+      },
+      {
+        "id": 7,
+        "name": "Drug overdose"
+      },
+      {
+        "id": 8,
+        "name": "Drug Withdrawal syndrome"
+      },
+      {
+        "id": 9,
+        "name": "Epidural hematoma (bleeding around brain or spine)"
+      },
+      {
+        "id": 10,
+        "name": "Hyperthyroidism (elevated thyrpid hormone)"
+      },
+      {
+        "id": 11,
+        "name": "Hypoglycemia (low blood sugar)"
+      },
+      {
+        "id": 12,
+        "name": "Hyponatremia (low blood sodium)"
+      },
+      {
+        "id": 13,
+        "name": "Hypotension"
+      },
+      {
+        "id": 14,
+        "name": "hypothyroidism ( low thyroid hormone)"
+      },
+      {
+        "id": 15,
+        "name": "Hypoxia (lack of oxygen)"
+      },
+      {
+        "id": 16,
+        "name": "Intracranial hemorrhage (bleeding in brain)"
+      },
+      {
+        "id": 17,
+        "name": "Meningitis (spinal fluid infection)"
+      },
+      {
+        "id": 18,
+        "name": "Respiratory failure (breathing failure, ARDS)"
+      },
+      {
+        "id": 19,
+        "name": "Seizure (abnormal brain electrical actvity)"
+      },
+      {
+        "id": 20,
+        "name": "Sepsis (serious blood infection)"
+      },
+      {
+        "id": 21,
+        "name": "Subdural hematoma (bleeding on brain)"
+      },
+      {
+        "id": 22,
+        "name": "Traumatic brain injury"
+      }
+    ],
+    "id": 7,
+    "name": "Altered mental status (confusion)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Anorexia (eating disorder)"
+      },
+      {
+        "id": 1,
+        "name": "Birth control pill use"
+      },
+      {
+        "id": 2,
+        "name": "Bulimia nervosa (binge eating, vomiting)Early menopause (premature ovarian failure)"
+      },
+      {
+        "id": 3,
+        "name": "hypothyroidism ( low thyroid hormone)"
+      },
+      {
+        "id": 4,
+        "name": "Malnutrition"
+      },
+      {
+        "id": 5,
+        "name": "Mayer Rokitansky Kutser Hauser syndrome (MrKH, inherited vaginal abnormality)"
+      },
+      {
+        "id": 6,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 7,
+        "name": "Menopause (end of menustration and fertility)"
+      },
+      {
+        "id": 8,
+        "name": "Obesity"
+      },
+      {
+        "id": 9,
+        "name": "Polycystic ovarian syndrome (PCOS, female hormonal disorder)"
+      },
+      {
+        "id": 10,
+        "name": "Pregnancy"
+      },
+      {
+        "id": 11,
+        "name": "Stress"
+      }
+    ],
+    "id": 8,
+    "name": "Amenorrhea (no menustration)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bipolar disorder (manic depressive disorder)"
+      },
+      {
+        "id": 1,
+        "name": "Depression (excessive sadness)"
+      },
+      {
+        "id": 2,
+        "name": "Dysthymia (deression, dysthymic disorder)"
+      },
+      {
+        "id": 3,
+        "name": "Post-traumatic stress disorder (PTSD)"
+      },
+      {
+        "id": 4,
+        "name": "Schizoaffective disorder (features of schizophrenia and mood disorder)"
+      },
+      {
+        "id": 5,
+        "name": "Stress"
+      }
+    ],
+    "id": 9,
+    "name": "Anger"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Achilles tendon rupture (heel tendon tear)"
+      },
+      {
+        "id": 1,
+        "name": "Achilles tendonitis (heel tendon inflammation)"
+      },
+      {
+        "id": 2,
+        "name": "Ankle fracture (broken ankle)"
+      },
+      {
+        "id": 3,
+        "name": "Ankle sprain"
+      },
+      {
+        "id": 4,
+        "name": "Arthritis (joint inflammation)"
+      },
+      {
+        "id": 5,
+        "name": "Gout (uric acid crystals in the joint causing inflammation"
+      },
+      {
+        "id": 6,
+        "name": "Muscle tear"
+      },
+      {
+        "id": 7,
+        "name": "Osteoarthritis (bone inflammation)"
+      },
+      {
+        "id": 8,
+        "name": "Pseudogout (Calcium deposit arthritis)"
+      }
+    ],
+    "id": 10,
+    "name": "Ankle Pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Anxiety disorder (generalized anxiety disorder, GAD)"
+      },
+      {
+        "id": 1,
+        "name": "Panic disorder"
+      },
+      {
+        "id": 2,
+        "name": "Dysthymia (deression, dysthymic disorder)"
+      },
+      {
+        "id": 3,
+        "name": "Adjustment disorder (poor adjustment to life stressor)"
+      },
+      {
+        "id": 4,
+        "name": "Phobias (irrational fear)"
+      },
+      {
+        "id": 5,
+        "name": "Post-traumatic stress disorder (PTSD)"
+      },
+      {
+        "id": 6,
+        "name": "Stress"
+      },
+      {
+        "id": 7,
+        "name": "Hyperventilation (rapid breathing)"
+      },
+      {
+        "id": 8,
+        "name": "Depression (excessive sadness)"
+      },
+      {
+        "id": 9,
+        "name": "Bipolar disorder (manic depressive disorder)"
+      },
+      {
+        "id": 10,
+        "name": "Major depressive disorder (severe depression)"
+      },
+      {
+        "id": 11,
+        "name": "Obsessive compulsive disorder (OCD)"
+      },
+      {
+        "id": 12,
+        "name": "Schizophrenia (chronic impaired reality perception)"
+      },
+      {
+        "id": 13,
+        "name": "Schizoaffective disorder (features of schizophrenia and mood disorder)"
+      },
+      {
+        "id": 14,
+        "name": "Hypochondrosis"
+      },
+      {
+        "id": 15,
+        "name": "Body dysmorphic disorder (body appearance obsession)"
+      },
+      {
+        "id": 16,
+        "name": "Attention deficit hyperactivity disorder (ADHD)"
+      },
+      {
+        "id": 17,
+        "name": "Personality disorder (unhealthy patterns of thinking and behavor)"
+      },
+      {
+        "id": 18,
+        "name": "Arrythmia (abnormal heart rhythm)"
+      },
+      {
+        "id": 19,
+        "name": "Congenital Adrenal Hyperplasia (CAH)"
+      },
+      {
+        "id": 20,
+        "name": "Obstructive sleep apnea (Sleep apnea)"
+      },
+      {
+        "id": 21,
+        "name": "Insomnia (difficulty sleeping)"
+      },
+      {
+        "id": 22,
+        "name": "Hypoglycemia (low blood sugar)"
+      },
+      {
+        "id": 23,
+        "name": "Hyperthyroidism (elevated thyroid hormone)"
+      },
+      {
+        "id": 24,
+        "name": "Prescription drug abuse"
+      },
+      {
+        "id": 25,
+        "name": "Narcotic (morphine, heroin) abuse"
+      },
+      {
+        "id": 26,
+        "name": "Alcoholism"
+      },
+      {
+        "id": 27,
+        "name": "Drug overuse"
+      },
+      {
+        "id": 28,
+        "name": "Amphetamine abuse"
+      },
+      {
+        "id": 29,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 30,
+        "name": "Hypoxia (lack of oxygen)"
+      }
+    ],
+    "id": 11,
+    "name": "Anxiety (nervousness)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcohol (ethanol) intoxication"
+      },
+      {
+        "id": 1,
+        "name": "Brain Tumor (cancer of the brain)"
+      },
+      {
+        "id": 2,
+        "name": "Cerebral vascular accident (stroke)"
+      },
+      {
+        "id": 3,
+        "name": "Drug overdose"
+      },
+      {
+        "id": 4,
+        "name": "Hemorrhagic stroke (CVA, cerebrvascular accident)"
+      },
+      {
+        "id": 5,
+        "name": "Hypoglycemia (low blood sugar)"
+      },
+      {
+        "id": 6,
+        "name": "Laryngitis (voice box inflammation)"
+      },
+      {
+        "id": 7,
+        "name": "Migraine (type of headache)"
+      },
+      {
+        "id": 8,
+        "name": "Parkinson's diesease (movement disorder)"
+      },
+      {
+        "id": 9,
+        "name": "Transient ischemic attack (TIA, reversible stroke)"
+      }
+    ],
+    "id": 12,
+    "name": "Aphasia (Trouble speaking)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Muscle and ligment inflammation (enthesopathy)"
+      },
+      {
+        "id": 1,
+        "name": "Peripheral neuropathy (nerve damage)"
+      },
+      {
+        "id": 2,
+        "name": "Tendonitis (tendon inflammation)"
+      },
+      {
+        "id": 3,
+        "name": "Tennis elbow (lateral epicondylitis)"
+      },
+      {
+        "id": 4,
+        "name": "Osteoarthritis (bone inflammation)"
+      },
+      {
+        "id": 5,
+        "name": "Arthritis (joint inflammation)"
+      },
+      {
+        "id": 6,
+        "name": "Carpal tunnel syndrome (wrist nerve compression)"
+      },
+      {
+        "id": 7,
+        "name": "Cervical spondylosis (neck arthritis)"
+      },
+      {
+        "id": 8,
+        "name": "Muscle strain (pulled muscle)"
+      },
+      {
+        "id": 9,
+        "name": "Shoulder sprain"
+      },
+      {
+        "id": 10,
+        "name": "Cervical radiculopathy (pinched nerve in neck)"
+      },
+      {
+        "id": 11,
+        "name": "Tenosynovitis (tendon sheath inflammation)"
+      },
+      {
+        "id": 12,
+        "name": "Bursitis (inflammation of joint cushion)"
+      },
+      {
+        "id": 13,
+        "name": "Rotator cuff syndrome (shoulder injury)"
+      },
+      {
+        "id": 14,
+        "name": "Cervical spine stenosis  (narrowing of spinal canal)"
+      },
+      {
+        "id": 15,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 16,
+        "name": "Reflex sympathetic dystrophy (complex pain syndrome)"
+      },
+      {
+        "id": 17,
+        "name": "Humerus fracture (broken upper arm)"
+      },
+      {
+        "id": 18,
+        "name": "Fibromyalgia (chronic pain disorder)"
+      },
+      {
+        "id": 19,
+        "name": "Synovitis (inflammation of joint lining)"
+      },
+      {
+        "id": 20,
+        "name": "Contusion (bruise, ecchymosis)"
+      },
+      {
+        "id": 21,
+        "name": "Deep benous thrombosis (DVT, venous blood clot)"
+      },
+      {
+        "id": 22,
+        "name": "Chronic pain"
+      },
+      {
+        "id": 23,
+        "name": "De Quervain's tenosynovitis (hand tendon inflammation)"
+      },
+      {
+        "id": 24,
+        "name": "Cubital tunnel syndrome"
+      },
+      {
+        "id": 25,
+        "name": "Sickle cell disease (disease of red blood cells)"
+      },
+      {
+        "id": 26,
+        "name": "Medial epicondylitis of elbow (golfer's elbow)"
+      },
+      {
+        "id": 27,
+        "name": "Herniated disc (slipped disc, ruptured disc)"
+      },
+      {
+        "id": 28,
+        "name": "Muscle Spasm (Charley horse)"
+      },
+      {
+        "id": 29,
+        "name": "Myocardial infarction (heart attack)"
+      },
+      {
+        "id": 30,
+        "name": "Forearm fracture"
+      },
+      {
+        "id": 31,
+        "name": "Enlarged lymph nodes (lymphadenopathy)"
+      },
+      {
+        "id": 32,
+        "name": "Frozen shoulder (adhesive capsulitis of shoulder)"
+      },
+      {
+        "id": 33,
+        "name": "Fracture (broken bone)"
+      },
+      {
+        "id": 34,
+        "name": "Bone cancer( bone tumor)"
+      },
+      {
+        "id": 35,
+        "name": "Extremity trauma (leg or arm injury)"
+      }
+    ],
+    "id": 13,
+    "name": "Arm ache or pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Avulsions (forcible tissue detachment)"
+      },
+      {
+        "id": 1,
+        "name": "Blood vessel injury"
+      },
+      {
+        "id": 2,
+        "name": "foreign body in a wound"
+      },
+      {
+        "id": 3,
+        "name": "Puncture wound, arm"
+      },
+      {
+        "id": 4,
+        "name": "Tendon laceration (tendon cut)"
+      },
+      {
+        "id": 5,
+        "name": "Traumatic nerve injury"
+      },
+      {
+        "id": 6,
+        "name": "Wound infection (cut infection)"
+      }
+    ],
+    "id": 14,
+    "name": "Arm cut (laceration)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 1,
+        "name": "Beg bugs"
+      },
+      {
+        "id": 2,
+        "name": "Body lice"
+      },
+      {
+        "id": 3,
+        "name": "Insect bite"
+      },
+      {
+        "id": 4,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 5,
+        "name": "Mosquito bite"
+      },
+      {
+        "id": 6,
+        "name": "Poison ivy (poison oak, poison sumac)"
+      },
+      {
+        "id": 7,
+        "name": "Psoriasis"
+      },
+      {
+        "id": 8,
+        "name": "Scabie (skin disease caused by mites)"
+      },
+      {
+        "id": 9,
+        "name": "Tinea (fungal skin infection)"
+      }
+    ],
+    "id": 15,
+    "name": "Arm Itching"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Cerebral vascular accident (stroke)"
+      },
+      {
+        "id": 1,
+        "name": "Cervical radiculopathy (pinched nerve in neck)"
+      },
+      {
+        "id": 2,
+        "name": "Cervical spine stenosis  (narrowing of spinal canal)"
+      },
+      {
+        "id": 3,
+        "name": "Cervical spondylosis (neck arthritis)"
+      },
+      {
+        "id": 4,
+        "name": "Diabetes (high blood sugar)"
+      },
+      {
+        "id": 5,
+        "name": "Fracture (broken bone)"
+      },
+      {
+        "id": 6,
+        "name": "Frostbite (tissue damage from cold)"
+      },
+      {
+        "id": 7,
+        "name": "Herniated disc (slipped disc, ruptured disc)"
+      },
+      {
+        "id": 8,
+        "name": "Multipe Sclerosis (MS)"
+      },
+      {
+        "id": 9,
+        "name": "Peripheral neuropathy (nerve damage)"
+      },
+      {
+        "id": 10,
+        "name": "Peripheral vascular disease (blocked blood vessels)"
+      }
+    ],
+    "id": 16,
+    "name": "Arm numbness (parasthesias)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 1,
+        "name": "Bee sting (wasp sting)"
+      },
+      {
+        "id": 2,
+        "name": "Body lice"
+      },
+      {
+        "id": 3,
+        "name": "Boil (pus-filled lump)"
+      },
+      {
+        "id": 4,
+        "name": "Burns"
+      },
+      {
+        "id": 5,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 6,
+        "name": "Chemical burn"
+      },
+      {
+        "id": 7,
+        "name": "Deep venous thrombosis (DVT, venous blood clot)"
+      },
+      {
+        "id": 8,
+        "name": "Folliculitis (hair follicle infection)"
+      },
+      {
+        "id": 9,
+        "name": "Insect bite"
+      },
+      {
+        "id": 10,
+        "name": "Lymphadenitis"
+      },
+      {
+        "id": 11,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 12,
+        "name": "Mosquito bite"
+      },
+      {
+        "id": 13,
+        "name": "Posion Ivy (poison oak, poison sumac)"
+      },
+      {
+        "id": 14,
+        "name": "Psoriasis"
+      },
+      {
+        "id": 15,
+        "name": "Scabie (skin disease caused by mites)"
+      },
+      {
+        "id": 16,
+        "name": "Shingles (herpes zoster)"
+      },
+      {
+        "id": 17,
+        "name": "Sunburn"
+      },
+      {
+        "id": 18,
+        "name": "Tinea (fungal skin infection)"
+      }
+    ],
+    "id": 17,
+    "name": "Arm redness"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 1,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 2,
+        "name": "Common spider bite"
+      },
+      {
+        "id": 3,
+        "name": "Contusion (bruise, ecchymosis)"
+      },
+      {
+        "id": 4,
+        "name": "Deep venous thrombosis (DVT, venous blood clot)"
+      },
+      {
+        "id": 5,
+        "name": "Fracture (broken bone)"
+      },
+      {
+        "id": 6,
+        "name": "Muscle tear"
+      }
+    ],
+    "id": 18,
+    "name": "Arm Swelling"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Brachial plexus injury (shoulder nerve injury)"
+      },
+      {
+        "id": 1,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 2,
+        "name": "Contact dermitis (contact skin irritation)"
+      },
+      {
+        "id": 3,
+        "name": "Hidradenitis suppurativa (chronic collections of pus)"
+      },
+      {
+        "id": 4,
+        "name": "Lymphadenitis"
+      },
+      {
+        "id": 5,
+        "name": "Lymphangitis (lymph tissue inflammation)"
+      },
+      {
+        "id": 6,
+        "name": "Muscle strain (pulled muscle)"
+      },
+      {
+        "id": 7,
+        "name": "Shingles (herpes zoster)"
+      }
+    ],
+    "id": 19,
+    "name": "Armpit Pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcohol (ethanol) intoxication"
+      },
+      {
+        "id": 1,
+        "name": "Basilar artery migraine (headache)"
+      },
+      {
+        "id": 2,
+        "name": "Brian tumor (cancer of the brain)"
+      },
+      {
+        "id": 3,
+        "name": "Cerebral vascular accident (stroke)"
+      },
+      {
+        "id": 4,
+        "name": "Concussion"
+      },
+      {
+        "id": 5,
+        "name": "Ear Infection, middle ear (otitis media )"
+      },
+      {
+        "id": 6,
+        "name": "Hypoglycemia (low blood sugar)"
+      },
+      {
+        "id": 7,
+        "name": "Labyrinthitis (dizziness and vertigo)"
+      },
+      {
+        "id": 8,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 9,
+        "name": "Meniere's disease (dizziness and vertigo)"
+      },
+      {
+        "id": 10,
+        "name": "Multipe Sclerosis (MS)"
+      },
+      {
+        "id": 11,
+        "name": "Transient ischemic attack (TIA, reversible stroke)"
+      }
+    ],
+    "id": 20,
+    "name": "Ataxia (Incoordination)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Low back pain (lumbago)"
+      },
+      {
+        "id": 1,
+        "name": "Herniated disc (slipped disc, ruptured disc)"
+      },
+      {
+        "id": 2,
+        "name": "Lumbar spondylosis (spine arthritis)"
+      },
+      {
+        "id": 3,
+        "name": "Sciatica (lower back nerve irritation)"
+      },
+      {
+        "id": 4,
+        "name": "Thoracic spine stenosis"
+      }
+    ],
+    "id": 21,
+    "name": "Back ache or pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Personality disorder (unhealthy patterns of thinking and behavor)"
+      },
+      {
+        "id": 1,
+        "name": "Anxiety disorder (generalized anxiety disorder, GAD)"
+      },
+      {
+        "id": 2,
+        "name": "Post-traumatic stress disorder (PTSD)"
+      },
+      {
+        "id": 3,
+        "name": "Drug reaction"
+      }
+    ],
+    "id": 22,
+    "name": "Behavioral disturbances"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Adjustment disorder (poor adjustment to life stressor)"
+      },
+      {
+        "id": 1,
+        "name": "Alzheimer's disease (dementia)"
+      },
+      {
+        "id": 2,
+        "name": "Anorexia (eating disorder)"
+      },
+      {
+        "id": 3,
+        "name": "Asperger's syndrome (autism spectrum disorder)"
+      },
+      {
+        "id": 4,
+        "name": "Autism spectrum disorder (ASD)"
+      },
+      {
+        "id": 5,
+        "name": "Bulimia nervosa (binge eating, vomiting)Early menopause (premature ovarian failure)"
+      },
+      {
+        "id": 6,
+        "name": "Marijuana use"
+      },
+      {
+        "id": 7,
+        "name": "Panic disorder"
+      },
+      {
+        "id": 8,
+        "name": "Social anxirty disorder (social phobia)"
+      }
+    ],
+    "id": 23,
+    "name": "Behavioral problem"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bipolar disorder (manic depressive disorder)"
+      },
+      {
+        "id": 1,
+        "name": "Depression (excessive sadness)"
+      },
+      {
+        "id": 2,
+        "name": "Dysthymia (deression, dysthymic disorder)"
+      },
+      {
+        "id": 3,
+        "name": "Post-traumatic stress disorder (PTSD)"
+      },
+      {
+        "id": 4,
+        "name": "Schizoaffective disorder (features of schizophrenia and mood disorder)"
+      },
+      {
+        "id": 5,
+        "name": "stress"
+      }
+    ],
+    "id": 24,
+    "name": "Bitterness"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Crohn's disease (regional enteritis, crohns colitis, intestinal inflammation)"
+      },
+      {
+        "id": 1,
+        "name": "Esophageal varices (dilation of esophageal veins)"
+      },
+      {
+        "id": 2,
+        "name": "Gastritis (stomach inflammation)"
+      },
+      {
+        "id": 3,
+        "name": "Mallory Weiss Syndome (esophageal tear)"
+      },
+      {
+        "id": 4,
+        "name": "Pepto Bismol or kaopectate ingestion (bismuth)"
+      },
+      {
+        "id": 5,
+        "name": "Small Bowel lymphoma (intestinal lymph node cancer)"
+      },
+      {
+        "id": 6,
+        "name": "Warfarin (Coumadin) use"
+      }
+    ],
+    "id": 25,
+    "name": "Black Stools"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Cirrhosis (liver failure and scarring)"
+      },
+      {
+        "id": 1,
+        "name": "Gingivitis (inflammation of the gums)"
+      },
+      {
+        "id": 2,
+        "name": "Idiopathic thrombocytopenia purpura (ITP, low platelets)"
+      },
+      {
+        "id": 3,
+        "name": "Periodonitis (gum inflammation)"
+      },
+      {
+        "id": 4,
+        "name": "Warfarin (Coumadin) use"
+      }
+    ],
+    "id": 26,
+    "name": "Bleeding gums"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Brain Tumor (cancer of the brain)"
+      },
+      {
+        "id": 1,
+        "name": "Cerebral aneurysm (brain artery dilation)"
+      },
+      {
+        "id": 2,
+        "name": "Epidural hematoma (bleeding around brain or spine)"
+      },
+      {
+        "id": 3,
+        "name": "Head trauma"
+      },
+      {
+        "id": 4,
+        "name": "Hypertensive emergency (severely high blood pressure)"
+      },
+      {
+        "id": 5,
+        "name": "Intracranial hemorrhage (bleeding in brain)"
+      },
+      {
+        "id": 6,
+        "name": "Subarachnoid hematoma (brain bleeding)"
+      },
+      {
+        "id": 7,
+        "name": "Subdural hematoma (bleeding on brain)"
+      }
+    ],
+    "id": 27,
+    "name": "Bleeding in brain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Hemophilia (inherited bleeding disorder)"
+      },
+      {
+        "id": 1,
+        "name": "Low platelets (thrombocytopenia)"
+      },
+      {
+        "id": 2,
+        "name": "Myelodysplastic syndrome (bone marrow failure)"
+      },
+      {
+        "id": 3,
+        "name": "Von Willebrand's disease"
+      },
+      {
+        "id": 4,
+        "name": "Warfarin (Coumadin) use"
+      }
+    ],
+    "id": 28,
+    "name": "Bleeding tendency"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Amaurosis fugax (momentary vision loss in one eye)"
+      },
+      {
+        "id": 1,
+        "name": "Carotid artery stenosis (neck artery narrowing)"
+      },
+      {
+        "id": 2,
+        "name": "Cataracts (clouding of the eye lens)"
+      },
+      {
+        "id": 3,
+        "name": "Cerebral vascular accident (stroke)"
+      },
+      {
+        "id": 4,
+        "name": "Corneal abrasion (scrape on eye)"
+      },
+      {
+        "id": 5,
+        "name": "Corneal foreign body (object in the eye)"
+      },
+      {
+        "id": 6,
+        "name": "Detached retina (retinal detachment)"
+      },
+      {
+        "id": 7,
+        "name": "Diabetes (high blood sugar)"
+      },
+      {
+        "id": 8,
+        "name": "Farsightedness (hyperopia\/ hypermetropia)"
+      },
+      {
+        "id": 9,
+        "name": "Head trauma"
+      },
+      {
+        "id": 10,
+        "name": "Macular degeneration (chronic eye disease)"
+      },
+      {
+        "id": 11,
+        "name": "Migraine (type of headache)"
+      },
+      {
+        "id": 12,
+        "name": "Presbyopia (aging vision)"
+      },
+      {
+        "id": 13,
+        "name": "Transient ischemic attack (TIA, reversible stroke)"
+      },
+      {
+        "id": 14,
+        "name": "Uveitis (iritis, eye inflammation)"
+      }
+    ],
+    "id": 29,
+    "name": "Blindness"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Burns"
+      },
+      {
+        "id": 1,
+        "name": "Chemical burn"
+      },
+      {
+        "id": 2,
+        "name": "Herpes simplex infection (viral infection )"
+      },
+      {
+        "id": 3,
+        "name": "Impetigo (bacterial skin infection)"
+      },
+      {
+        "id": 4,
+        "name": "Overuse syndrome (injury from repetative activity)"
+      },
+      {
+        "id": 5,
+        "name": "Pemphigus (rare skin disorder)"
+      },
+      {
+        "id": 6,
+        "name": "Skin blood vessel damage (chiliblains, pernio)"
+      },
+      {
+        "id": 7,
+        "name": "Sunburn"
+      }
+    ],
+    "id": 30,
+    "name": "Blister (pocket of fluid)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Ascites (fluid in the abdomen )"
+      },
+      {
+        "id": 1,
+        "name": "Celiac disease (celiac sprue)"
+      },
+      {
+        "id": 2,
+        "name": "Constipation"
+      },
+      {
+        "id": 3,
+        "name": "Inguinal hernia (groin hernia)"
+      },
+      {
+        "id": 4,
+        "name": "Irritable bowel syndrome"
+      },
+      {
+        "id": 5,
+        "name": "Lactose Intolerance"
+      },
+      {
+        "id": 6,
+        "name": "Malabsorption Syndrome(abnormal Intestinal Digestion)"
+      },
+      {
+        "id": 7,
+        "name": "Paralytic Lleus(Intestinal Paralysis)"
+      },
+      {
+        "id": 8,
+        "name": "Urine retention (inability to urinity)"
+      }
+    ],
+    "id": 31,
+    "name": "Bloating"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Gastrointestinal bleeding (stomach, intestine bleeding)"
+      },
+      {
+        "id": 1,
+        "name": "Hemorrhoid (enlarged rectal veins)"
+      },
+      {
+        "id": 2,
+        "name": "Anal fissure (tear)"
+      },
+      {
+        "id": 3,
+        "name": "Gastroenteritisd (intestinal infection)"
+      },
+      {
+        "id": 4,
+        "name": "Colon Polyps (large intestinae tumors)"
+      }
+    ],
+    "id": 32,
+    "name": "Blood in Stool"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bladder infection (cystitis, UTI, urinary tract infection)"
+      },
+      {
+        "id": 1,
+        "name": "Prostatitis (prostate inflammation)"
+      },
+      {
+        "id": 2,
+        "name": "Kidney stone (nephrolithiasis)"
+      },
+      {
+        "id": 3,
+        "name": "Bladder stone, urinary"
+      },
+      {
+        "id": 4,
+        "name": "Renal trauma (kidney trauma)"
+      }
+    ],
+    "id": 33,
+    "name": "Blood in urine (Hematuria)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Esophageal varices (dilation of esophageal veins)"
+      },
+      {
+        "id": 1,
+        "name": "Nose bleed (epistaxis)"
+      },
+      {
+        "id": 2,
+        "name": "Mallory Weiss Syndome (esophageal tear)"
+      },
+      {
+        "id": 3,
+        "name": "Gastrointestinal bleeding (stomach, intestine bleeding)"
+      },
+      {
+        "id": 4,
+        "name": "Malabsorption Syndrome(abnormal Intestinal Digestion)"
+      }
+    ],
+    "id": 34,
+    "name": "Blood in vomit"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic conjunctivitis (allergic reaction in the eye)"
+      },
+      {
+        "id": 1,
+        "name": "Blepharitis (eyelid swelling)"
+      },
+      {
+        "id": 2,
+        "name": "Conjunctivitis (pink eye)"
+      },
+      {
+        "id": 3,
+        "name": "Corneal abrasion (scrape on eye)"
+      },
+      {
+        "id": 4,
+        "name": "Corneal foreign body (object in the eye)"
+      },
+      {
+        "id": 5,
+        "name": "Corneal ulcer"
+      },
+      {
+        "id": 6,
+        "name": "Pterygium (growth on the eye)"
+      },
+      {
+        "id": 7,
+        "name": "Subconjunctival hemorrhage (blood covering white part of the eye)"
+      },
+      {
+        "id": 8,
+        "name": "Uveitis (iritis, eye inflammation)"
+      }
+    ],
+    "id": 35,
+    "name": "Blood shot eyes"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "campylobacter infection (intestinal bacterial infection)"
+      },
+      {
+        "id": 1,
+        "name": "Clostridium difficile (C. Diff)"
+      },
+      {
+        "id": 2,
+        "name": "Colitis (large intestine inflammation)"
+      },
+      {
+        "id": 3,
+        "name": "Colonic diverticulitis (inflammation of pouches in the large intestine)"
+      },
+      {
+        "id": 4,
+        "name": "Crohn's disease (regional enteritis, crohns colitis, intestinal inflammation)"
+      },
+      {
+        "id": 5,
+        "name": "E. coli infection"
+      },
+      {
+        "id": 6,
+        "name": "Food poisoning"
+      },
+      {
+        "id": 7,
+        "name": "Intestinal ischemia (decreased intestinal blood flow)"
+      },
+      {
+        "id": 8,
+        "name": "Salmonella infection (common bacterial intestinal infection)"
+      }
+    ],
+    "id": 36,
+    "name": "Bloody diarrhea"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Nose bleed (epistaxis)"
+      },
+      {
+        "id": 1,
+        "name": "Dry air nasal irritation"
+      },
+      {
+        "id": 2,
+        "name": "Sinusitis(Sinus Infection)"
+      },
+      {
+        "id": 3,
+        "name": "Nasal seotum deviation"
+      },
+      {
+        "id": 4,
+        "name": "Rhinitis (nasal inflammation)"
+      }
+    ],
+    "id": 37,
+    "name": "Bloody nose"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Asthma"
+      },
+      {
+        "id": 1,
+        "name": "Chronic obstructive pulmonary disorder"
+      },
+      {
+        "id": 2,
+        "name": "Congestive heart failure (CHF)"
+      },
+      {
+        "id": 3,
+        "name": "Hypothermia (extreme cold exposure)"
+      },
+      {
+        "id": 4,
+        "name": "Hypoxia( lack of oxygen)"
+      },
+      {
+        "id": 5,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 6,
+        "name": "Narcotic (morphine, heroin) abuse"
+      },
+      {
+        "id": 7,
+        "name": "Pneumonia (lung infection)"
+      },
+      {
+        "id": 8,
+        "name": "Pulmonary edema (fluid build up in the lungs)"
+      },
+      {
+        "id": 9,
+        "name": "Pulmonary embolism (blood clot in the the lungs)"
+      },
+      {
+        "id": 10,
+        "name": "Raynaud's disease (blood vessel constriction)"
+      }
+    ],
+    "id": 38,
+    "name": "Blue skin tone"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Febrile (fever) illness"
+      },
+      {
+        "id": 1,
+        "name": "Fibromyalgia (chronic pain disorder)"
+      },
+      {
+        "id": 2,
+        "name": "Influenza (seasonal flu)"
+      },
+      {
+        "id": 3,
+        "name": "Muscle Spasm (Charley horse)"
+      },
+      {
+        "id": 4,
+        "name": "Muscle tear"
+      },
+      {
+        "id": 5,
+        "name": "Overuse syndrome (injury from repetative activity)"
+      },
+      {
+        "id": 6,
+        "name": "Polymyalgia rheumatica (PMR, muscle and joint disorder)"
+      }
+    ],
+    "id": 39,
+    "name": "Body aches"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Arrhythmia (abnormal heart rhythm)"
+      },
+      {
+        "id": 1,
+        "name": "Atrioventricular node conduction block (heart block)"
+      },
+      {
+        "id": 2,
+        "name": "Congestive heart failure (CHF)"
+      },
+      {
+        "id": 3,
+        "name": "Heart attack (acute myocardial infarction, AMI)"
+      },
+      {
+        "id": 4,
+        "name": "hypothyroidism ( low thyroid hormone)"
+      },
+      {
+        "id": 5,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 6,
+        "name": "Myocarditis (heart muscle inflammation)"
+      }
+    ],
+    "id": 40,
+    "name": "Bradycardia (Slow heart rate)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Asthma"
+      },
+      {
+        "id": 1,
+        "name": "Atypical pneumonia (lung infection)"
+      },
+      {
+        "id": 2,
+        "name": "Bronchial asthma"
+      },
+      {
+        "id": 3,
+        "name": "Inhaled foreign body (in respiratory tract)"
+      },
+      {
+        "id": 4,
+        "name": "Pneumonia (lung infection)"
+      }
+    ],
+    "id": 41,
+    "name": "Breathing stopped"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Hemophilia (inherited bleeding disorder)"
+      },
+      {
+        "id": 1,
+        "name": "Low platelets (thrombocytopenia)"
+      },
+      {
+        "id": 2,
+        "name": "Myelodysplastic syndrome (bone marrow failure)"
+      },
+      {
+        "id": 3,
+        "name": "Von Willebrand's disease"
+      },
+      {
+        "id": 4,
+        "name": "Warfarin (Coumadin) use"
+      }
+    ],
+    "id": 42,
+    "name": "Bruising"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Ascites (fluid in the abdomen )"
+      },
+      {
+        "id": 1,
+        "name": "Celiac disease (celiac sprue)"
+      },
+      {
+        "id": 2,
+        "name": "Constipation"
+      },
+      {
+        "id": 3,
+        "name": "Inguinal hernia (groin hernia)"
+      },
+      {
+        "id": 4,
+        "name": "Irritable bowel syndrome"
+      },
+      {
+        "id": 5,
+        "name": "Lactose Intolerance"
+      },
+      {
+        "id": 6,
+        "name": "Malabsorption Syndrome(abnormal Intestinal Digestion)"
+      },
+      {
+        "id": 7,
+        "name": "Paralytic Lleus(Intestinal Paralysis)"
+      },
+      {
+        "id": 8,
+        "name": "Urine retention (inability to urinity)"
+      }
+    ],
+    "id": 43,
+    "name": "Bulging abdomen"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bladder infection (cystitis, UTI, urinary tract infection)"
+      },
+      {
+        "id": 1,
+        "name": "Urethritis (infection pf urethra)"
+      },
+      {
+        "id": 2,
+        "name": "Prostatitis (prostate inflammation)"
+      },
+      {
+        "id": 3,
+        "name": "Kidney stone (nephrolithiasis)"
+      },
+      {
+        "id": 4,
+        "name": "Sexually transmitted disease (STD)"
+      }
+    ],
+    "id": 44,
+    "name": "Burning with urination"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Achilles tendon rupture (heel tendon tear)"
+      },
+      {
+        "id": 1,
+        "name": "Achilles tendonitis (heel tendon inflammation)"
+      },
+      {
+        "id": 2,
+        "name": "Baker's cyst (fluid sac behind knee)"
+      },
+      {
+        "id": 3,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 4,
+        "name": "Deep venous thrombosis (DVT, venous blood clot)"
+      },
+      {
+        "id": 5,
+        "name": "Muscle Spasm (Charley horse)"
+      },
+      {
+        "id": 6,
+        "name": "Muscle strain (pulled muscle)"
+      },
+      {
+        "id": 7,
+        "name": "Thrombophlebitis (superficial)"
+      }
+    ],
+    "id": 45,
+    "name": "Calf pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Achilles tendon rupture (heel tendon tear)"
+      },
+      {
+        "id": 1,
+        "name": "Achilles tendonitis (heel tendon inflammation)"
+      },
+      {
+        "id": 2,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 3,
+        "name": "Contusion (bruise, ecchymosis)"
+      },
+      {
+        "id": 4,
+        "name": "Deep venous thrombosis (DVT, venous blood clot)"
+      },
+      {
+        "id": 5,
+        "name": "Thrombophlebitis (superficial)"
+      }
+    ],
+    "id": 46,
+    "name": "Calf swelling"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Gastroenteritis (intestinal infection)"
+      },
+      {
+        "id": 1,
+        "name": "Gastritis (stomach inflammation)"
+      },
+      {
+        "id": 2,
+        "name": "Food poisoning"
+      },
+      {
+        "id": 3,
+        "name": "Viral infections"
+      },
+      {
+        "id": 4,
+        "name": "Bacterial overgrowth of small intestine"
+      }
+    ],
+    "id": 47,
+    "name": "Can't keep food down"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Personality disorder (unhealthy patterns of thinking and behavor)"
+      },
+      {
+        "id": 1,
+        "name": "Anxiety disorder (generalized anxiety disorder, GAD)"
+      },
+      {
+        "id": 2,
+        "name": "Bipolar disorder (manic depressive disorder)"
+      },
+      {
+        "id": 3,
+        "name": "Post-traumatic stress disorder (PTSD)"
+      },
+      {
+        "id": 4,
+        "name": "Post-traumatic stress disorder (PTSD)"
+      },
+      {
+        "id": 5,
+        "name": "Drug reaction"
+      }
+    ],
+    "id": 48,
+    "name": "Change in behavior"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Costochrondritis (chest wall inflammation)"
+      },
+      {
+        "id": 1,
+        "name": "Esophageal spasm (painful muscle contraction)"
+      },
+      {
+        "id": 2,
+        "name": "Esophagitis (esophageal inflammation)"
+      },
+      {
+        "id": 3,
+        "name": "Functional disorders (psychogenic illiness)"
+      },
+      {
+        "id": 4,
+        "name": "Gastroesophagel reflux (GERD, heartburn)"
+      },
+      {
+        "id": 5,
+        "name": "Heart attack (acute myocardial infarction, AMI)"
+      },
+      {
+        "id": 6,
+        "name": "Hiatal hernia (stomach pushes through diaphragm)"
+      },
+      {
+        "id": 7,
+        "name": "Pericarditis (heart sac inflammation)"
+      },
+      {
+        "id": 8,
+        "name": "Pleuritis  (inflammation of the lung's lining , pleurisy)"
+      },
+      {
+        "id": 9,
+        "name": "Pneumonia (lung infection)"
+      },
+      {
+        "id": 10,
+        "name": "Pneumothorax (collapse of lung)"
+      },
+      {
+        "id": 11,
+        "name": "Shingles (herpes zoster)"
+      },
+      {
+        "id": 12,
+        "name": "Unstable angina (pre heart attack chest pain)"
+      }
+    ],
+    "id": 49,
+    "name": "Chest burning"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Unstable angina (pre heart attack chest pain)"
+      },
+      {
+        "id": 1,
+        "name": "Gastroesophagel reflux (GERD, heartburn)"
+      },
+      {
+        "id": 2,
+        "name": "Costochrondritis (chest wall inflammation)"
+      },
+      {
+        "id": 3,
+        "name": "Bronchitis (bronchial tube infection)"
+      },
+      {
+        "id": 4,
+        "name": "Pleuritis  (inflammation of the lung's lining , pleurisy)"
+      }
+    ],
+    "id": 50,
+    "name": "Chest pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Asthma"
+      },
+      {
+        "id": 1,
+        "name": "Costochrondritis (chest wall inflammation)"
+      },
+      {
+        "id": 2,
+        "name": "Gastroesophagel reflux (GERD, heartburn)"
+      },
+      {
+        "id": 3,
+        "name": "Unstable angina (pre heart attack chest pain)"
+      },
+      {
+        "id": 4,
+        "name": "Pneumonia (lung infection)"
+      }
+    ],
+    "id": 51,
+    "name": "Chest pressure"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Contusion (bruise, ecchymosis)"
+      },
+      {
+        "id": 1,
+        "name": "Fracture (broken bone)"
+      },
+      {
+        "id": 2,
+        "name": "Legg Calve Perthes disease (childhoodhip condition)"
+      },
+      {
+        "id": 3,
+        "name": "Septic arthritis (joint infection)"
+      },
+      {
+        "id": 4,
+        "name": "Sprain (stretched, torn ligament)"
+      },
+      {
+        "id": 5,
+        "name": "Synovitis (inflammation of joint lining)"
+      }
+    ],
+    "id": 52,
+    "name": "Childhood limping"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Upper Respiratory Tracat Infection( URI, common Cold)"
+      },
+      {
+        "id": 1,
+        "name": "Sinusitis(Sinus Infection)"
+      },
+      {
+        "id": 2,
+        "name": "Pharyngitis (throat infection)"
+      },
+      {
+        "id": 3,
+        "name": "Tonsilitis (tonsil infection)"
+      },
+      {
+        "id": 4,
+        "name": "Influenza (seasonal flu)"
+      }
+    ],
+    "id": 53,
+    "name": "Chills"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcohol (ethanol) intoxication"
+      },
+      {
+        "id": 1,
+        "name": "Cerebral vascular accident (stroke)"
+      },
+      {
+        "id": 2,
+        "name": "Inhaled foreign body (in respiratory tract)"
+      },
+      {
+        "id": 3,
+        "name": "Parkinson's diesease (movement disorder)"
+      }
+    ],
+    "id": 54,
+    "name": "Choking"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Folliculitis (hair follicle infection)"
+      },
+      {
+        "id": 1,
+        "name": "Hordeolum (style of eye)"
+      },
+      {
+        "id": 2,
+        "name": "Impetigo (bacterial skin infection)"
+      },
+      {
+        "id": 3,
+        "name": "Skin abscess (collection of pus)"
+      }
+    ],
+    "id": 55,
+    "name": "Collection of pus\tChicken pox (varicella virus)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcohol (ethanol) abuse"
+      },
+      {
+        "id": 1,
+        "name": "Alcohol withdrawal syndrome (mild)"
+      },
+      {
+        "id": 2,
+        "name": "Alzheimer's disease (dementia)"
+      },
+      {
+        "id": 3,
+        "name": "Carbon monoxide poisoing (odorless, poisonous gas)"
+      },
+      {
+        "id": 4,
+        "name": "Dehydration"
+      },
+      {
+        "id": 5,
+        "name": "Dementia (decline in mental ability)"
+      },
+      {
+        "id": 6,
+        "name": "Diabetic ketoscidosis (DKA, a complication of poorly controlled diabetes)"
+      },
+      {
+        "id": 7,
+        "name": "Drug overdose"
+      },
+      {
+        "id": 8,
+        "name": "Drug withdrawal syndrome"
+      },
+      {
+        "id": 9,
+        "name": "Epidural hematoma (bleeding around brain or spine)"
+      },
+      {
+        "id": 10,
+        "name": "Hyperthyroidism (elevated thyroid hormone)"
+      },
+      {
+        "id": 11,
+        "name": "Hypoglycemia (low blood sugar)"
+      },
+      {
+        "id": 12,
+        "name": "Hyponatremia (low blood sodium)"
+      },
+      {
+        "id": 13,
+        "name": "Hypotension (low blood pressure)"
+      },
+      {
+        "id": 14,
+        "name": "Intracranial hemorrhage (bleeding in brain)"
+      },
+      {
+        "id": 15,
+        "name": "Meningitis (spinal fluid infection)"
+      },
+      {
+        "id": 16,
+        "name": "Respiratory failure (breathing failure, ARDS)"
+      },
+      {
+        "id": 17,
+        "name": "seizure (abnormal brain electrical activity)"
+      },
+      {
+        "id": 18,
+        "name": "Sepsis (serious blood conditions)"
+      },
+      {
+        "id": 19,
+        "name": "Subdural hematoma (bleeding on brain)"
+      },
+      {
+        "id": 20,
+        "name": "Traumatic brain injury"
+      }
+    ],
+    "id": 56,
+    "name": "Confusion"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Brain tumor (cancer of the brain)"
+      },
+      {
+        "id": 1,
+        "name": "Carbon monoxide poisoing (odorless, poisonous gas)"
+      },
+      {
+        "id": 2,
+        "name": "Concussion"
+      },
+      {
+        "id": 3,
+        "name": "Encephalitis (brain infection)"
+      },
+      {
+        "id": 4,
+        "name": "Epidural hematoma (bleeding around brain or spine)"
+      },
+      {
+        "id": 5,
+        "name": "Hydrocephalus (brain fluid build up)"
+      },
+      {
+        "id": 6,
+        "name": "Hypertensive emergency (severely high blood pressure)"
+      },
+      {
+        "id": 7,
+        "name": "Meningitis (spinal fluid infection)"
+      },
+      {
+        "id": 8,
+        "name": "Pseudotumor cerebri (increased pressure in the skull)"
+      },
+      {
+        "id": 9,
+        "name": "Subarachnoid hemorrhage (brain bleeding)"
+      }
+    ],
+    "id": 57,
+    "name": "Confusion and headache"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Asthma"
+      },
+      {
+        "id": 1,
+        "name": "Atypical"
+      },
+      {
+        "id": 2,
+        "name": "Bronchitis (bronchial tube infection)"
+      },
+      {
+        "id": 3,
+        "name": "Pneumonia (lung infection)"
+      }
+    ],
+    "id": 58,
+    "name": "Congestion in chest or lungs"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Medical reaction"
+      },
+      {
+        "id": 1,
+        "name": "Hemorrhoid (enlarged rectal veins)"
+      },
+      {
+        "id": 2,
+        "name": "Appendicitis"
+      },
+      {
+        "id": 3,
+        "name": "Renal failure, chronic (ongoing kindney failure)"
+      }
+    ],
+    "id": 59,
+    "name": "Constipation"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcohol withdrawal syndrome (mild)"
+      },
+      {
+        "id": 1,
+        "name": "Concussion"
+      },
+      {
+        "id": 2,
+        "name": "Drug reaction"
+      },
+      {
+        "id": 3,
+        "name": "Febrile seizure (convulsion in child with a fever)"
+      },
+      {
+        "id": 4,
+        "name": "Generalized seizure disorder (generalized epilepsy)"
+      },
+      {
+        "id": 5,
+        "name": "Hypoglycemia (low blood sugar)"
+      },
+      {
+        "id": 6,
+        "name": "Hyponatremia (low blood sodium)"
+      },
+      {
+        "id": 7,
+        "name": "Overdose"
+      },
+      {
+        "id": 8,
+        "name": "Poisoning"
+      },
+      {
+        "id": 9,
+        "name": "seizure (abnormal brain electrical activity)"
+      }
+    ],
+    "id": 60,
+    "name": "Convulsions"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bronchitis (bronchial tube infection)"
+      },
+      {
+        "id": 1,
+        "name": "Asthma"
+      },
+      {
+        "id": 2,
+        "name": "Upper respiratory tract infection (URI, common cold)"
+      }
+    ],
+    "id": 61,
+    "name": "Cough"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bronchiectasis (bronchial tube inflammatory damage)"
+      },
+      {
+        "id": 1,
+        "name": "Bronchitis (bronchial tube infection)"
+      },
+      {
+        "id": 2,
+        "name": "Lung cancer (tumor)"
+      },
+      {
+        "id": 3,
+        "name": "Pneumonia (lung infection)"
+      },
+      {
+        "id": 4,
+        "name": "Pulmonary embolism (blood clot in the lungs)"
+      },
+      {
+        "id": 5,
+        "name": "Tonsilitis (tonsil infection)"
+      }
+    ],
+    "id": 62,
+    "name": "Coughing blood"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Upper respiratory tract infection (URI, common cold)"
+      },
+      {
+        "id": 1,
+        "name": "Asthma"
+      },
+      {
+        "id": 2,
+        "name": "Bronchitis (bronchial tube infection)"
+      },
+      {
+        "id": 3,
+        "name": "Pneumonia (lung infection)"
+      },
+      {
+        "id": 4,
+        "name": "Sinusitis (sinus infection)"
+      }
+    ],
+    "id": 63,
+    "name": "Croupy cough"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Ankle laceration (cut in skin)"
+      },
+      {
+        "id": 1,
+        "name": "Arm laceration (skin cut)"
+      },
+      {
+        "id": 2,
+        "name": "Cat bite"
+      },
+      {
+        "id": 3,
+        "name": "Dog bite"
+      },
+      {
+        "id": 4,
+        "name": "Facial laceration (skin cut)"
+      },
+      {
+        "id": 5,
+        "name": "Finger laceration (skin cut)"
+      },
+      {
+        "id": 6,
+        "name": "Foot laceration (skin cut)"
+      },
+      {
+        "id": 7,
+        "name": "Hand laceration (skin cut)"
+      },
+      {
+        "id": 8,
+        "name": "Leg laceration  (skin cut)"
+      },
+      {
+        "id": 9,
+        "name": "Lip laceration (skin cut)"
+      },
+      {
+        "id": 10,
+        "name": "Mouth laceration (mouth cut)"
+      },
+      {
+        "id": 11,
+        "name": "Scalp laceration (scalp cut)"
+      },
+      {
+        "id": 12,
+        "name": "Skin laceration (cut skin)"
+      },
+      {
+        "id": 13,
+        "name": "Ear laceration (cut on the ear)"
+      },
+      {
+        "id": 14,
+        "name": "Eyelid laceration (skin cut)"
+      },
+      {
+        "id": 15,
+        "name": "Knee laceration (skin cut)"
+      },
+      {
+        "id": 16,
+        "name": "Toe laceration (cut skin)"
+      }
+    ],
+    "id": 64,
+    "name": "Cuts"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Teething"
+      },
+      {
+        "id": 1,
+        "name": "Constipation"
+      },
+      {
+        "id": 2,
+        "name": "Ear infection, middle ear (otis media)"
+      },
+      {
+        "id": 3,
+        "name": "Gastroenteritis (intestinal infection)"
+      },
+      {
+        "id": 4,
+        "name": "Viral infections"
+      },
+      {
+        "id": 5,
+        "name": "Pharyngitis (throat infection)"
+      },
+      {
+        "id": 6,
+        "name": "Croup (upper airway inflammation)"
+      },
+      {
+        "id": 7,
+        "name": "Thrush (oral candidiasis"
+      },
+      {
+        "id": 8,
+        "name": "Upper respiratory tract infection (URI, common cold)"
+      },
+      {
+        "id": 9,
+        "name": "Bronchiolitis (bronchial tube inflammation)"
+      },
+      {
+        "id": 10,
+        "name": "Gastroesphageal reflux (GERD, heartburn)"
+      },
+      {
+        "id": 11,
+        "name": "Aphthous ulcers (mouth stomatitis)"
+      },
+      {
+        "id": 12,
+        "name": "Impetigo (bacterial skin infection)"
+      },
+      {
+        "id": 13,
+        "name": "Sepsis (serious blood conditions)"
+      },
+      {
+        "id": 14,
+        "name": "Torticollis, spasmodic (neck muscle spasm)"
+      },
+      {
+        "id": 15,
+        "name": "Gastritis (stomach inflammation)"
+      },
+      {
+        "id": 16,
+        "name": "Colic (prolonged infant crying episodes)"
+      },
+      {
+        "id": 17,
+        "name": "Diaper rash"
+      },
+      {
+        "id": 18,
+        "name": "Scabies (skin disease caused by mites)"
+      },
+      {
+        "id": 19,
+        "name": "Meningitis (spinal fluid infection)"
+      },
+      {
+        "id": 20,
+        "name": "Strangulation of genitalia (constriction of genital blood supply)"
+      },
+      {
+        "id": 21,
+        "name": "Contact dermatitis (contact skin irritation)"
+      },
+      {
+        "id": 22,
+        "name": "Hepatitis B"
+      },
+      {
+        "id": 23,
+        "name": "Malabsorption syndrome (abnormal intestional digestion)"
+      },
+      {
+        "id": 24,
+        "name": "Subdural hematoma (bleeding on brain)"
+      },
+      {
+        "id": 25,
+        "name": "Fracture (broken bone)"
+      },
+      {
+        "id": 26,
+        "name": "Acidosis (excessive acid in the body)"
+      },
+      {
+        "id": 27,
+        "name": "Bladder infection (cystitis, UTI, urinary tract infection)"
+      },
+      {
+        "id": 28,
+        "name": "Intussuception (telescoping intestine)"
+      },
+      {
+        "id": 29,
+        "name": "Arrhythmia (abnormal heart rhythm)"
+      },
+      {
+        "id": 30,
+        "name": "Child abuse"
+      },
+      {
+        "id": 31,
+        "name": "Serum sickness (abnormal immune system response)"
+      },
+      {
+        "id": 32,
+        "name": "Femur fracture (upper leg)"
+      },
+      {
+        "id": 33,
+        "name": "Testicular torsion (twisting of testicle)"
+      },
+      {
+        "id": 34,
+        "name": "Broken jaw (mandible fracture)"
+      },
+      {
+        "id": 35,
+        "name": "Dental eruption (appearance of new tooth)"
+      }
+    ],
+    "id": 65,
+    "name": "Cranky, crying, fussy, irratable child"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Asthma"
+      },
+      {
+        "id": 1,
+        "name": "Chronic obstructive pulmonary disease (COPD, emphysema)"
+      },
+      {
+        "id": 2,
+        "name": "Congestive heart failure (CHF)"
+      },
+      {
+        "id": 3,
+        "name": "Hypothermia (extreme cold exposure)"
+      },
+      {
+        "id": 4,
+        "name": "Hypoxia (lack of oxygen)"
+      },
+      {
+        "id": 5,
+        "name": "Medical reaction"
+      },
+      {
+        "id": 6,
+        "name": "Narcotic (morphine, heroin) overdose"
+      },
+      {
+        "id": 7,
+        "name": "Pneumonia (lung infection)"
+      },
+      {
+        "id": 8,
+        "name": "Pulmonary edema (fluid build-up in the lungs)"
+      },
+      {
+        "id": 9,
+        "name": "Pulmonary embolism (blood clot in the lungs)"
+      },
+      {
+        "id": 10,
+        "name": "Raynaud's disease (blood vessel constriction)"
+      }
+    ],
+    "id": 66,
+    "name": "Cyanosis (Blue skin coloration)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Crohn's disease (regional enteritis, Crohn's colitis, intestinal inflammation"
+      },
+      {
+        "id": 1,
+        "name": "Esophageal varices (dilation of esophageal veins)"
+      },
+      {
+        "id": 2,
+        "name": "Gastritis (stomach inflammation)"
+      },
+      {
+        "id": 3,
+        "name": "Mallory Weiss syndrome (esophageal tear)"
+      },
+      {
+        "id": 4,
+        "name": "Pepto Bismol or Kaopectate ingestion (bismuth)"
+      },
+      {
+        "id": 5,
+        "name": "Small bowel lymphoma (intestinal lymph node cancer)"
+      },
+      {
+        "id": 6,
+        "name": "Warafin (Coumadin) use"
+      }
+    ],
+    "id": 67,
+    "name": "Dark stools"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Lichen planus (chronic skin inflammation)"
+      },
+      {
+        "id": 1,
+        "name": "Melanoma (skin cancer)"
+      },
+      {
+        "id": 2,
+        "name": "Melasma (choloasma)"
+      },
+      {
+        "id": 3,
+        "name": "Moles (nevi)"
+      },
+      {
+        "id": 4,
+        "name": "Polycystic ovarian syndrome (PCOS, female hormonal disorders)"
+      },
+      {
+        "id": 5,
+        "name": "Psoriasis (scaly skin disease)"
+      },
+      {
+        "id": 6,
+        "name": "Tinea (fungal skin infection)"
+      }
+    ],
+    "id": 68,
+    "name": "Darkening of the skin (Hyperpigmentation)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcohol (ethanol) abuse"
+      },
+      {
+        "id": 1,
+        "name": "Alcohol withdrawal syndrome (mild)"
+      },
+      {
+        "id": 2,
+        "name": "Alzheimer's disease (dementia)"
+      },
+      {
+        "id": 3,
+        "name": "Carbon monoxide poisoing (odorless, poisonous gas)"
+      },
+      {
+        "id": 4,
+        "name": "Dehydration"
+      },
+      {
+        "id": 5,
+        "name": "Dementia (decline in mental ability)"
+      },
+      {
+        "id": 6,
+        "name": "Diabetic ketoscidosis (DKA, a complication of poorly controlled diabetes)"
+      },
+      {
+        "id": 7,
+        "name": "Drug overdose"
+      },
+      {
+        "id": 8,
+        "name": "Drug withdrawal syndrome"
+      },
+      {
+        "id": 9,
+        "name": "Epidural hematoma (bleeding around brain or spine)"
+      },
+      {
+        "id": 10,
+        "name": "Hyperthyroidism (elevated thyroid hormone)"
+      }
+    ],
+    "id": 69,
+    "name": "Decreased mental status"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Hyponatremia (low blood sodium)"
+      },
+      {
+        "id": 1,
+        "name": "Hypotension (low blood pressure)"
+      },
+      {
+        "id": 2,
+        "name": "Hypoxia (lack of oxygen)"
+      },
+      {
+        "id": 3,
+        "name": "Intracranial hemorrhage (bleeding in brain)"
+      },
+      {
+        "id": 4,
+        "name": "Meningitis (spinal fluid infection)"
+      },
+      {
+        "id": 5,
+        "name": "Respiratory failure (breathing failure, ARDS)"
+      },
+      {
+        "id": 6,
+        "name": "Seizure (abnormal brain electrical activity)"
+      },
+      {
+        "id": 7,
+        "name": "Sepsis (serious blood conditions)"
+      },
+      {
+        "id": 8,
+        "name": "Subdural hematoma (bleeding on brain)"
+      },
+      {
+        "id": 9,
+        "name": "Traumatic brain injury"
+      }
+    ],
+    "id": 70,
+    "name": "`\tHypoglycemia (low blood sugar)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Constipation"
+      },
+      {
+        "id": 1,
+        "name": "Medical reaction"
+      },
+      {
+        "id": 2,
+        "name": "Fecal impaction (rectal blockage from stool)"
+      },
+      {
+        "id": 3,
+        "name": "Encopresis (excessive fecal leaking)"
+      },
+      {
+        "id": 4,
+        "name": "Rectal prolaspe (rectal protrusion)"
+      }
+    ],
+    "id": 71,
+    "name": "Decreased stools"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Major depressive disorder (severe depression)"
+      },
+      {
+        "id": 1,
+        "name": "Bipolar disorder (manic depressive disorder)"
+      },
+      {
+        "id": 2,
+        "name": "Schizophernia (chronic impaired reality perception)"
+      },
+      {
+        "id": 3,
+        "name": "Post-traumatic stress disorder (PTSD)"
+      },
+      {
+        "id": 4,
+        "name": "Adjustment disorder (poor adjustment to life stressor)"
+      }
+    ],
+    "id": 72,
+    "name": "Delusions or hallicinations"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcoholism"
+      },
+      {
+        "id": 1,
+        "name": "Alzheimer's disease (dementia)"
+      },
+      {
+        "id": 2,
+        "name": "Brain tumor (cancer of the brain)"
+      },
+      {
+        "id": 3,
+        "name": "Cirrohosis (liver failure and scarring)"
+      },
+      {
+        "id": 4,
+        "name": "Dementia (decline in mental ability)"
+      },
+      {
+        "id": 5,
+        "name": "Enchephalitis (brain infection)"
+      },
+      {
+        "id": 6,
+        "name": "Head injury"
+      },
+      {
+        "id": 7,
+        "name": "Hydrocephalus (brain fluid build up)"
+      },
+      {
+        "id": 8,
+        "name": "Lewy body dementia (common type of dementia)"
+      },
+      {
+        "id": 9,
+        "name": "Medical reaction"
+      },
+      {
+        "id": 10,
+        "name": "Parkinson's disease (movement disorder)"
+      }
+    ],
+    "id": 73,
+    "name": "Dementia"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bruxism (teeth grinding)"
+      },
+      {
+        "id": 1,
+        "name": "Dental abscess (tooth infection)"
+      },
+      {
+        "id": 2,
+        "name": "Dental caries (cavities)"
+      },
+      {
+        "id": 3,
+        "name": "Dry socket (pain after tooth removal)"
+      },
+      {
+        "id": 4,
+        "name": "Periodontitis (gum inflammation)"
+      },
+      {
+        "id": 5,
+        "name": "Pulpitis (dental root inflammation)"
+      }
+    ],
+    "id": 74,
+    "name": "Dental problem"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Depression (excessive sadness)"
+      },
+      {
+        "id": 1,
+        "name": "Dysthymia (depression, dysthymic disorder)"
+      },
+      {
+        "id": 2,
+        "name": "Major depressive disorder (severe depression)"
+      },
+      {
+        "id": 3,
+        "name": "Attention deficit hyperactivity disorder  (ADHD)"
+      },
+      {
+        "id": 4,
+        "name": "Bipolar disorder (manic depressive disorder)"
+      }
+    ],
+    "id": 75,
+    "name": "Depressed"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Giardiasis (giardia infection)"
+      },
+      {
+        "id": 1,
+        "name": "Gastroenteritis (intestinal infection)"
+      },
+      {
+        "id": 2,
+        "name": "Viral infections"
+      },
+      {
+        "id": 3,
+        "name": "Medical reaction"
+      },
+      {
+        "id": 4,
+        "name": "Food poisoning"
+      }
+    ],
+    "id": 76,
+    "name": "Diarrhea"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Asthma"
+      },
+      {
+        "id": 1,
+        "name": "Atypical pneumonia (lung infection)"
+      },
+      {
+        "id": 2,
+        "name": "Bronchial asthma"
+      },
+      {
+        "id": 3,
+        "name": "Chronic obstructive pulmonary disease (COPD, emphysema)"
+      },
+      {
+        "id": 4,
+        "name": "Inhaled foreign body (in respiratory tract)"
+      },
+      {
+        "id": 5,
+        "name": "Pneumonia (lung infection)"
+      }
+    ],
+    "id": 77,
+    "name": "Difficulty breathing"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Brain tumor (cancer of the brain)"
+      },
+      {
+        "id": 1,
+        "name": "Cerebral palsy (movement disorder)"
+      },
+      {
+        "id": 2,
+        "name": "Cerebral vascular accident (stroke)"
+      },
+      {
+        "id": 3,
+        "name": "Lewy body dementia (common type of dementia)"
+      },
+      {
+        "id": 4,
+        "name": "Multiple sclerosis (MS)"
+      },
+      {
+        "id": 5,
+        "name": "Parkinson's disease (movement disorder)"
+      },
+      {
+        "id": 6,
+        "name": "Transient ischemic attack (TIA, reversible stroke)"
+      }
+    ],
+    "id": 78,
+    "name": "Difficulty with walking"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Basilar artery migraine (headache)"
+      },
+      {
+        "id": 1,
+        "name": "Diabetes mellitus type 2 (elevated blood sugar)"
+      },
+      {
+        "id": 2,
+        "name": "Opthalmoplegia (eye muscle weakness)"
+      },
+      {
+        "id": 3,
+        "name": "Orbital cellulitis (soft tissue eye infection)"
+      },
+      {
+        "id": 4,
+        "name": "Orbital fracture (broken bone near the eye)"
+      },
+      {
+        "id": 5,
+        "name": "Orbital mass (growth near the eye)"
+      },
+      {
+        "id": 6,
+        "name": "Strabismus (crossed eyes)"
+      },
+      {
+        "id": 7,
+        "name": "Third cranial nerve disorder (disorder of the eye movement)"
+      }
+    ],
+    "id": 79,
+    "name": "Diplopia (seeing double)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Atopic dermatitis (eczema)"
+      },
+      {
+        "id": 1,
+        "name": "Ear drum rupture (tympanic membrane rupture)"
+      },
+      {
+        "id": 2,
+        "name": "Ear infection, outer (otitis externa)"
+      },
+      {
+        "id": 3,
+        "name": "Foreign body in the ear"
+      }
+    ],
+    "id": 80,
+    "name": "Discharge from ear"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Ear infection, middle ear (otis media)"
+      },
+      {
+        "id": 1,
+        "name": "Vasovagal syncope (fainting)"
+      },
+      {
+        "id": 2,
+        "name": "Generalized seizure disorder (generalized epilepsy)"
+      },
+      {
+        "id": 3,
+        "name": "Seizure (abnormal brain electrical activity)"
+      },
+      {
+        "id": 4,
+        "name": "Hypoglycemia (low blood sugar)"
+      }
+    ],
+    "id": 81,
+    "name": "Dizziness"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Basilar artery migraine (headache)"
+      },
+      {
+        "id": 1,
+        "name": "Diabetes mellitus type 2 (elevated blood sugar)"
+      },
+      {
+        "id": 2,
+        "name": "Opthalmoplegia (eye muscle weakness)"
+      },
+      {
+        "id": 3,
+        "name": "Orbital cellulitis (soft tissue eye infection)"
+      },
+      {
+        "id": 4,
+        "name": "Orbital mass (growth near the eye)"
+      },
+      {
+        "id": 5,
+        "name": "Strabismus (crossed eyes)"
+      },
+      {
+        "id": 6,
+        "name": "Third cranial nerve disorder (disorder of the eye movement)"
+      }
+    ],
+    "id": 82,
+    "name": "Double vision (Diplopia)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bell's palsy (facial muscle weakness)"
+      },
+      {
+        "id": 1,
+        "name": "Herpes stomatis (viral mouth infection)"
+      },
+      {
+        "id": 2,
+        "name": "Mononucleosis (common viral illness)"
+      },
+      {
+        "id": 3,
+        "name": "Peritonsillar abscess (collection of pus around tonsils)"
+      },
+      {
+        "id": 4,
+        "name": "Streptococcus infection (strep throat bacteria)"
+      },
+      {
+        "id": 5,
+        "name": "Stroke (CVA, cerbrovascular accident)"
+      },
+      {
+        "id": 6,
+        "name": "Tonsilitis (tonsil infection)"
+      }
+    ],
+    "id": 83,
+    "name": "Drooling"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Aponeurotic ptosis (age-related drooping eyelid)"
+      },
+      {
+        "id": 1,
+        "name": "Bell's palsy (facial muscle weakness)"
+      },
+      {
+        "id": 2,
+        "name": "Brain tumor (cancer of the brain)"
+      },
+      {
+        "id": 3,
+        "name": "Cerebral vascular accident (stroke)"
+      },
+      {
+        "id": 4,
+        "name": "Diabetes (high blood sugar)"
+      },
+      {
+        "id": 5,
+        "name": "Facial trauma (injury)"
+      },
+      {
+        "id": 6,
+        "name": "Myasthenia gravis (autoimmune disease of the nerves, muscles)"
+      },
+      {
+        "id": 7,
+        "name": "Ramsay Hunt syndrome (viral infection causing facial weakness)"
+      }
+    ],
+    "id": 84,
+    "name": "Drooping eyelid (Ptosis)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Marijuana use"
+      },
+      {
+        "id": 1,
+        "name": "Alcoholism"
+      },
+      {
+        "id": 2,
+        "name": "Cocaine abuse"
+      },
+      {
+        "id": 3,
+        "name": "Ecstasy (MDMA) abuse"
+      },
+      {
+        "id": 4,
+        "name": "Magic mushroom ingestion (psilocybin)"
+      }
+    ],
+    "id": 85,
+    "name": "Drug abuse"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Gastroenteritis (intestinal infection)"
+      },
+      {
+        "id": 1,
+        "name": "Viral infections"
+      },
+      {
+        "id": 2,
+        "name": "Medical reaction"
+      },
+      {
+        "id": 3,
+        "name": "Gastroesphageal reflux (GERD, heartburn)"
+      },
+      {
+        "id": 4,
+        "name": "Food poisoning"
+      }
+    ],
+    "id": 86,
+    "name": "Dry heaves"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergy"
+      },
+      {
+        "id": 1,
+        "name": "Chronic venous insufficiency (weakened leg veins)"
+      },
+      {
+        "id": 2,
+        "name": "Dehydration"
+      },
+      {
+        "id": 3,
+        "name": "Hyperthyroidism (elevated thyroid hormone)"
+      },
+      {
+        "id": 4,
+        "name": "Hypothyroidism (low thyroid hormone)"
+      },
+      {
+        "id": 5,
+        "name": "Menopause (end of mensutraution and fertility)"
+      },
+      {
+        "id": 6,
+        "name": "Psoriasis (scaly skin disease)"
+      },
+      {
+        "id": 7,
+        "name": "Tinea (fungal skin infection)"
+      }
+    ],
+    "id": 87,
+    "name": "Dryness, peeling or scaly skin"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Ear infections, middle ear (otitis media)"
+      },
+      {
+        "id": 1,
+        "name": "Ear drum rupture (tympanic membrane rupture)"
+      },
+      {
+        "id": 2,
+        "name": "Eustachian tube dysfunction (tympanic membrane rupture)"
+      },
+      {
+        "id": 3,
+        "name": "Ear infection, outer (otitis externa)"
+      },
+      {
+        "id": 4,
+        "name": "Hemotympanum (blood behind ear drum)"
+      }
+    ],
+    "id": 88,
+    "name": "Ear pressure"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 1,
+        "name": "Bee sting (wasp sting)"
+      },
+      {
+        "id": 2,
+        "name": "Caulifower ear (wrestlers ear)"
+      },
+      {
+        "id": 3,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 4,
+        "name": "Contusion (bruise, ecchymosis)"
+      },
+      {
+        "id": 5,
+        "name": "Ear infection, outer (otitis externa)"
+      },
+      {
+        "id": 6,
+        "name": "Folliculitis (hair follicle infection)"
+      }
+    ],
+    "id": 89,
+    "name": "Ear swelling"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Hemophilia (inherited bleeding disorder)"
+      },
+      {
+        "id": 1,
+        "name": "Low platelets (thrombocytopenia)"
+      },
+      {
+        "id": 2,
+        "name": "Myelodysplastic syndrome (bone marrow failure)"
+      },
+      {
+        "id": 3,
+        "name": "Von Willebrand's disease"
+      },
+      {
+        "id": 4,
+        "name": "Warafin (Coumadin) use"
+      }
+    ],
+    "id": 90,
+    "name": "Easy bruising"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Synovitis (inflammation of joint lining)"
+      },
+      {
+        "id": 1,
+        "name": "Aseptic joint effusion (fluid in a joint)"
+      },
+      {
+        "id": 2,
+        "name": "Extremity trauma (leg or arm injury)"
+      },
+      {
+        "id": 3,
+        "name": "Tennis elbow (lateral epidicondylitis)"
+      },
+      {
+        "id": 4,
+        "name": "Contusion (bruise, ecchymosis)"
+      }
+    ],
+    "id": 91,
+    "name": "Elbow ache or pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bursitis (inflammation of joint cushion)"
+      },
+      {
+        "id": 1,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 2,
+        "name": "Contusion (bruise, ecchymosis)"
+      },
+      {
+        "id": 3,
+        "name": "Ligament sprain (connective tissue between two bones)"
+      },
+      {
+        "id": 4,
+        "name": "Muscle and ligament inflammation (enthesopathy)"
+      },
+      {
+        "id": 5,
+        "name": "Sprain (stretched, torn ligament)"
+      },
+      {
+        "id": 6,
+        "name": "Tendonitis (tendon inflammation)"
+      },
+      {
+        "id": 7,
+        "name": "Tennis elbow (lateral epidicondylitis)"
+      }
+    ],
+    "id": 92,
+    "name": "Elbow swelling"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Viral infections"
+      },
+      {
+        "id": 1,
+        "name": "Influenza (seasonal flu)"
+      },
+      {
+        "id": 2,
+        "name": "Pharyngitis (throat infection)"
+      },
+      {
+        "id": 3,
+        "name": "Upper respiratory tract infection (URI, common cold)"
+      },
+      {
+        "id": 4,
+        "name": "Bladder infection (cystitis, UTI, urinary tract infection)"
+      }
+    ],
+    "id": 93,
+    "name": "Elevated temperature"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Anxiety disorder (generalized anxiety disorder, GAD)"
+      },
+      {
+        "id": 1,
+        "name": "Diabetes (high blood sugar)"
+      },
+      {
+        "id": 2,
+        "name": "Diabetes mellitus type 1 (elevated blood sugar)"
+      },
+      {
+        "id": 3,
+        "name": "Diabetes mellitus type 2 (elevated blood sugar)"
+      },
+      {
+        "id": 4,
+        "name": "Hypogylcemia (low blood sugar)"
+      },
+      {
+        "id": 5,
+        "name": "Prementrual syndrome (PMS)"
+      },
+      {
+        "id": 6,
+        "name": "Steroid use"
+      }
+    ],
+    "id": 94,
+    "name": "Excessive appetite"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcoholism"
+      },
+      {
+        "id": 1,
+        "name": "Alcohol (ethanol) intoxication"
+      },
+      {
+        "id": 2,
+        "name": "Major depressive disorder (severe depression)"
+      },
+      {
+        "id": 3,
+        "name": "Marijuana use"
+      },
+      {
+        "id": 4,
+        "name": "Prescription drug abuse"
+      }
+    ],
+    "id": 95,
+    "name": "Excessive drinking"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Detached retina (retinal detachment)"
+      },
+      {
+        "id": 1,
+        "name": "Posterior vitreous detachment (common eye abnormality)"
+      }
+    ],
+    "id": 96,
+    "name": "Eye floaters"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic conjunctivitis (allergic reaction in the eye"
+      },
+      {
+        "id": 1,
+        "name": "Behcets disease (small blood vessel inflammation disorder)"
+      },
+      {
+        "id": 2,
+        "name": "Conjunctivitis (pink eye)"
+      },
+      {
+        "id": 3,
+        "name": "Corneal abrasion (scrape on eye)"
+      },
+      {
+        "id": 4,
+        "name": "Corneal foreign body (object in the eye)"
+      },
+      {
+        "id": 5,
+        "name": "Corneal ulcer"
+      },
+      {
+        "id": 6,
+        "name": "Hordeolum (stye of eye)"
+      },
+      {
+        "id": 7,
+        "name": "Hyphema (traumatic blood in eye)"
+      },
+      {
+        "id": 8,
+        "name": "Migraine (type of headache)"
+      },
+      {
+        "id": 9,
+        "name": "Periobital cellulitis (infection around eye)"
+      },
+      {
+        "id": 10,
+        "name": "Sinusitis (sinus infection)"
+      },
+      {
+        "id": 11,
+        "name": "Uveitis (iritis, eye inflammation)"
+      }
+    ],
+    "id": 97,
+    "name": "Eye pain (Irriatation)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic conjunctivitis (allergic reaction in the eye"
+      },
+      {
+        "id": 1,
+        "name": "Blepharitis (eyelid swelling)"
+      },
+      {
+        "id": 2,
+        "name": "Conjunctivitis (pink eye)"
+      },
+      {
+        "id": 3,
+        "name": "Corneal abrasion (scrape on eye)"
+      },
+      {
+        "id": 4,
+        "name": "Corneal foreign body (object in the eye)"
+      },
+      {
+        "id": 5,
+        "name": "Corneal ulcer"
+      },
+      {
+        "id": 6,
+        "name": "Pterygium (growth on the eye)"
+      },
+      {
+        "id": 7,
+        "name": "Subconjunctival hemorrage (blood covering white part of the eye)"
+      },
+      {
+        "id": 8,
+        "name": "Uveitis (iritis, eye inflammation)"
+      }
+    ],
+    "id": 98,
+    "name": "Eye redness"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "ACE inhibitor induced cough (blood pressure medication side effect"
+      },
+      {
+        "id": 1,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 2,
+        "name": "Angioedema (swelling of skin, lips, eyes)"
+      },
+      {
+        "id": 3,
+        "name": "Blepharitis (eyelid swelling)"
+      },
+      {
+        "id": 4,
+        "name": "Conjunctivitis (pink eye)"
+      },
+      {
+        "id": 5,
+        "name": "Hordeolum (stye of eye)"
+      },
+      {
+        "id": 6,
+        "name": "Trauma"
+      }
+    ],
+    "id": 99,
+    "name": "Eye swelling"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Cerebral vascular accident (stroke)"
+      },
+      {
+        "id": 1,
+        "name": "Diabetes (high blood sugar)"
+      },
+      {
+        "id": 2,
+        "name": "Facial trauma (injury)"
+      },
+      {
+        "id": 3,
+        "name": "Fracture (broken bone)"
+      },
+      {
+        "id": 4,
+        "name": "Frostbite (tissue damage from cold)"
+      },
+      {
+        "id": 5,
+        "name": "Migraine (type of headache)"
+      },
+      {
+        "id": 6,
+        "name": "Multiple sclerosis (MS)"
+      },
+      {
+        "id": 7,
+        "name": "Shingles (herpes zoster)"
+      },
+      {
+        "id": 8,
+        "name": "Trigeminal neuralgia (facial nerve pain)"
+      }
+    ],
+    "id": 100,
+    "name": "Face numbness (parasthesias)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Sinusitis (sinus infection)"
+      },
+      {
+        "id": 1,
+        "name": "Rosacea"
+      },
+      {
+        "id": 2,
+        "name": "Bell's palsy (facial muscle weakness)"
+      },
+      {
+        "id": 3,
+        "name": "Dental abscess (tooth infection)"
+      },
+      {
+        "id": 4,
+        "name": "Contusion (bruise, ecchymosis)"
+      }
+    ],
+    "id": 101,
+    "name": "Face pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Anemia (low blood cell count)"
+      },
+      {
+        "id": 1,
+        "name": "Dehydration"
+      },
+      {
+        "id": 2,
+        "name": "Depression (excessive sadness)"
+      },
+      {
+        "id": 3,
+        "name": "Diabetes (high blood sugar)"
+      },
+      {
+        "id": 4,
+        "name": "Hypothyroidism (low thyroid hormone)"
+      },
+      {
+        "id": 5,
+        "name": "Infection"
+      },
+      {
+        "id": 6,
+        "name": "Malabsorption syndrome (abnormal intestional digestion)"
+      }
+    ],
+    "id": 102,
+    "name": "Failure to thrive"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Vasovagal syncope (fainting)"
+      },
+      {
+        "id": 1,
+        "name": "Hypotension (low blood pressure)"
+      },
+      {
+        "id": 2,
+        "name": "Hypoglycemia (low blood sugar)"
+      },
+      {
+        "id": 3,
+        "name": "Dehydration"
+      },
+      {
+        "id": 4,
+        "name": "Atrial fibrillation (irregular heart beat)"
+      }
+    ],
+    "id": 103,
+    "name": "Fainting"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Vasovagal syncope (fainting)"
+      },
+      {
+        "id": 1,
+        "name": "Hypotension (low blood pressure)"
+      },
+      {
+        "id": 2,
+        "name": "Hypoglycemia (low blood sugar)"
+      },
+      {
+        "id": 3,
+        "name": "Dehydration"
+      },
+      {
+        "id": 4,
+        "name": "Atrial fibrillation (irregular heart beat)"
+      }
+    ],
+    "id": 104,
+    "name": "Fainting spells"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Anemia (low blood cell count)"
+      },
+      {
+        "id": 1,
+        "name": "Cancer (tumor)"
+      },
+      {
+        "id": 2,
+        "name": "Chronic fatigue syndrome (CHF)"
+      },
+      {
+        "id": 3,
+        "name": "Depression (excessive sadness)"
+      },
+      {
+        "id": 4,
+        "name": "Diabetes (high blood sugar)"
+      },
+      {
+        "id": 5,
+        "name": "Fever (elevated temperature)"
+      },
+      {
+        "id": 6,
+        "name": "Fibromyalgia (chronic pain disorder)"
+      },
+      {
+        "id": 7,
+        "name": "Hypoatremia (low blood sodium)"
+      },
+      {
+        "id": 8,
+        "name": "Hypothyroidism (low thyroid hormone)"
+      },
+      {
+        "id": 9,
+        "name": "Infectious mononuceleosis (Epstein Barr virus, Mono)"
+      },
+      {
+        "id": 10,
+        "name": "Influenza (seasonal flu)"
+      },
+      {
+        "id": 11,
+        "name": "Multiple sclerosis (MS)"
+      },
+      {
+        "id": 12,
+        "name": "Sleep apnea (chronic sleep disruption)"
+      },
+      {
+        "id": 13,
+        "name": "Stress"
+      }
+    ],
+    "id": 105,
+    "name": "Fatigue"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bacterial overgrowth of small intestine"
+      },
+      {
+        "id": 1,
+        "name": "Celiac disease (celiac sprue)"
+      },
+      {
+        "id": 2,
+        "name": "Choledocholithiasis (stone in bile duct)"
+      },
+      {
+        "id": 3,
+        "name": "Lactose intolerance"
+      },
+      {
+        "id": 4,
+        "name": "Malabsorption syndrome (abnormal intestional digestion)"
+      },
+      {
+        "id": 5,
+        "name": "Pancreas inflammation (pancreatitis, chronic)"
+      },
+      {
+        "id": 6,
+        "name": "Ulcerative colitis (large intestine inflammation)"
+      }
+    ],
+    "id": 106,
+    "name": "Fatty stools"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Major depressive disorder (severe depression)"
+      },
+      {
+        "id": 1,
+        "name": "Dysthymia (depression, dysthymic disorder)"
+      },
+      {
+        "id": 2,
+        "name": "Substance abuse"
+      },
+      {
+        "id": 3,
+        "name": "Bipolar disorder (manic depressive disorder)"
+      },
+      {
+        "id": 4,
+        "name": "Adjustment disorder (poor adjustment to life stressor)"
+      }
+    ],
+    "id": 107,
+    "name": "Feeling down"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Influenza (seasonal flu)"
+      },
+      {
+        "id": 1,
+        "name": "Sinusitis (sinus infection)"
+      },
+      {
+        "id": 2,
+        "name": "Viral infections"
+      },
+      {
+        "id": 3,
+        "name": "Bronchitis (bronchial tube infection)"
+      },
+      {
+        "id": 4,
+        "name": "Pharyngitis (throat infection)"
+      }
+    ],
+    "id": 108,
+    "name": "Fever"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Campylobacter infection (intestinal bacterial infection)"
+      },
+      {
+        "id": 1,
+        "name": "Chikungunya (viral infection from mosquitoes)"
+      },
+      {
+        "id": 2,
+        "name": "Dengue fever (tropical mosquito born illness)"
+      },
+      {
+        "id": 3,
+        "name": "E coli infection (Escherichia coli, bacterial infection"
+      },
+      {
+        "id": 4,
+        "name": "Giardiasis (giardia infection)"
+      },
+      {
+        "id": 5,
+        "name": "Hepatitis (liver inflammation)"
+      },
+      {
+        "id": 6,
+        "name": "Malaria (mosquito transmitted illness)"
+      },
+      {
+        "id": 7,
+        "name": "Shigellosis (bacterial intestinal infection)"
+      },
+      {
+        "id": 8,
+        "name": "Typhoid fever (salmonella typhi infection from contaminated food\/water"
+      },
+      {
+        "id": 9,
+        "name": "West Nile virus infection (mosquito-transmitted illness)"
+      },
+      {
+        "id": 10,
+        "name": "Yellow fever (viral hemorrhagic fever)"
+      }
+    ],
+    "id": 109,
+    "name": "Fever in the returning traveler"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Autoimmune conditions"
+      },
+      {
+        "id": 1,
+        "name": "Cancer (tumor)"
+      },
+      {
+        "id": 2,
+        "name": "Fungal infections"
+      },
+      {
+        "id": 3,
+        "name": "Inflammatory conditions"
+      },
+      {
+        "id": 4,
+        "name": "Parasite infections"
+      }
+    ],
+    "id": 110,
+    "name": "Fever of unknown origin"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Osteoarthritis (bone inflammation)"
+      },
+      {
+        "id": 1,
+        "name": "Carpal tunnel syndrome (wrist nerve compression)"
+      },
+      {
+        "id": 2,
+        "name": "Trigger finger"
+      },
+      {
+        "id": 3,
+        "name": "Muscle and ligament inflammation (enthesopathy)"
+      },
+      {
+        "id": 4,
+        "name": "Ganglion cyst"
+      }
+    ],
+    "id": 111,
+    "name": "Finger pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Kidney stone (nephrolithiasis)"
+      },
+      {
+        "id": 1,
+        "name": "Bladder infection (cystitis, UTI, urinary tract infection)"
+      },
+      {
+        "id": 2,
+        "name": "Muscle strain (pulled muscle)"
+      },
+      {
+        "id": 3,
+        "name": "Back trauma (injury)"
+      },
+      {
+        "id": 4,
+        "name": "Hydronephrosis"
+      }
+    ],
+    "id": 112,
+    "name": "Flank pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Detached retina (retinal detachment)"
+      },
+      {
+        "id": 1,
+        "name": "Focal seizure (partial seizure)"
+      },
+      {
+        "id": 2,
+        "name": "Migraine (type of headache)"
+      },
+      {
+        "id": 3,
+        "name": "Posterior vitreous detachment (common eye abnormality)"
+      }
+    ],
+    "id": 113,
+    "name": "Flashes of light"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Celiac disease (celiac sprue)"
+      },
+      {
+        "id": 1,
+        "name": "Gastroesphageal reflux (GERD, heartburn)"
+      },
+      {
+        "id": 2,
+        "name": "Giardiasis (giardia infection)"
+      },
+      {
+        "id": 3,
+        "name": "Irrirtable bowel syndrome (IBS, chronic intestinal pain and cramping)"
+      },
+      {
+        "id": 4,
+        "name": "Malabsorption syndrome (abnormal intestional digestion)"
+      }
+    ],
+    "id": 114,
+    "name": "Flatulence (Passing gas)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Avulsions (forcible tissue detachment)"
+      },
+      {
+        "id": 1,
+        "name": "Blood vessel injury"
+      },
+      {
+        "id": 2,
+        "name": "Foreign body in the wound"
+      },
+      {
+        "id": 3,
+        "name": "Puncture wound, foot"
+      },
+      {
+        "id": 4,
+        "name": "Tendon laceration (tendon cut)"
+      },
+      {
+        "id": 5,
+        "name": "Traumatic nerve injury"
+      },
+      {
+        "id": 6,
+        "name": "Wound infection (cut infection)"
+      }
+    ],
+    "id": 115,
+    "name": "Foot cut (laceration)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 1,
+        "name": "Athlete's foot (tinea pedis)"
+      },
+      {
+        "id": 2,
+        "name": "Bed bugs"
+      },
+      {
+        "id": 3,
+        "name": "Bee sting (wasp sting)"
+      },
+      {
+        "id": 4,
+        "name": "Body lice"
+      },
+      {
+        "id": 5,
+        "name": "Contact dermatitis (contact skin irritation)"
+      },
+      {
+        "id": 6,
+        "name": "Insect bite"
+      },
+      {
+        "id": 7,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 8,
+        "name": "Mosquito bite"
+      },
+      {
+        "id": 9,
+        "name": "Poison ivy (poison oak, poison sumac)"
+      },
+      {
+        "id": 10,
+        "name": "Scabies (skin disease caused by mites)"
+      }
+    ],
+    "id": 116,
+    "name": "Foot itching"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcoholism"
+      },
+      {
+        "id": 1,
+        "name": "Cerebral vascular accident (stroke)"
+      },
+      {
+        "id": 2,
+        "name": "Diabetes (high blood sugar)"
+      },
+      {
+        "id": 3,
+        "name": "Fracture (broken bone)"
+      },
+      {
+        "id": 4,
+        "name": "Herniated disc (slipped disc, ruptured disc)"
+      },
+      {
+        "id": 5,
+        "name": "Lumbar spinal stenosis (spinal cord compression)"
+      },
+      {
+        "id": 6,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 7,
+        "name": "Multiple sclerosis (MS)"
+      },
+      {
+        "id": 8,
+        "name": "Osteoarthritis (bone inflammation)"
+      },
+      {
+        "id": 9,
+        "name": "Peripheal neuropathy (nerve damage)"
+      },
+      {
+        "id": 10,
+        "name": "Peripheal vascular disease (blocked blood vessels)"
+      },
+      {
+        "id": 11,
+        "name": "Raynaud's disease (blood vessel constriction)"
+      },
+      {
+        "id": 12,
+        "name": "Sciatica (lower back nerve irritation)"
+      },
+      {
+        "id": 13,
+        "name": "Spondylolisthesis (slipped back bone)"
+      },
+      {
+        "id": 14,
+        "name": "Tarsal tunnel syndrome (foot nerve damage)"
+      },
+      {
+        "id": 15,
+        "name": "Traumatic nerve injury"
+      }
+    ],
+    "id": 117,
+    "name": "Foot numbness (paresthesias)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bunion of big toe (hallux valgus)"
+      },
+      {
+        "id": 1,
+        "name": "Calluses and corns"
+      },
+      {
+        "id": 2,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 3,
+        "name": "Flat feet (pes planus)"
+      },
+      {
+        "id": 4,
+        "name": "Foot fracture (broken foot)"
+      },
+      {
+        "id": 5,
+        "name": "Foot sprain"
+      },
+      {
+        "id": 6,
+        "name": "Gout (uric acid crystals in the joint causing inflammation)"
+      },
+      {
+        "id": 7,
+        "name": "Hammer toes (toes deformity)"
+      },
+      {
+        "id": 8,
+        "name": "Heel spur"
+      },
+      {
+        "id": 9,
+        "name": "Muscle spasm (charley horse)"
+      },
+      {
+        "id": 10,
+        "name": "Muscle tear"
+      },
+      {
+        "id": 11,
+        "name": "Peripheral neuropathy (nerve damage)"
+      },
+      {
+        "id": 12,
+        "name": "Plantar fasciitis (inflammation of tissue at the bottom of the foot"
+      },
+      {
+        "id": 13,
+        "name": "Sprain (stretched, torn ligament)"
+      },
+      {
+        "id": 14,
+        "name": "Tendonitis (tendon inflammation)"
+      }
+    ],
+    "id": 118,
+    "name": "Foot pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 1,
+        "name": "Bee sting (wasp sting)"
+      },
+      {
+        "id": 2,
+        "name": "Body lice"
+      },
+      {
+        "id": 3,
+        "name": "Burns"
+      },
+      {
+        "id": 4,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 5,
+        "name": "Chemical burn"
+      },
+      {
+        "id": 6,
+        "name": "Folliculitis (hair follicle infection)"
+      },
+      {
+        "id": 7,
+        "name": "Foot ulcer"
+      },
+      {
+        "id": 8,
+        "name": "Insect bite"
+      },
+      {
+        "id": 9,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 10,
+        "name": "Mosquito bite"
+      },
+      {
+        "id": 11,
+        "name": "Poison ivy (poison oak, poison sumac)"
+      },
+      {
+        "id": 12,
+        "name": "Scabies (skin disease caused by mites)"
+      },
+      {
+        "id": 13,
+        "name": "Sunburn"
+      },
+      {
+        "id": 14,
+        "name": "Tinea (fungal skin infection)"
+      }
+    ],
+    "id": 119,
+    "name": "Foot redness"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Athlete's foot (tinea pedis)"
+      },
+      {
+        "id": 1,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 2,
+        "name": "Congestive heart failure (CHF)"
+      },
+      {
+        "id": 3,
+        "name": "Contusion (bruise, ecchymosis)"
+      },
+      {
+        "id": 4,
+        "name": "Deep venous thrombosis (DVT, venous blood clot)"
+      },
+      {
+        "id": 5,
+        "name": "Foot fracture (broken foot)"
+      },
+      {
+        "id": 6,
+        "name": "Foot sprain"
+      },
+      {
+        "id": 7,
+        "name": "Gout (uric acid crystals in the joint causing inflammation)"
+      },
+      {
+        "id": 8,
+        "name": "Muscle tear"
+      },
+      {
+        "id": 9,
+        "name": "Overuse syndrome(injury from repetitive activity)"
+      },
+      {
+        "id": 10,
+        "name": "Pseudogout (calcium deposit arthritis)"
+      },
+      {
+        "id": 11,
+        "name": "Puncture wound, foot"
+      },
+      {
+        "id": 12,
+        "name": "Sprain (stretched, torn ligament)"
+      }
+    ],
+    "id": 120,
+    "name": "Foot swelling"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Benign prostatic hyperplasia (prostrate enlargement)"
+      },
+      {
+        "id": 1,
+        "name": "Bladder infection (cystitis, UTI, urinary tract infection)"
+      },
+      {
+        "id": 2,
+        "name": "Cystocele (bladder hernia)"
+      },
+      {
+        "id": 3,
+        "name": "Diabetes (high blood sugar)"
+      },
+      {
+        "id": 4,
+        "name": "Interstital cystitis (bladder inflammation)"
+      },
+      {
+        "id": 5,
+        "name": "Kidney stone (nephrolithiasis)"
+      },
+      {
+        "id": 6,
+        "name": "Prostatitis (prostate inflammation)"
+      },
+      {
+        "id": 7,
+        "name": "Pyelonephritis (kidney infection)"
+      },
+      {
+        "id": 8,
+        "name": "Urethritis (infection of urethra)"
+      }
+    ],
+    "id": 121,
+    "name": "Frequent urination (Frequency)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Celiac disease (celiac sprue)"
+      },
+      {
+        "id": 1,
+        "name": "Gastroesphageal reflux (GERD, heartburn)"
+      },
+      {
+        "id": 2,
+        "name": "Giardiasis (giardia infection)"
+      },
+      {
+        "id": 3,
+        "name": "Irrirtable bowel syndrome (IBS, chronic intestinal pain and cramping)"
+      },
+      {
+        "id": 4,
+        "name": "Malabsorption syndrome (abnormal intestional digestion)"
+      }
+    ],
+    "id": 122,
+    "name": "Gas"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Hyperkalemia (elevated potassium level)"
+      },
+      {
+        "id": 1,
+        "name": "Hpercalcemia (elevated blood calcium)"
+      },
+      {
+        "id": 2,
+        "name": "Hypogylcemia (low blood sugar)"
+      },
+      {
+        "id": 3,
+        "name": "Multiple sclerosis (MS)"
+      }
+    ],
+    "id": 123,
+    "name": "General weakness"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Inguinal hernia (groin hernia)"
+      },
+      {
+        "id": 1,
+        "name": "Kidney stone (nephrolithiasis)"
+      },
+      {
+        "id": 2,
+        "name": "Muscle strain (pulled muscle)"
+      },
+      {
+        "id": 3,
+        "name": "Ligament sprain (connective tissue between two bones)"
+      }
+    ],
+    "id": 124,
+    "name": "Groin pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Dental abscess (tooth infection)"
+      },
+      {
+        "id": 1,
+        "name": "Dentures"
+      },
+      {
+        "id": 2,
+        "name": "Gingivitis (inflammation of the gums)"
+      },
+      {
+        "id": 3,
+        "name": "Periodontitis (gum inflammation)"
+      },
+      {
+        "id": 4,
+        "name": "Pulpitis (dental root inflammation)"
+      }
+    ],
+    "id": 125,
+    "name": "Gum pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 1,
+        "name": "Dental abscess (tooth infection)"
+      },
+      {
+        "id": 2,
+        "name": "Dentures"
+      },
+      {
+        "id": 3,
+        "name": "Gingivitis (inflammation of the gums)"
+      },
+      {
+        "id": 4,
+        "name": "Herpes stomatis (viral mouth infection)"
+      },
+      {
+        "id": 5,
+        "name": "Mouth cancer (oralpharyngeal cancer)"
+      },
+      {
+        "id": 6,
+        "name": "Periodontitis (gum inflammation)"
+      },
+      {
+        "id": 7,
+        "name": "Thrush (oral candidiasis)"
+      }
+    ],
+    "id": 126,
+    "name": "Gum swelling"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Hair loss (alopecia)"
+      },
+      {
+        "id": 1,
+        "name": "Male pattern hair loss (hereditary-patterned baldness"
+      }
+    ],
+    "id": 127,
+    "name": "Hair loss (Baldness)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Avulsions (forcible tissue detachment)"
+      },
+      {
+        "id": 1,
+        "name": "Blood vessel injury"
+      },
+      {
+        "id": 2,
+        "name": "Foreign body in the wound"
+      },
+      {
+        "id": 3,
+        "name": "Puncture wound, hand"
+      },
+      {
+        "id": 4,
+        "name": "Tendon laceration (tendon cut)"
+      },
+      {
+        "id": 5,
+        "name": "Traumatic nerve injury"
+      },
+      {
+        "id": 6,
+        "name": "Wound infection (cut infection)"
+      }
+    ],
+    "id": 128,
+    "name": "Hand cut (laceration)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 1,
+        "name": "Bed bugs"
+      },
+      {
+        "id": 2,
+        "name": "Bee sting (wasp sting)"
+      },
+      {
+        "id": 3,
+        "name": "Body lice"
+      },
+      {
+        "id": 4,
+        "name": "Contact dermatitis (contact skin irritation)"
+      },
+      {
+        "id": 5,
+        "name": "Insect bite"
+      },
+      {
+        "id": 6,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 7,
+        "name": "Mosquito bite"
+      },
+      {
+        "id": 8,
+        "name": "Poison ivy (poison oak, poison sumac)"
+      },
+      {
+        "id": 9,
+        "name": "Scabies (skin disease caused by mites)"
+      },
+      {
+        "id": 10,
+        "name": "Tinea (fungal skin infection)"
+      }
+    ],
+    "id": 129,
+    "name": "Hand itching"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcoholism"
+      },
+      {
+        "id": 1,
+        "name": "Carpal tunnel syndrome (wrist nerve compression)"
+      },
+      {
+        "id": 2,
+        "name": "Cerebral vascular accident (stroke)"
+      },
+      {
+        "id": 3,
+        "name": "Cervical radiculopathy (pinched nerve in neck)"
+      },
+      {
+        "id": 4,
+        "name": "Cervical spine stenosis (narrowing of spinal cord)"
+      },
+      {
+        "id": 5,
+        "name": "Cubital tunnel syndrome (nerve compression in the elbow)"
+      },
+      {
+        "id": 6,
+        "name": "Fracture (broken bone)"
+      },
+      {
+        "id": 7,
+        "name": "Hyperventilation (rapid breathing)"
+      },
+      {
+        "id": 8,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 9,
+        "name": "Multiple sclerosis (MS)"
+      },
+      {
+        "id": 10,
+        "name": "Peripheral neuropathy (nerve damage)"
+      },
+      {
+        "id": 11,
+        "name": "Peripheral vascular disease (blocked blood vessels)"
+      },
+      {
+        "id": 12,
+        "name": "Raynaud's disease (blood vessel constriction)"
+      },
+      {
+        "id": 13,
+        "name": "Traumatic nerve injury"
+      }
+    ],
+    "id": 130,
+    "name": "Hand numbness (paresthesias)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Osteoarthritis (bone inflammation)"
+      },
+      {
+        "id": 1,
+        "name": "Carpal tunnel syndrome (wrist nerve compression)"
+      },
+      {
+        "id": 2,
+        "name": "Trigger finger"
+      },
+      {
+        "id": 3,
+        "name": "Muscle and ligament inflammation (enthesopathy)"
+      },
+      {
+        "id": 4,
+        "name": "Ganglion cyst"
+      }
+    ],
+    "id": 131,
+    "name": "Hand pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 1,
+        "name": "Bee sting (wasp sting)"
+      },
+      {
+        "id": 2,
+        "name": "Body lice"
+      },
+      {
+        "id": 3,
+        "name": "Boil (pus-filled lump)"
+      },
+      {
+        "id": 4,
+        "name": "Burns"
+      },
+      {
+        "id": 5,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 6,
+        "name": "Chemical burn"
+      },
+      {
+        "id": 7,
+        "name": "Folliculitis (hair follicle infection)"
+      },
+      {
+        "id": 8,
+        "name": "Insect bite"
+      },
+      {
+        "id": 9,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 10,
+        "name": "Mosquito bite"
+      },
+      {
+        "id": 11,
+        "name": "Poison ivy (poison oak, poison sumac)"
+      },
+      {
+        "id": 12,
+        "name": "Scabies (skin disease caused by mites)"
+      },
+      {
+        "id": 13,
+        "name": "Sunburn"
+      },
+      {
+        "id": 14,
+        "name": "Tinea (fungal skin infection)"
+      }
+    ],
+    "id": 132,
+    "name": "Hand redness"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Osteoarthritis (bone inflammation)"
+      },
+      {
+        "id": 1,
+        "name": "Carpal tunnel syndrome (wrist nerve compression)"
+      },
+      {
+        "id": 2,
+        "name": "Trigger finger"
+      },
+      {
+        "id": 3,
+        "name": "Muscle and ligament inflammation (enthesopathy)"
+      },
+      {
+        "id": 4,
+        "name": "Ganglion cyst"
+      }
+    ],
+    "id": 133,
+    "name": "Hand, finger ache or pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Carpal tunnel syndrome (wrist nerve compression)"
+      },
+      {
+        "id": 1,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 2,
+        "name": "Contusion (bruise, ecchymosis)"
+      },
+      {
+        "id": 3,
+        "name": "De Quervain's tenosynovitis (hand tendon inflammation)"
+      },
+      {
+        "id": 4,
+        "name": "Fracture (broken bone)"
+      },
+      {
+        "id": 5,
+        "name": "Gout (uric acid crystals in the joint causing inflammation)"
+      },
+      {
+        "id": 6,
+        "name": "Muscle tear"
+      },
+      {
+        "id": 7,
+        "name": "Overuse syndrome (injury from repetitive activity)"
+      },
+      {
+        "id": 8,
+        "name": "Pseudogout (calcium deposit arthritis)"
+      },
+      {
+        "id": 9,
+        "name": "Scalphoid fracture (broken hand bone)"
+      },
+      {
+        "id": 10,
+        "name": "Septic arthritis (joint infection)"
+      },
+      {
+        "id": 11,
+        "name": "Sprain (stretched, torn ligament)"
+      },
+      {
+        "id": 12,
+        "name": "Wrist sprain"
+      }
+    ],
+    "id": 134,
+    "name": "Hand, finger swelling"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Altered mental status (confusion)"
+      },
+      {
+        "id": 1,
+        "name": "Cervical spine fracture (broken neck bone)"
+      },
+      {
+        "id": 2,
+        "name": "Contusion (bruise, ecchymosis)"
+      },
+      {
+        "id": 3,
+        "name": "Epidural hematoma (bleeding around brain or spine)"
+      },
+      {
+        "id": 4,
+        "name": "Headache"
+      },
+      {
+        "id": 5,
+        "name": "Hematoma (collection of blood)"
+      },
+      {
+        "id": 6,
+        "name": "Hemotympanum (blood behind ear drum)"
+      },
+      {
+        "id": 7,
+        "name": "Nose bleed (epistaxis)"
+      },
+      {
+        "id": 8,
+        "name": "Post concussive syndrome (symptomd after a concussion)"
+      },
+      {
+        "id": 9,
+        "name": "Scalp laceration (scalp cut)"
+      },
+      {
+        "id": 10,
+        "name": "Skull fracture (broken bone)"
+      },
+      {
+        "id": 11,
+        "name": "Subdural hematoma (bleeding on brain)"
+      }
+    ],
+    "id": 135,
+    "name": "Head injury"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Tension headache (stress headache)"
+      },
+      {
+        "id": 1,
+        "name": "Migraine (type of headache)"
+      },
+      {
+        "id": 2,
+        "name": "Sinusitis (sinus infection)"
+      },
+      {
+        "id": 3,
+        "name": "Cluster headache (one-sided headache behind the eye)"
+      },
+      {
+        "id": 4,
+        "name": "Essential hypertension (high blood pressure)"
+      }
+    ],
+    "id": 136,
+    "name": "Head pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Tension headache (stress headache)"
+      },
+      {
+        "id": 1,
+        "name": "Migraine (type of headache)"
+      },
+      {
+        "id": 2,
+        "name": "Sinusitis (sinus infection)"
+      },
+      {
+        "id": 3,
+        "name": "Cluster headache (one-sided headache behind the eye)"
+      },
+      {
+        "id": 4,
+        "name": "Essential hypertension (high blood pressure)"
+      }
+    ],
+    "id": 137,
+    "name": "Headache"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Basilar skull fracture (broken skull)"
+      },
+      {
+        "id": 1,
+        "name": "Cerebral contusion (bruise of brain)"
+      },
+      {
+        "id": 2,
+        "name": "Concussion"
+      },
+      {
+        "id": 3,
+        "name": "Epidural hematoma (bleeding around brain or spine)"
+      },
+      {
+        "id": 4,
+        "name": "Hemotympanum (blood behind ear drum)"
+      },
+      {
+        "id": 5,
+        "name": "Intracranial hemorrhage (bleeding in brain)"
+      },
+      {
+        "id": 6,
+        "name": "Post concussive syndrome (symptomd after a concussion)"
+      },
+      {
+        "id": 7,
+        "name": "Skull fracture (broken bone)"
+      },
+      {
+        "id": 8,
+        "name": "Subarachnoid hemorrhage (brain bleeding)"
+      },
+      {
+        "id": 9,
+        "name": "Subdural hematoma (bleeding on brain)"
+      }
+    ],
+    "id": 138,
+    "name": "Headache after trauma"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Carbon monoxide poisoing (odorless, poisonous gas)"
+      },
+      {
+        "id": 1,
+        "name": "Cerebral contusion (bruise of brain)"
+      },
+      {
+        "id": 2,
+        "name": "Cerebral vascular accident (stroke)"
+      },
+      {
+        "id": 3,
+        "name": "Epidural hematoma (bleeding around brain or spine)"
+      },
+      {
+        "id": 4,
+        "name": "Head injury"
+      },
+      {
+        "id": 5,
+        "name": "Heat stroke"
+      },
+      {
+        "id": 6,
+        "name": "Meningioma (brain tumor)"
+      },
+      {
+        "id": 7,
+        "name": "Subarachnoid hemorrhage (brain bleeding)"
+      },
+      {
+        "id": 8,
+        "name": "Subdural hematoma (bleeding on brain)"
+      },
+      {
+        "id": 9,
+        "name": "West Nile virus infection (mosquito-transmitted illness)"
+      }
+    ],
+    "id": 139,
+    "name": "Headache after weakness"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Anemia (low blood cell count)"
+      },
+      {
+        "id": 1,
+        "name": "Endocarditis (heart valve infection)"
+      },
+      {
+        "id": 2,
+        "name": "Fever (elevated temperature)"
+      },
+      {
+        "id": 3,
+        "name": "Marfan syndrome (rare inherited disease)"
+      },
+      {
+        "id": 4,
+        "name": "Mitral valve prolapse (abnormal heart valve)"
+      },
+      {
+        "id": 5,
+        "name": "Pregnancy"
+      },
+      {
+        "id": 6,
+        "name": "Valvular heart disease (abnormal heart valve)"
+      }
+    ],
+    "id": 140,
+    "name": "Heart murmur (Abnormal heart sound)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Anxiety"
+      },
+      {
+        "id": 1,
+        "name": "Atrial fibrillation (irregular heart beat)"
+      },
+      {
+        "id": 2,
+        "name": "Atrial flutter (irregular heart rate)"
+      },
+      {
+        "id": 3,
+        "name": "Cardiac arrhythmia (abnormal heart rate)"
+      },
+      {
+        "id": 4,
+        "name": "Graves' disease (overproduction of thyroid hormone)"
+      },
+      {
+        "id": 5,
+        "name": "Long QT Syndrome (inherited heart condition)"
+      },
+      {
+        "id": 6,
+        "name": "Myocardial infarction (heart attack)"
+      },
+      {
+        "id": 7,
+        "name": "Supraventricular tachycardia (SVT)"
+      },
+      {
+        "id": 8,
+        "name": "Ventricular tachycardia (VT, dangerous irregular heart beat)"
+      }
+    ],
+    "id": 141,
+    "name": "Heart pulsations and palpitations"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Dehydration"
+      },
+      {
+        "id": 1,
+        "name": "Headache"
+      },
+      {
+        "id": 2,
+        "name": "Heat cramps"
+      },
+      {
+        "id": 3,
+        "name": "Heat exhaustion"
+      },
+      {
+        "id": 4,
+        "name": "Hyperthermia (extreme heat exposure)"
+      }
+    ],
+    "id": 142,
+    "name": "Heat illness"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Achilles tendonitis (heel tendon inflammation)"
+      },
+      {
+        "id": 1,
+        "name": "Foreign body in the wound"
+      },
+      {
+        "id": 2,
+        "name": "Fracture (broken bone)"
+      },
+      {
+        "id": 3,
+        "name": "Plantar fasciitis (inflammation of tissue at the bottom of the foot"
+      },
+      {
+        "id": 4,
+        "name": "Tarsal tunnel syndrome (foot nerve damage)"
+      }
+    ],
+    "id": 143,
+    "name": "Heel pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bronchiectasis (bronchial tube inflammatory damage)"
+      },
+      {
+        "id": 1,
+        "name": "Bronchitis (bronchial tube infection)"
+      },
+      {
+        "id": 2,
+        "name": "Lung cancer (tumor)"
+      },
+      {
+        "id": 3,
+        "name": "Pneumonia (lung infection)"
+      },
+      {
+        "id": 4,
+        "name": "Pulmonary embolism (blood clot in the lungs)"
+      },
+      {
+        "id": 5,
+        "name": "Tonsillitis (tonsil infection)"
+      }
+    ],
+    "id": 144,
+    "name": "Hemoptysis (Coughing blood)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Anxiety"
+      },
+      {
+        "id": 1,
+        "name": "Anxiety disorder (generalized anxiety disorder, GAD)"
+      },
+      {
+        "id": 2,
+        "name": "Headache"
+      },
+      {
+        "id": 3,
+        "name": "Hypertension (high blood pressure)"
+      },
+      {
+        "id": 4,
+        "name": "Migraine (type of headache)"
+      },
+      {
+        "id": 5,
+        "name": "Sleep apnea (chronic sleep disruption)"
+      },
+      {
+        "id": 6,
+        "name": "Tension headache (stress headache)"
+      },
+      {
+        "id": 7,
+        "name": "White coat hypertension (elevated blood pressure at doctor's office)"
+      }
+    ],
+    "id": 145,
+    "name": "High blood pressure"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Diabetes (high blood sugar)"
+      },
+      {
+        "id": 1,
+        "name": "Diabetes mellitus type 2 (elevated blood sugar)"
+      },
+      {
+        "id": 2,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 3,
+        "name": "Obesity"
+      },
+      {
+        "id": 4,
+        "name": "Prediabetes (high blood sugar)"
+      }
+    ],
+    "id": 146,
+    "name": "High blood sugar"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Arthritis (joint inflammation)"
+      },
+      {
+        "id": 1,
+        "name": "Aseptic joint effusion (fluid in a joint)"
+      },
+      {
+        "id": 2,
+        "name": "Bursitis (inflammation of joint cushion)"
+      },
+      {
+        "id": 3,
+        "name": "Contusion (bruise, ecchymosis)"
+      },
+      {
+        "id": 4,
+        "name": "Dislocation (joint out of place)"
+      },
+      {
+        "id": 5,
+        "name": "Hip fracture (broken hip)"
+      },
+      {
+        "id": 6,
+        "name": "Muscle strain (pulled muscle)"
+      },
+      {
+        "id": 7,
+        "name": "Osteoarthritis (bone inflammation)"
+      },
+      {
+        "id": 8,
+        "name": "Osteoporosis (extremely thin bone)"
+      },
+      {
+        "id": 9,
+        "name": "Sciatica (lower back nerve irritation)"
+      },
+      {
+        "id": 10,
+        "name": "Septic hip (infected hip joint)"
+      },
+      {
+        "id": 11,
+        "name": "Traumatic hip dislocation"
+      }
+    ],
+    "id": 147,
+    "name": "Hip pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 1,
+        "name": "Anaphylaxis (severe\/life threatening)"
+      },
+      {
+        "id": 2,
+        "name": "Food allergy"
+      },
+      {
+        "id": 3,
+        "name": "Mastocytosis (urticaria pigmentosa, skin disease)"
+      }
+    ],
+    "id": 148,
+    "name": "Hives"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bronchitis (bronchial tube infection)"
+      },
+      {
+        "id": 1,
+        "name": "Foreign body in the wound"
+      },
+      {
+        "id": 2,
+        "name": "Laryngitis (voice box inflammation)"
+      },
+      {
+        "id": 3,
+        "name": "Overuse syndrome (injury from repetitive activity)"
+      },
+      {
+        "id": 4,
+        "name": "Post nasal drip"
+      },
+      {
+        "id": 5,
+        "name": "Smoking (tobacco use disorder)"
+      },
+      {
+        "id": 6,
+        "name": "Tonsillitis (tonsil infection)"
+      }
+    ],
+    "id": 149,
+    "name": "Hoarse voice"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Carcinoid syndrome (flushing, diarrhea)"
+      },
+      {
+        "id": 1,
+        "name": "Febrile (fever) illness"
+      },
+      {
+        "id": 2,
+        "name": "Hyperthroidism (elevated thyroid hormone)"
+      },
+      {
+        "id": 3,
+        "name": "Menopause (end of mensutraution and fertility)"
+      },
+      {
+        "id": 4,
+        "name": "Panic disorder"
+      }
+    ],
+    "id": 150,
+    "name": "Hot flashes"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Boil (pus-filled lump)"
+      },
+      {
+        "id": 1,
+        "name": "Carbuncle"
+      },
+      {
+        "id": 2,
+        "name": "Cellulitis (skin infection)"
+      },
+      {
+        "id": 3,
+        "name": "Folliculitis (hair follicle infection)"
+      },
+      {
+        "id": 4,
+        "name": "Heat exhaustion"
+      },
+      {
+        "id": 5,
+        "name": "Heat rash"
+      },
+      {
+        "id": 6,
+        "name": "Skin abscess (collection of pus)"
+      },
+      {
+        "id": 7,
+        "name": "Sunburn"
+      }
+    ],
+    "id": 151,
+    "name": "Hot skin"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Asthma"
+      },
+      {
+        "id": 1,
+        "name": "Atypical pneumonia (lung infection)"
+      },
+      {
+        "id": 2,
+        "name": "Bronchitis (bronchial tube infection)"
+      },
+      {
+        "id": 3,
+        "name": "Chest trauma (injury)"
+      },
+      {
+        "id": 4,
+        "name": "Costochondritis (chest wall inflammation)"
+      },
+      {
+        "id": 5,
+        "name": "Pleuritis (inflammation of the lung's lining, pleurisy)"
+      },
+      {
+        "id": 6,
+        "name": "Pneumonia (lung infection)"
+      },
+      {
+        "id": 7,
+        "name": "Rib fracture (broken bone)"
+      }
+    ],
+    "id": 152,
+    "name": "Hurts to breathe"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Lichen planus (chronic skin inflammation)"
+      },
+      {
+        "id": 1,
+        "name": "Melanoma (skin cancer)"
+      },
+      {
+        "id": 2,
+        "name": "Melesma (choloasma)"
+      },
+      {
+        "id": 3,
+        "name": "Moles (nevi)"
+      },
+      {
+        "id": 4,
+        "name": "Polycystic ovarian syndrome (PCOS, female hormonal disorders)"
+      },
+      {
+        "id": 5,
+        "name": "Psoriasis (scaly skin disease)"
+      },
+      {
+        "id": 6,
+        "name": "Tinea (fungal skin infection)"
+      }
+    ],
+    "id": 153,
+    "name": "Hyperpigmentation (Darkening skin)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcohol (ethanol) intoxication"
+      },
+      {
+        "id": 1,
+        "name": "Hypothermia (extreme cold exposure)"
+      },
+      {
+        "id": 2,
+        "name": "Hypothyroidism (low thyroid hormone)"
+      }
+    ],
+    "id": 154,
+    "name": "Hypothermia (low temperature)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcoholism"
+      },
+      {
+        "id": 1,
+        "name": "Depression (excessive sadness)"
+      },
+      {
+        "id": 2,
+        "name": "Diabetes (high blood sugar)"
+      },
+      {
+        "id": 3,
+        "name": "Erectile dysfunction (ED)"
+      },
+      {
+        "id": 4,
+        "name": "Hypertension (high blood pressure)"
+      },
+      {
+        "id": 5,
+        "name": "Renal failure, chronic (ongoing kindney failure)"
+      },
+      {
+        "id": 6,
+        "name": "Stress"
+      }
+    ],
+    "id": 155,
+    "name": "Impotence"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Aphthous ulcers (mouth stomatitis)"
+      },
+      {
+        "id": 1,
+        "name": "Bladder infection (cystitis, UTI, urinary tract infection)"
+      },
+      {
+        "id": 2,
+        "name": "Colic (prolonged infant crying episodes)"
+      },
+      {
+        "id": 3,
+        "name": "Corneal abrasion (scrape on eye)"
+      },
+      {
+        "id": 4,
+        "name": "Ear infection, middle ear (otis media)"
+      },
+      {
+        "id": 5,
+        "name": "Fever (elevated temperature)"
+      }
+    ],
+    "id": 156,
+    "name": "Inconsolable baby"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Urethral stricture"
+      },
+      {
+        "id": 1,
+        "name": "Bladder infection (cystitis, UTI, urinary tract infection)"
+      },
+      {
+        "id": 2,
+        "name": "Prostatitis (prostate inflammation)"
+      },
+      {
+        "id": 3,
+        "name": "Neurogenic bladder (bladder paralysis)"
+      },
+      {
+        "id": 4,
+        "name": "Benign prostatic hyperplasia (prostrate enlargement)"
+      }
+    ],
+    "id": 157,
+    "name": "Incontinence (leaking urine)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcohol (ethanol) intoxication"
+      },
+      {
+        "id": 1,
+        "name": "Basilar artery migraine (headache)"
+      },
+      {
+        "id": 2,
+        "name": "Brain tumor (cancer of the brain)"
+      },
+      {
+        "id": 3,
+        "name": "Cerebral vascular accident (stroke)"
+      },
+      {
+        "id": 4,
+        "name": "Concussion"
+      },
+      {
+        "id": 5,
+        "name": "Ear infection, middle ear (otis media)"
+      },
+      {
+        "id": 6,
+        "name": "Hypogylcemia (low blood sugar)"
+      },
+      {
+        "id": 7,
+        "name": "Labyrinthitis (dizzness and vertigo)"
+      },
+      {
+        "id": 8,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 9,
+        "name": "Meniere's disease (dizziness and vertigo)"
+      },
+      {
+        "id": 10,
+        "name": "Multiple sclerosis (MS)"
+      },
+      {
+        "id": 11,
+        "name": "Transient ischemic attack (TIA, reversible stroke)"
+      }
+    ],
+    "id": 158,
+    "name": "Incoordination"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Cushing disease (excessive pituitary gland hormones)"
+      },
+      {
+        "id": 1,
+        "name": "Excessive hair growth (Hirsutism)"
+      },
+      {
+        "id": 2,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 3,
+        "name": "Ovarian cancer (female organ cancer)"
+      },
+      {
+        "id": 4,
+        "name": "Pancreatic cancer (tumor)"
+      },
+      {
+        "id": 5,
+        "name": "Polycystic ovarian syndrome (PCOS, female hormonal disorders)"
+      }
+    ],
+    "id": 159,
+    "name": "Increased facial hair"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Blood loss"
+      },
+      {
+        "id": 1,
+        "name": "Dehydration"
+      },
+      {
+        "id": 2,
+        "name": "Diabetes (high blood sugar)"
+      },
+      {
+        "id": 3,
+        "name": "Diabetes insipidus (excessive water loss from the kidneys)"
+      },
+      {
+        "id": 4,
+        "name": "Gestational diabetes (diabetes during pregnancy)"
+      },
+      {
+        "id": 5,
+        "name": "Heat exhaustion"
+      },
+      {
+        "id": 6,
+        "name": "Medication reaction"
+      }
+    ],
+    "id": 160,
+    "name": "Increased thirst"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bladder infection (cystitis, UTI, urinary tract infection)"
+      },
+      {
+        "id": 1,
+        "name": "Diabetes (high blood sugar)"
+      },
+      {
+        "id": 2,
+        "name": "Diabetes insipidus (excessive water loss from the kidneys)"
+      },
+      {
+        "id": 3,
+        "name": "Gestational diabetes (diabetes during pregnancy)"
+      }
+    ],
+    "id": 161,
+    "name": "Increased urination (polyuria)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Anorexia (eating disorder)"
+      },
+      {
+        "id": 1,
+        "name": "Bulimia nervosa (binge eating, vomiting)"
+      },
+      {
+        "id": 2,
+        "name": "Caffeine use"
+      },
+      {
+        "id": 3,
+        "name": "Endometriosis (uterine tissue outside the uterus)"
+      },
+      {
+        "id": 4,
+        "name": "Fibroid (uterine muscle tumor)"
+      },
+      {
+        "id": 5,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 6,
+        "name": "Pelvic inflammatory disease (PID, female reproductive organ infection)"
+      },
+      {
+        "id": 7,
+        "name": "Polycystic ovarian syndrome (PCOS, female hormonal disorders)"
+      },
+      {
+        "id": 8,
+        "name": "Smoking (tobacco use disorder)"
+      },
+      {
+        "id": 9,
+        "name": "Stress"
+      }
+    ],
+    "id": 162,
+    "name": "Infertility (Female)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Amphetamine overdose"
+      },
+      {
+        "id": 1,
+        "name": "Anticholingeric overdose"
+      },
+      {
+        "id": 2,
+        "name": "Antidepressant overdose"
+      },
+      {
+        "id": 3,
+        "name": "Aspirin (salicylates) overdose"
+      },
+      {
+        "id": 4,
+        "name": "Benadryl (diphenhydramine) overdose"
+      },
+      {
+        "id": 5,
+        "name": "Benzodiazepine (Valium) overdose"
+      },
+      {
+        "id": 6,
+        "name": "Chlorine bleach ingestion"
+      },
+      {
+        "id": 7,
+        "name": "Narcotic (morphine, heroin) overdose"
+      },
+      {
+        "id": 8,
+        "name": "Nonsteriodal anti-inflammatory drug overdose (Motrin, Advil)"
+      },
+      {
+        "id": 9,
+        "name": "Rubbing (isopropyl alcohol overdose"
+      },
+      {
+        "id": 10,
+        "name": "Tylenol (acetaminophen) overdose"
+      },
+      {
+        "id": 11,
+        "name": "Unisom overdose (doxylamine overdose)"
+      }
+    ],
+    "id": 163,
+    "name": "Ingestion"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Anopheles mosquito bite"
+      },
+      {
+        "id": 1,
+        "name": "Ant bite"
+      },
+      {
+        "id": 2,
+        "name": "Bee sting (wasp sting)"
+      },
+      {
+        "id": 3,
+        "name": "Flea bite"
+      },
+      {
+        "id": 4,
+        "name": "Insect bite"
+      },
+      {
+        "id": 5,
+        "name": "Mosquito bite"
+      },
+      {
+        "id": 6,
+        "name": "Staphylococcus aureus (type of bacteria)"
+      },
+      {
+        "id": 7,
+        "name": "Tick bite"
+      },
+      {
+        "id": 8,
+        "name": "Uticaria (hives)"
+      }
+    ],
+    "id": 164,
+    "name": "Insect bite"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Anopheles mosquito bite"
+      },
+      {
+        "id": 1,
+        "name": "Ant bite"
+      },
+      {
+        "id": 2,
+        "name": "Bee sting (wasp sting)"
+      },
+      {
+        "id": 3,
+        "name": "Flea bite"
+      },
+      {
+        "id": 4,
+        "name": "Insect bite"
+      },
+      {
+        "id": 5,
+        "name": "Mosquito bite"
+      },
+      {
+        "id": 6,
+        "name": "Staphylococcus aureus (type of bacteria)"
+      },
+      {
+        "id": 7,
+        "name": "Tick bite"
+      },
+      {
+        "id": 8,
+        "name": "Uticaria (hives)"
+      }
+    ],
+    "id": 165,
+    "name": "Insect sting"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Insomnia (difficulty sleeping)"
+      },
+      {
+        "id": 1,
+        "name": "Caffeine use"
+      },
+      {
+        "id": 2,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 3,
+        "name": "Stress"
+      },
+      {
+        "id": 4,
+        "name": "Anxiety disorder (generalized anxiety disorder, GAD)"
+      }
+    ],
+    "id": 166,
+    "name": "Insomnia (Trouble sleeping)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Anorexia (eating disorder)"
+      },
+      {
+        "id": 1,
+        "name": "Birth control pill use"
+      },
+      {
+        "id": 2,
+        "name": "Bulimia nervosa (binge eating, vomiting)"
+      },
+      {
+        "id": 3,
+        "name": "Early menopause (premature ovarian failure)"
+      },
+      {
+        "id": 4,
+        "name": "Hypothyroidism (low thyroid hormone)"
+      },
+      {
+        "id": 5,
+        "name": "Malnutrition"
+      },
+      {
+        "id": 6,
+        "name": "Mayer Rokitansky Kuster Hauser syndrome (MRKH, inherited vaginal abnormality"
+      },
+      {
+        "id": 7,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 8,
+        "name": "Menopause (end of mensutraution and fertility)"
+      },
+      {
+        "id": 9,
+        "name": "Obesity"
+      },
+      {
+        "id": 10,
+        "name": "Polycystic ovarian syndrome (PCOS, female hormonal disorders)"
+      },
+      {
+        "id": 11,
+        "name": "Pregnancy"
+      },
+      {
+        "id": 12,
+        "name": "Stress"
+      }
+    ],
+    "id": 167,
+    "name": "Irregular periods (irregular menses)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic conjunctivitis (allergic reaction in the eye"
+      },
+      {
+        "id": 1,
+        "name": "Behcets disease (small blood vessel inflammation disorder)"
+      },
+      {
+        "id": 2,
+        "name": "Conjunctivitis (pink eye)"
+      },
+      {
+        "id": 3,
+        "name": "Corneal abrasion (scrape on eye)"
+      },
+      {
+        "id": 4,
+        "name": "Corneal foreign body (object in the eye)"
+      },
+      {
+        "id": 5,
+        "name": "Corneal ulcer"
+      },
+      {
+        "id": 6,
+        "name": "Hordeolum (stye of eye)"
+      },
+      {
+        "id": 7,
+        "name": "Hyphema (traumatic blood in eye)"
+      },
+      {
+        "id": 8,
+        "name": "Migraine (type of headache)"
+      },
+      {
+        "id": 9,
+        "name": "Periorbital cellulitis (infection around eye)"
+      },
+      {
+        "id": 10,
+        "name": "Sinusitis (sinus infection)"
+      },
+      {
+        "id": 11,
+        "name": "Uveitis (iritis, eye inflammation)"
+      }
+    ],
+    "id": 168,
+    "name": "Irritated eyes"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 1,
+        "name": "Athlete's foot (tinea pedis)"
+      },
+      {
+        "id": 2,
+        "name": "Bed Bugs"
+      },
+      {
+        "id": 3,
+        "name": "Bee sting (wasp sting)"
+      },
+      {
+        "id": 4,
+        "name": "Body lice"
+      },
+      {
+        "id": 5,
+        "name": "Contact dermatitis (contact skin irritation)"
+      },
+      {
+        "id": 6,
+        "name": "Insect bite"
+      },
+      {
+        "id": 7,
+        "name": "Medication reaction"
+      },
+      {
+        "id": 8,
+        "name": "Mosquito bite"
+      },
+      {
+        "id": 9,
+        "name": "Poison ivy (poison oak, poison sumac)"
+      },
+      {
+        "id": 10,
+        "name": "Scabies (skin disease caused by mites)"
+      }
+    ],
+    "id": 169,
+    "name": "Itching feet"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic conjunctivitis (allergic reaction in the eye"
+      },
+      {
+        "id": 1,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 2,
+        "name": "Conjunctivitis (pink eye)"
+      }
+    ],
+    "id": 170,
+    "name": "Itchy eyes"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Allergic reaction"
+      },
+      {
+        "id": 1,
+        "name": "Anaphlactoid reactions (pseudo allergic reaction)"
+      },
+      {
+        "id": 2,
+        "name": "Atopic dermatitis (eczema)"
+      },
+      {
+        "id": 3,
+        "name": "Body lice"
+      },
+      {
+        "id": 4,
+        "name": "Contact urticaria (hives)"
+      },
+      {
+        "id": 5,
+        "name": "Flea bite"
+      },
+      {
+        "id": 6,
+        "name": "Folliculitis (hair follicle infection)"
+      },
+      {
+        "id": 7,
+        "name": "Fungal infections"
+      },
+      {
+        "id": 8,
+        "name": "Head lice"
+      },
+      {
+        "id": 9,
+        "name": "Hot tub follicullitis (hair follicle infection)"
+      },
+      {
+        "id": 10,
+        "name": "Mastocytosis (urticaria pigmentosa, skin disease)"
+      },
+      {
+        "id": 11,
+        "name": "Pityriasis rosea (inflammatory skin rash)"
+      },
+      {
+        "id": 12,
+        "name": "Pubic lice"
+      },
+      {
+        "id": 13,
+        "name": "Ringworm of the body (tinea corporis)"
+      },
+      {
+        "id": 14,
+        "name": "Ringworm of the scalp (tinea capitis)"
+      },
+      {
+        "id": 15,
+        "name": "Scabies (skin disease caused by mites)"
+      },
+      {
+        "id": 16,
+        "name": "Swimmer's itch (cercarial dermatitis)"
+      }
+    ],
+    "id": 171,
+    "name": "Itchy rash (Pruritic rash)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Alcoholism"
+      },
+      {
+        "id": 1,
+        "name": "Autoimmune disease"
+      },
+      {
+        "id": 2,
+        "name": "Cholecystitis (inflammation of the gall bladder)"
+      },
+      {
+        "id": 3,
+        "name": "Cholelithiasis (gallstones)"
+      },
+      {
+        "id": 4,
+        "name": "Cirrhosis (liver failure and scarring)"
+      },
+      {
+        "id": 5,
+        "name": "Gilbert's disease (liver abnormality)"
+      },
+      {
+        "id": 6,
+        "name": "Hemochromatosis (excessive iron disorder)"
+      },
+      {
+        "id": 7,
+        "name": "Hepatitis (liver inflammation)"
+      },
+      {
+        "id": 8,
+        "name": "Hepatitis A"
+      }
+    ],
+    "id": 172,
+    "name": "Jaundice (Yellow skin)"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bruxism (teeth grinding)"
+      },
+      {
+        "id": 1,
+        "name": "Dental abscess (tooth infection)"
+      },
+      {
+        "id": 2,
+        "name": "Dental caries (cavities)"
+      },
+      {
+        "id": 3,
+        "name": "Mouth trauma (injury)"
+      },
+      {
+        "id": 4,
+        "name": "Myocardial infarction (heart attack)"
+      },
+      {
+        "id": 5,
+        "name": "Parotitis (salvivary gland inflammation)"
+      },
+      {
+        "id": 6,
+        "name": "Temporo mandibular joint syndrome"
+      },
+      {
+        "id": 7,
+        "name": "Trigeminal neuralgia (facial nerve pain)"
+      }
+    ],
+    "id": 173,
+    "name": "Jaw pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bursitis (inflammation of joint cushion)"
+      },
+      {
+        "id": 1,
+        "name": "Fracture (broken bone)"
+      },
+      {
+        "id": 2,
+        "name": "Gout (uric acid crystals in the joint causing inflammation)"
+      },
+      {
+        "id": 3,
+        "name": "Ligament sprain (connective tissue between two bones)"
+      },
+      {
+        "id": 4,
+        "name": "Ligament tear"
+      },
+      {
+        "id": 5,
+        "name": "Osteoarthritis (bone inflammation)"
+      },
+      {
+        "id": 6,
+        "name": "Overuse syndrome (injury from repetitive activity)"
+      },
+      {
+        "id": 7,
+        "name": "Pseudogout (calcium deposit arthritis)"
+      },
+      {
+        "id": 8,
+        "name": "Rheumatoid arthritis (type of chronic joint inflammation)"
+      },
+      {
+        "id": 9,
+        "name": "Subluxation"
+      },
+      {
+        "id": 10,
+        "name": "Tendonitis (tendon inflammation)"
+      }
+    ],
+    "id": 174,
+    "name": "Joint pain"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Bursitis (inflammation of joint cushion)"
+      },
+      {
+        "id": 1,
+        "name": "Gout (uric acid crystals in the joint causing inflammation)"
+      },
+      {
+        "id": 2,
+        "name": "Influenza (seasonal flu)"
+      },
+      {
+        "id": 3,
+        "name": "Osteoarthritis (bone inflammation)"
+      },
+      {
+        "id": 4,
+        "name": "Overuse syndrome (injury from repetitive activity)"
+      },
+      {
+        "id": 5,
+        "name": "Pseudogout (calcium deposit arthritis)"
+      },
+      {
+        "id": 6,
+        "name": "Rheumatoid arthritis (type of chronic joint inflammation)"
+      },
+      {
+        "id": 7,
+        "name": "Tendonitis (tendon inflammation)"
+      }
+    ],
+    "id": 175,
+    "name": "Joint stiffness"
+  },
+  {
+    "symptoms": [
+      {
+        "id": 0,
+        "name": "Kidney stone (nephrolithiasis)"
+      },
+      {
+        "id": 1,
+        "name": "Bladder infection (cystitis, UTI, urinary tract infection)"
+      },
+      {
+        "id": 2,
+        "name": "Muscle strain (pulled muscle)"
+      },
+      {
+        "id": 3,
+        "name": "Back trauma (injury)"
+      },
+      {
+        "id": 4,
+        "name": "Hydronephrosis"
+      }
+    ],
+    "id": 176,
+    "name": "Kidney pain (Flank pain)"
+  }
+]
