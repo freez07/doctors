@@ -26,7 +26,13 @@
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
-
+	<style>
+	.bg-4 {
+		background: url("../img/bg/bg-4.jpg") repeat scroll center transparent;
+		min-height: 625px;
+		position: relative;
+	}
+	</style>
 </head>
 <body>
 	<!-- Top Bar -->
@@ -58,48 +64,51 @@
 	<!-- End Top Bar -->
 
 	<!-- Header & navbar-->
-	<header >
+	<header>
 		<nav class="navbar">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand logo-nav" href="index.html"><img src="img/logo.png" alt="//"></a>
-			</div><!-- /.nav-header -->
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand logo-nav" href="index.html"><img src="img/logo.png" alt="idoctory.com"></a>
+				</div><!-- /.nav-header -->
 
-			<div class="collapse navbar-collapse navbar-collapse navbar-right">
-				<ul class="nav navbar-nav">
-					<li><a href="index.html">Home</a></li>
+				<div class="collapse navbar-collapse navbar-collapse navbar-right">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="index.html">Home</a></li>
 					<li><a href="doctors.html">Our Doctors</a></li>
-					<li>
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
-						<ul class="dropdown-menu" role="menu">
-							<li><a href="shortcodes.html">Shortcodes</a></li>
-							<li><a href="about-us.html">About Us</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="single-doctor.html">Doctor Profile Page</a></li>
-							<li><a href="news.html">Blog Post</a></li>
-							<li><a href="news-single-post.html">Single Blog Post</a></li>
-							<li><a href="shop-grid.html">Shop Grid</a></li>
-							<li><a href="shop-list.html">Shop List</a></li>
-							<li><a href="shop-single.html">Shop Single</a></li>
-							<li><a href="shop-cart.html">Shop Cart</a></li>
-							<li><a href="typography.html">Typography</a></li>
-							<li><a href="contact-map-right.html">Contact Map Right</a></li>
-							<li><a href="error-404.html">Error 404</a></li>
+						<li><a href="simptoms.html">Simptoms</a></li>
+						<li><a href="listing.html">KNOW YOUR SPECIALITY?</a></li>
+						<!--<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="shortcodes.html">Shortcodes</a></li>
+								<li><a href="about-us.html">About Us</a></li>
+								<li><a href="gallery.html">Gallery</a></li>
+								<li><a href="single-doctor.html">Doctor Profile Page</a></li>
+								<li><a href="news.html">Blog Post</a></li>
+								<li><a href="news-single-post.html">Single Blog Post</a></li>
+								<li><a href="shop-grid.html">Shop Grid</a></li>
+								<li><a href="shop-list.html">Shop List</a></li>
+								<li><a href="shop-single.html">Shop Single</a></li>
+								<li><a href="shop-cart.html">Shop Cart</a></li>
+								<li><a href="typography.html">Typography</a></li>
+								<li><a href="contact-map-right.html">Contact Map Right</a></li>
+								<li><a href="error-404.html">Error 404</a></li>
 							</ul>
-						</li>
+						</li>-->
 						<li><a href="appointment.html">Appointment</a></li>
-						<li><a href="timetable.html">Timetable</a></li>
-						<li><a href="events.html">Events</a></li>
-						<li><a href="contact.html">Contact</a></li>
-				</ul>
+					<!--	<li><a href="timetable.html">Timetable</a></li>-->
+						<li><a href="events.html">Blog</a></li>
+						<li><a href="contact.html">Contact US</a></li>
+
+					</ul>
+				</div>
 			</div>
-		</div>
 		</nav>
 	</header>
 	<!-- End Header & Nav-->
@@ -112,7 +121,72 @@
 		</div>
 	</div>
 	<!-- End Page Titles -->
+	<div class="doccontent">
+	<div class="doctors-list">
+	<div class="doctors-list-item">
+	<div class="docshortdesc">
+							<div class="name">
+								<h6>Mike Smithson</h6>
+								<strong>Oncology</strong>
+								<figure><img class="docfoto" src="img/doctors/doc01.jpg" alt="//"></figure>
+							</div>
+							
+							<div class="icon-content">
+							<div class="stars-block">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							</div>
+								<ul class="icon-item">
+									<li><i class="fa fa-medkit"></i>Doctor</li>
+									<li><i class="fa fa-stethoscope"></i>Cardiac</li>
+									<li><i class="fa fa-user-md"></i>Pediatric</li>
+								</ul>
+							</div>
+		</div>
+			<div class="docscils">
+	<h4>Alex Monett</h4>
+								<span>Outpatient Surgery</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam non obcaecati quas magnam id odio maxime pariatur voluptate porro architecto, sint rem velit aperiam veritatis ducimus neque quae, in quibusdam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+								<div class="horizontal-bar">
+								<p>Cardiac Clinic</p>
+								<div class="content-bar">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width: 77%;">
+											<span>77%</span>
+										</div>
+									</div>
+								</div>
 
+								<p>Pediatric Clinic</p>
+								<div class="content-bar">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;">
+											<span>98%</span>
+										</div>
+									</div>
+								</div>
+
+								<p>Dental Clinic</p>
+								<div class="content-bar">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 87%;">
+											<span>87%</span>
+										</div>
+									</div>
+								</div>
+							</div>
+	</div>
+	
+	</div>	
+	
+
+	</div>
+	<div class="gmap">
+	</div>
+	</div>
 	<!-- Appointment -->
 	<section class="generic appointment bg-4 animated fadeInUp">
 		<div class="container">
@@ -124,10 +198,10 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-5">
+				<div class="col-md-5" id="appform">
 					<div class="ct-form clearfix">
-						<h6>Complete the form</h6>
-						<p>Pellentesque consequat consequat eros non tincidunt pellentesque vitae tempor massa morbi volutpat lorem non mattis morbi felis mauris, eu congue arcu molestie malesua </p>
+						<h6>Contact Information</h6>
+						
                         <form id="request" action="request-form.php" method="post" accept-charset="utf-8">
 							<div class="row">
 								<div class="col-sm-12">
@@ -136,8 +210,89 @@
 										<i class="fa fa-user"><input type="text" class="form-control" placeholder="Name and Lastname" name="name"/></i>
 									</div>
 									<div class="form-group">
-										<label for="phone" class="sr-only">Phone number</label>
-										<i class="glyphicon glyphicon-erase"><input type="text" class="form-control" placeholder="Contact number" name="phone"/></i>
+										<label for="dif-name" class="sr-only">Contact Name</label>
+										<i class="fa fa-user"><input type="text" class="form-control" placeholder="Contact Name (if different than patient name)" name="dif-name"/></i>
+									</div>
+									<div class="form-group">
+										<label for="address" class="sr-only">Address*:</label>
+										<i class="fa fa-home"><input type="text" class="form-control" placeholder="Address*" name="address"/></i>
+									</div>
+									<div class="form-group">
+										<label for="city" class="sr-only">City*</label>
+										<i class="fa fa-home"><input type="text" class="form-control" placeholder="City*" name="city"/></i>
+									</div>
+									<div class="form-group">
+										<label for="state" class="sr-only">State*</label>
+										<i class="fa fa-home"><input type="text" class="form-control" placeholder="State*" name="state"/></i>
+									</div>
+									<div class="form-group">
+										<label for="zip" class="sr-only">Zip Code*</label>
+										<i class="fa fa-envelope"><input type="text" class="form-control" placeholder="Zip Code*" name="zip"/></i>
+									</div>
+									<div class="form-group">
+										<label for="phone" class="sr-only">Telephone*</label>
+										<i class="glyphicon glyphicon-erase"><input type="text" class="form-control" placeholder="Telephone*" name="phone"/></i>
+									</div>
+									<div class="form-group">
+										<label for="email" class="sr-only">Email Address</label>
+										<i class="fa fa-envelope"><input type="text" class="form-control" placeholder="Email Address" name="email"/></i>
+									</div>
+									<h6>Insurance Information</h6>
+									<p>Primary Health Insurance</p>
+									<div class="form-group">
+										<label for="prime-ins-name" class="sr-only">Name</label>
+										<i class="fa fa-user"><input type="text" class="form-control" placeholder="Name" name="prime-ins-name"/></i>
+									</div>
+									<p>(Please specify Other)</p>
+									<p>Primary Health Insurance</p>
+									<div class="form-group">
+										<label for="ins-tupe" class="sr-only">Type</label>
+										<i class="fa fa-certificate"><input type="text" class="form-control" placeholder="Type" name="ins-tupe"/></i>
+									</div>
+									<div class="form-group">
+										<label for="ins-policy" class="sr-only">Policy #</label>
+										<i class="fa fa-certificate"><input type="text" class="form-control" placeholder="Policy #" name="ins-policy"/></i>
+									</div>
+									<div class="form-group">
+										<label for="ins-group" class="sr-only">Group #</label>
+										<i class="fa fa-certificate"><input type="text" class="form-control" placeholder="Group #" name="ins-group"/></i>
+									</div>
+									<div class="form-group">
+										<label for="prime-hold-fname" class="sr-only">Primary Holder First Name</label>
+										<i class="fa fa-user"><input type="text" class="form-control" placeholder="Primary Holder First Name" name="prime-hold-fname"/></i>
+									</div>
+									<div class="form-group">
+										<label for="prime-hold-mname" class="sr-only">Primary Holder Middle Name</label>
+										<i class="fa fa-user"><input type="text" class="form-control" placeholder="Primary Holder Middle Name" name="prime-hold-mname"/></i>
+									</div>
+									<div class="form-group">
+										<label for="prime-hold-lname" class="sr-only">Primary Holder Last Name</label>
+										<i class="fa fa-user"><input type="text" class="form-control" placeholder="Primary Holder Last Name" name="prime-hold-lname"/></i>
+									</div>
+									<div class="form-group">
+										<label for="prime-hold-name" class="sr-only">Primary Holder Name</label>
+										<i class="fa fa-user"><input type="text" class="form-control" placeholder="Primary Holder Name" name="prime-hold-name"/></i>
+									</div>
+									<div class="form-group">
+										<label for="prime-ins-phone" class="sr-only">Insurance Claim Phone #</label>
+										<i class="glyphicon glyphicon-erase"><input type="text" class="form-control" placeholder="Insurance Claim Phone #" name="prime-ins-phone"/></i>
+									</div>
+									<p>Secondary Health Insurance</p>
+									<div class="form-group">
+										<label for="sec-ins-tupe" class="sr-only">Type (if any)</label>
+										<i class="fa fa-certificate"><input type="text" class="form-control" placeholder="Type (if any)" name="sec-ins-tupe"/></i>
+									</div>
+									<div class="form-group">
+										<label for="sec-ins-policy" class="sr-only">Policy #</label>
+										<i class="fa fa-certificate"><input type="text" class="form-control" placeholder="Policy #" name="sec-ins-policy"/></i>
+									</div>
+									<div class="form-group">
+										<label for="sec-ins-group" class="sr-only">Group #</label>
+										<i class="fa fa-certificate"><input type="text" class="form-control" placeholder="Group #" name="sec-ins-group"/></i>
+									</div>
+									<div class="form-group">
+										<label for="sec-ins-phone" class="sr-only">Insurance Claim Phone #</label>
+										<i class="glyphicon glyphicon-erase"><input type="text" class="form-control" placeholder="Insurance Claim Phone #" name="sec-ins-phone"/></i>
 									</div>
 								</div>
 							</div>
@@ -175,9 +330,9 @@
 						</form>
 					</div>
 				</div>
-				<div class="col-sm-7 hidden-xs">
+				<div class="col-sm-7 hidden-xs" >
 					<figure class="animated fadeInUpBig" data-animation="fadeInUpBig" data-animation-delay="400">
-						<img src="img/person.png" alt="//">
+						<img id="girl" src="img/person.png" alt="//">
 					</figure>
 				</div>
 			</div>
@@ -185,107 +340,7 @@
 	</section>
 	<!-- End Appointment -->
 
-	<!-- Faq -->
-	<section class="generic faq">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="section-title">
-						<h3>Frequently Asked Questions</h3>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 hidden-xs">
-					<figure class="img-faq">
-						<img src="img/img-view.png" alt="//" />
-					</figure>
-				</div>
-				<div class="col-sm-6">
-					<div class="panel-group" id="accordion-work">
-						<div class="panel">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-work" href="#collapseService">
-										<i class="fa fa-angle-down"></i>Same Day Appointments
-									</a>
-								</h4>
-							</div>
-							<div id="collapseService" class="panel-collapse collapse in">
-								<div class="panel-body">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime <br>
-									itaque accusantium reiciendis possimus nam, error molestias consectetur quibusdam, obcaecati dolorum aliquam numquam velit!</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-work" href="#collapseIntegrity">
-										<i class="fa fa-angle-down"></i>Extended Hours of Operation
-									</a>
-								</h4>
-							</div>
-							<div id="collapseIntegrity" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime <br>
-									itaque accusantium reiciendis possimus nam, error molestias consectetur quibusdam, obcaecati dolorum aliquam numquam velit!</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-work" href="#collapseBest">
-										<i class="fa fa-angle-down"></i>Insurances Accepted
-									</a>
-								</h4>
-							</div>
-							<div id="collapseBest" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime <br>
-									itaque accusantium reiciendis possimus nam, error molestias consectetur quibusdam, obcaecati dolorum aliquam numquam velit!</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel">
-							<div class="panel-heading">
-								<h4 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-work" href="#collapseOther">
-										<i class="fa fa-angle-down"></i>Extended Hours of Operation
-									</a>
-								</h4>
-							</div>
-							<div id="collapseOther" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime <br>
-									itaque accusantium reiciendis possimus nam, error molestias consectetur quibusdam, obcaecati dolorum aliquam numquam velit!</p>
-								</div>
-							</div>
-						</div>
-						<div class="panel">
-							<div class="panel-heading">
-								<h3 class="panel-title">
-									<a data-toggle="collapse" data-parent="#accordion-work" href="#collapseFive">
-										<i class="fa fa-angle-down"></i>Extended Hours of Operation
-									</a>
-								</h3>
-							</div>
-							<div id="collapseFive" class="panel-collapse collapse">
-								<div class="panel-body">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime <br>
-									itaque accusantium reiciendis possimus nam, error molestias consectetur quibusdam, obcaecati dolorum aliquam numquam velit!</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Faq -->
-
-    <!-- Newsletter -->
+	<!-- Newsletter -->
 	<section class="generic newsletter bg-5">
 		<div class="container">
 			<div class="row">
@@ -425,7 +480,8 @@
 
 	<!-- Calendar -->
 	<script src="js/vendors/jquery-ui-1.10.3.custom.js"></script>
-
+	<!-- Girl Scroll -->
+	<script src="js/girlscroll.js" ></script>
 	<!-- Gmaps -->
 	<script src="http://maps.google.com/maps/api/js?sensor=true" ></script>
 	<script src="js/vendors/gmaps.js" ></script>

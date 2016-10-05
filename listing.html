@@ -6,6 +6,26 @@
 
     <!-- Page Title -->
     <title>Doctor - Home Healt Center </title>
+<!-- jQuery -->
+	<script src="js/vendors/jquery/jquery-1.11.3.min.js" ></script>
+
+	<!-- Bootstrap-->
+	<script src="js/vendors/bootstrap.min.js" ></script>
+
+	<!-- Nav -->
+	<script src="js/vendors/jquery/jquery.nav.js" ></script>
+
+	<!-- Owl Carousel -->
+	<script src="js/vendors/owl.carousel.min.js" ></script>
+
+	<!-- Calendar -->
+	<script src="js/vendors/jquery-ui-1.10.3.custom.js"></script>
+
+	<!-- Easy Chart -->
+    <script src="js/vendors/jquery/jquery.easy-pie-chart.js" ></script>
+
+	<!--Twitter Feed-->
+	<script src="js/vendors/twitter/jquery.tweet.min.js"></script>
 
     <!-- Responsive Metatag -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -22,68 +42,16 @@
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
-
+		<script src="js/listingdropdovn.js" ></script>	
+		<script src="js/showmap.js" ></script>	
 	<!-- Media queries -->
 	<!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
-
-</head>
+ 
+ </head>
 <body>
-<!-- Login modal form -->
-			<div class="loginformbg">
-				<div class="col-md-4 loginformdiv">
-					<span id="closelogform"></span>
-					<div class="ct-form clearfix">
-						<h6 class="logintitle">Please enter you login and password</h6>
-						<form id="login-form" action="contact-form.php" method="post" accept-charset="utf-8">
-							<div class="row">
-								<div class="col-sm-12">
-									<div class="form-group">
-										<label for="name" class="sr-only">Login</label>
-										<i class="glyphicon glyphicon-user"><input type="text" class="form-control" placeholder="Login" name="login"/></i>
-									</div>
-									<div class="form-group">
-										<label for="email" class="sr-only">Password</label>
-										<i class="glyphicon glyphicon-erase"><input type="password" class="form-control" placeholder="Password" name="password"/></i>
-									</div>
-								</div>
-							</div>
-							<input type="submit" class="loginbtn btn btn-default btn-color-border-solid" value="LOGIN">
-						</form>
-					</div>
-				</div>
-			</div>
-<!-- end Login modal form -->
-	<!-- Top Bar -->
-	<div class="top-bar">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-7">
-					<ul class="nav nav-pills">
-						<li><span id="login">Login</span></li>
-						<li><a href="registration.html">Register</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown"><img src="img/icons/en.gif" alt="en"> English <b class="caret"></b></a>
-							<ul class="dropdown-menu">
-								<li><a href="#"><img src="img/icons/fr.gif" alt="fr"> French</a></li>
-								<li><a href="#"><img src="img/icons/it.gif" alt="it"> Italian</a></li>
-								<li><a href="#"><img src="img/icons/es.gif" alt="es"> Spanish</a></li>
-								<li><a href="#"><img src="img/icons/in.gif" alt="in"> Indian</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-				<div class="col-sm-5 text-right">
-					<!-- <p class="left"><i class="fa fa-calendar-o"></i> Monday to Saturday - 8am to 9pm</p> -->
-					<p class="right"><i class="glyphicon glyphicon-phone"></i> Contact : +1-800-654-3210</p>
-				</div>
-			</div><!-- /.row -->
-		</div><!-- /.top-bar -->
-	</div>
-	<!-- End Top Bar -->
-
-	<!-- Header & navbar-->
+<!-- Header & navbar-->
 	<header>
 		<nav class="navbar">
 			<div class="container">
@@ -123,7 +91,7 @@
 						</li>-->
 						<li><a href="appointment.html">Appointment</a></li>
 					<!--	<li><a href="timetable.html">Timetable</a></li>-->
-						<li><a href="news.html">Blog</a></li>
+						<li><a href="events.html">Blog</a></li>
 						<li><a href="contact.html">Contact US</a></li>
 
 					</ul>
@@ -132,8 +100,24 @@
 		</nav>
 	</header>
 	<!-- End Header & Nav-->
-<!-- search block -->
-	<div class="js-search-criteria-primary-scroll-container ch-search-criteria-primary-scroll-container sg-yellow-bg " data-test="mainSearchCriteria">
+<style>
+*, :after, :before {
+    -moz-box-sizing: border-box;
+    box-sizing: content-box;
+}
+span.js-search-criteria-secondary-title {
+    font-size: 16px;
+}
+</style>
+<div class="modal-wrapper">
+
+<div class="gmap-layer">
+<span id="closemap"></span>
+<img class="gmap" src="/img/gmap.png">
+</div>
+</div>
+
+<div class="js-search-criteria-primary-scroll-container ch-search-criteria-primary-scroll-container sg-yellow-bg " data-test="mainSearchCriteria">
 
 
     <div class="js-search-criteria-primary ch-search-criteria-primary-section sg-row" data-test="mainFiltersWrapper">
@@ -2698,677 +2682,599 @@
     </div>
 
             </div>
-	<!-- End search block -->
-	<!-- Revolution Slider -->
-	<section class="slider">
-		<div class="tp-banner-container">
-			<div class="tp-banner2" >
-				<ul>
-					<!-- Slider 1 -->
-					<li data-transition="zoomout" data-slotamount="5" data-masterspeed="1200" data-saveperformance="off"  data-title="Intro Slide">
-						<!-- MAIN IMAGE -->
-						<img src="img/rev-slider/dummy.png"  alt="slidebg1" data-lazyload="img/rev-slider/background1.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-						<!-- LAYERS -->
+<div class="js-search-header-scroll-content" data-test="searchHeaderScrollContent">
 
-						<!-- LAYER NR. 1 -->
-						<div class="tp-caption black_bold_bg_20 skewfromright randomrotateout tp-resizeme rs-parallaxlevel-10"
-							data-x="-2"
-							data-y="160"
-							data-speed="1000"
-							data-start="1100"
-							data-easing="Power3.easeInOut"
-							data-splitin="none"
-							data-splitout="none"
-							data-elementdelay="0.1"
-							data-endelementdelay="0.1"
-							data-end="10700"
-							data-endspeed="1000"
-							style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><i class="icon-right-circled"></i> Fast & Friendly Family Urgent
-						</div>
 
-						<!-- LAYER NR. 2 -->
-						<div class="tp-caption black_bold_bg_20 light skewfromright randomrotateout tp-resizeme rs-parallaxlevel-10"
-							data-x="-2"
-							data-y="200"
-							data-speed="1000"
-							data-start="1200"
-							data-easing="Power3.easeInOut"
-							data-splitin="none"
-							data-splitout="none"
-							data-elementdelay="0.1"
-							data-endelementdelay="0.1"
-							data-end="10800"
-							data-endspeed="1000"
-							style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><i class="icon-right-circled"></i> Care Health Center int NYC
-						</div>
-						<!-- LAYER NR. 3 -->
-						<div class="tp-caption green_bold_bg_20 skewfromright randomrotateout tp-resizeme rs-parallaxlevel-10"
-							data-x="-2"
-							data-y="240"
-							data-speed="1000"
-							data-start="1300"
-							data-easing="Power3.easeInOut"
-							data-splitin="none"
-							data-splitout="none"
-							data-elementdelay="0.1"
-							data-endelementdelay="0.1"
-							data-end="10900"
-							data-endspeed="1000"
-							style="z-index: 15; max-width: auto; max-height: auto; white-space: nowrap;"><a href="#" class="btn btn-default btn-color-border-solid"> Get Startded </a>
-						</div>
-					</li>
 
-					<!-- Slider 2 -->
-					<li data-transition="zoomout" data-slotamount="5" data-masterspeed="1200" data-saveperformance="off"  data-title="Intro Slide">
-						<!-- MAIN IMAGE -->
-						<img src="img/rev-slider/dummy.png"  alt="slidebg1" data-lazyload="img/rev-slider/background2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-						<!-- LAYERS -->
+                        <div class="sg-row bg-gray">
 
-						<!-- LAYER NR. 1 -->
-						<div class="tp-caption black_bold_bg_20 skewfromright randomrotateout tp-resizeme rs-parallaxlevel-10"
-							data-x="-2"
-							data-y="160"
-							data-speed="1000"
-							data-start="1100"
-							data-easing="Power3.easeInOut"
-							data-splitin="none"
-							data-splitout="none"
-							data-elementdelay="0.1"
-							data-endelementdelay="0.1"
-							data-end="10700"
-							data-endspeed="1000"
-							style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><i class="icon-right-circled"></i>Fast & Friendly Family Urgent
-						</div>
+<div class="js-search-criteria-secondary sg-columns sg-small-17 small-offset">
+    <div class="js-search-critera-secondary-section-1 ch-search-critera-secondary-section-1 sg-row">
+        <div class="ch-header-input-float">
+            <div class="ch-procedure-dropdown-spacer ch-secondary-header-input-spacer ">
+                <div class="sg-select js-search-procedure-select sg-fluid" data-parent="#dr_specialty" data-test="reasonToVisitDropdown" tabindex="103"><span>Illness</span><select id="reason_visit" name="reason_visit"><option class="parent-153" selected="selected" value="75">Illness</option><option class="parent-153" value="83">General Consultation</option><option class="parent-153" value="1309">General Follow Up</option><option class="parent-153" value="130">Annual Pap Smear / GYN Exam</option><option class="parent-153" value="76">Annual Physical</option><option class="parent-153" value="194">Cardiovascular Screening Visit</option><option class="parent-153" value="134">Flu Shot</option><option class="parent-153" value="2620">Hospital Discharge/Follow Up</option><option class="parent-153" value="2551">New Patient Visit</option><option class="parent-153" value="509">Pre-Surgery Checkup</option><option class="parent-153" value="78">Pre-Travel Checkup</option><option class="parent-153" value="77">Prescription / Refill</option><option class="parent-153" value="150">STD (Sexually Transmitted Disease)</option><option class="parent-153" value="2641">Welcome to Medicare Physical</option><option class="parent-153" value="2642">Yearly Wellness Visit (For Medicare Patients)</option></select></div>
+            </div>
+        </div>
 
-						<!-- LAYER NR. 2 -->
-						<div class="tp-caption black_bold_bg_20 light skewfromright randomrotateout tp-resizeme rs-parallaxlevel-10"
-							data-x="-2"
-							data-y="200"
-							data-speed="1000"
-							data-start="1200"
-							data-easing="Power3.easeInOut"
-							data-splitin="none"
-							data-splitout="none"
-							data-elementdelay="0.1"
-							data-endelementdelay="0.1"
-							data-end="10800"
-							data-endspeed="1000"
-							style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><i class="icon-right-circled"></i>Care Health Center int NYC
-						</div>
-						<!-- LAYER NR. 3 -->
-						<div class="tp-caption green_bold_bg_20 skewfromright randomrotateout tp-resizeme rs-parallaxlevel-10"
-							data-x="-2"
-							data-y="240"
-							data-speed="1000"
-							data-start="1300"
-							data-easing="Power3.easeInOut"
-							data-splitin="none"
-							data-splitout="none"
-							data-elementdelay="0.1"
-							data-endelementdelay="0.1"
-							data-end="10900"
-							data-endspeed="1000"
-							style="z-index: 15; max-width: auto; max-height: auto; white-space: nowrap;"><a href="#" class="btn btn-default btn-color-border-solid">Get Startded</a>
-						</div>
-					</li>
+        <div class="ch-header-input-float ">
+            <div class="ch-gender-pushbuttons-spacer ch-secondary-header-input-spacer">
+                <div class="js-genderFilterGroup  sg-radio-push-button-group sg-radio-push-button-group-small sg-radio-push-button-group-3 ">
+                    <input type="radio" checked="checked" id="rdoGenderAny" name="gender" value="-1" class="js-genderFilter">
+                    <label class="sg-btn-small -radio-label-checked" for="rdoGenderAny">Any Gender</label>
 
-					<!-- Slider 3 -->
-					<li data-transition="zoomout" data-slotamount="5" data-masterspeed="1200" data-saveperformance="off"  data-title="Intro Slide">
-						<!-- MAIN IMAGE -->
-						<img src="img/rev-slider/dummy.png"  alt="slidebg1" data-lazyload="img/rev-slider/background3.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
-						<!-- LAYERS -->
+                    <input type="radio" id="rdoGenderMale" name="gender" value="1" class="js-genderFilter">
+                    <label class="sg-btn-small" for="rdoGenderMale">Male</label>
 
-						<!-- LAYER NR. 1 -->
-						<div class="tp-caption black_bold_bg_20 skewfromright randomrotateout tp-resizeme rs-parallaxlevel-10"
-							data-x="-2"
-							data-y="160"
-							data-speed="1000"
-							data-start="1100"
-							data-easing="Power3.easeInOut"
-							data-splitin="none"
-							data-splitout="none"
-							data-elementdelay="0.1"
-							data-endelementdelay="0.1"
-							data-end="10700"
-							data-endspeed="1000"
-							style="z-index: 11; max-width: auto; max-height: auto; white-space: nowrap;"><i class="icon-right-circled"></i>Fast & Friendly Family Urgent
-						</div>
+                    <input type="radio" id="rdoGenderFemale" name="gender" value="2" class="js-genderFilter">
+                    <label class="sg-btn-small" for="rdoGenderFemale">Female</label>
+                </div>
+            </div>
+        </div>
 
-						<!-- LAYER NR. 2 -->
-						<div class="tp-caption black_bold_bg_20 light skewfromright randomrotateout tp-resizeme rs-parallaxlevel-10"
-							data-x="-2"
-							data-y="200"
-							data-speed="1000"
-							data-start="1200"
-							data-easing="Power3.easeInOut"
-							data-splitin="none"
-							data-splitout="none"
-							data-elementdelay="0.1"
-							data-endelementdelay="0.1"
-							data-end="10800"
-							data-endspeed="1000"
-							style="z-index: 12; max-width: auto; max-height: auto; white-space: nowrap;"><i class="icon-right-circled"></i>Care Health Center int NYC
-						</div>
-						<!-- LAYER NR. 3 -->
-						<div class="tp-caption green_bold_bg_20 skewfromright randomrotateout tp-resizeme rs-parallaxlevel-10"
-							data-x="-2"
-							data-y="240"
-							data-speed="1000"
-							data-start="1300"
-							data-easing="Power3.easeInOut"
-							data-splitin="none"
-							data-splitout="none"
-							data-elementdelay="0.1"
-							data-endelementdelay="0.1"
-							data-end="10900"
-							data-endspeed="1000"
-							style="z-index: 15; max-width: auto; max-height: auto; white-space: nowrap;"><a href="#" class="btn btn-default btn-color-border-solid">Get Startded</a>
-						</div>
-					</li>
+        <div class="ch-header-input-float ">
+            <div class="ch-day-availability-pushbuttons-spacer ch-day-availability-pushbuttons-large-screen ch-secondary-header-input-spacer">
+                <div class="js-pushButtonGroup sg-radio-push-button-group sg-radio-push-button-group-small sg-radio-push-button-group-3 js-availability-day-filter-group-largeScreen">
+                    <input type="radio" checked="checked" id="rdoDayAny" name="dayFilter" value="AnyDay" class="js-availabilityDayFilter">
+                    <label class="sg-btn-small -radio-label-checked" for="rdoDayAny">Any Day</label>
 
-				</ul>
-			</div>
+                    <input type="radio" id="rdoDayToday" name="dayFilter" value="Today" class="js-availabilityDayFilter">
+                    <label class="sg-btn-small" for="rdoDayToday">Today</label>
+
+                    <input type="radio" id="rdoDayNext3" name="dayFilter" value="Next3Days" class="js-availabilityDayFilter">
+                    <label class="sg-btn-small" for="rdoDayNext3">Next 3 Days</label>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ch-header-input-float">
+            <div class="js-advancedFiltersWrapper advancedFiltersWrapper ch-more-options-spacer">
+                <span class="advancedFiltersButton js-advancedFiltersButton">More</span>
+                <div class="advancedFiltersPanel js-advancedFiltersPanel hidden">
+                    <div class="advancedFiltersItemWrapper">
+                        <div class="advancedFiltersItemLabel sg-title sg-cool-grey">Language:</div>
+                        <div class="advancedFiltersItem"><div class="sg-link-menu js-select js-criteria-language"><span>Any Language</span><select id="language" name="language"><option selected="selected" value="-1">Any Language</option>
+<option value="35">Afrikaans</option>
+<option value="120">Akan</option>
+<option value="121">Albanian</option>
+<option value="168">American Sign Language</option>
+<option value="82">Amharic</option>
+<option value="10">Arabic</option>
+<option value="134">Armenian</option>
+<option value="102">Assamese</option>
+<option value="178">Assyrian</option>
+<option value="78">Azerbaijani</option>
+<option value="176">Bahasa</option>
+<option value="130">Balochi</option>
+<option value="161">Basque</option>
+<option value="139">Batak</option>
+<option value="116">Belarusian</option>
+<option value="17">Bengali</option>
+<option value="141">Bhili</option>
+<option value="81">Bhojpuri</option>
+<option value="177">Bongali</option>
+<option value="183">Bosnian</option>
+<option value="127">Bulgarian</option>
+<option value="28">Burmese</option>
+<option value="133">Catalan</option>
+<option value="97">Cebuano</option>
+<option value="115">Chichewa</option>
+<option value="167">Chinese (Cantonese)</option>
+<option value="170">Chinese (Fujian)</option>
+<option value="166">Chinese (Mandarin)</option>
+<option value="169">Chinese (Shanghainese)</option>
+<option value="182">Chinese (Wenzhounese)</option>
+<option value="172">Creole</option>
+<option value="110">Creole (Haitian)</option>
+<option value="184">Croatian</option>
+<option value="32">Czech</option>
+<option value="33">Danish</option>
+<option value="13">Dutch</option>
+<option value="1">English</option>
+<option value="160">Estonian</option>
+<option value="6">Farsi</option>
+<option value="175">Fijian</option>
+<option value="173">Filipino</option>
+<option value="34">Finnish</option>
+<option value="2">French</option>
+<option value="108">Fula</option>
+<option value="151">Georgian</option>
+<option value="4">German</option>
+<option value="142">Gikuyu</option>
+<option value="30">Greek</option>
+<option value="146">Guarani</option>
+<option value="74">Gujarati</option>
+<option value="80">Hakka</option>
+<option value="87">Hausa</option>
+<option value="5">Hebrew</option>
+<option value="131">Hiligaynon</option>
+<option value="11">Hindi</option>
+<option value="122">Hmong</option>
+<option value="31">Hungarian</option>
+<option value="179">Ibo</option>
+<option value="163">Icelandic</option>
+<option value="99">Igbo</option>
+<option value="125">Ilokano</option>
+<option value="88">Indonesian</option>
+<option value="158">Irish</option>
+<option value="7">Italian</option>
+<option value="18">Japanese</option>
+<option value="19">Javanese</option>
+<option value="77">Kannada</option>
+<option value="150">Kashmiri</option>
+<option value="111">Kazakh</option>
+<option value="104">Khmer</option>
+<option value="128">Kinyarwanda</option>
+<option value="147">Kirundi</option>
+<option value="119">Kongo</option>
+<option value="22">Korean</option>
+<option value="85">Kurdish</option>
+<option value="153">Kyrgyz</option>
+<option value="96">Lao</option>
+<option value="155">Latvian</option>
+<option value="154">Lithuanian</option>
+<option value="117">Lombard</option>
+<option value="157">Macedonian</option>
+<option value="106">Madurese</option>
+<option value="75">Maithili</option>
+<option value="137">Makhuwa</option>
+<option value="100">Malagasy</option>
+<option value="98">Malay</option>
+<option value="76">Malayalam</option>
+<option value="165">Maori</option>
+<option value="21">Marathi</option>
+<option value="73">Min </option>
+<option value="135">Minangkabau</option>
+<option value="140">Mongolian</option>
+<option value="144">More</option>
+<option value="164">Navajo</option>
+<option value="101">Nepali</option>
+<option value="36">Norwegian</option>
+<option value="79">Oriya</option>
+<option value="89">Oromo</option>
+<option value="86">Pashto</option>
+<option value="26">Polish</option>
+<option value="16">Portuguese</option>
+<option value="24">Punjabi</option>
+<option value="112">Quechua</option>
+<option value="148">Romani</option>
+<option value="84">Romanian</option>
+<option value="15">Russian</option>
+<option value="138">Santali</option>
+<option value="185">Serbian</option>
+<option value="91">Serbo-Croatian</option>
+<option value="103">Shona</option>
+<option value="93">Sindhi</option>
+<option value="107">Sinhalese</option>
+<option value="143">Slovak</option>
+<option value="156">Slovenian</option>
+<option value="95">Somali</option>
+<option value="3">Spanish</option>
+<option value="83">Sundanese</option>
+<option value="145">Swahili</option>
+<option value="118">Swedish</option>
+<option value="90">Tagalog</option>
+<option value="174">Taiwanese</option>
+<option value="114">Tajik</option>
+<option value="109">Tamazight</option>
+<option value="23">Tamil</option>
+<option value="20">Telugu</option>
+<option value="29">Thai</option>
+<option value="149">Tibetan</option>
+<option value="132">Tigrinya</option>
+<option value="124">Tshiluba</option>
+<option value="159">Tuareg</option>
+<option value="25">Turkish</option>
+<option value="136">Turkmen</option>
+<option value="27">Ukrainian</option>
+<option value="12">Urdu</option>
+<option value="126">Uyghur</option>
+<option value="92">Uzbek</option>
+<option value="14">Vietnamese</option>
+<option value="162">Welsh</option>
+<option value="129">Xhosa</option>
+<option value="123">Yi</option>
+<option value="152">Yiddish</option>
+<option value="94">Yoruba</option>
+<option value="105">Zhuang</option>
+<option value="113">Zulu</option>
+</select></div></div>
+                    </div>
+                    <div class="advancedFiltersItemWrapper">
+                        <div class="advancedFiltersItemLabel sg-title sg-cool-grey">Time:</div>
+                        <div class="advancedFiltersItem">
+<div class="js-form-row -form-row">
+    <div class="js-availabilityTimeFilterWrapper">
+        <div class="js-checkbox sg-checkbox -checkbox -criteria-time-filter">
+            <label class="">
+                <input class="js-timeFilterBefore10AM" type="checkbox" value="Before10AM">
+                <span>Before 10AM</span>
+            </label>
+        </div>
+        <div class="js-checkbox sg-checkbox -checkbox -criteria-time-filter">
+            <label class="timeFilterAdditionalOption ">
+                <input class="js-timeFilterAfter5PM" type="checkbox" value="After5PM">
+                <span>After 5PM</span>
+            </label>
+        </div>
+    </div>
+    <div class="nopass"></div>
+</div></div>
+                    </div>
+                    <div class="advancedFiltersItemWrapper ch-day-availability-pushbuttons-small-screen">
+                        <div class="advancedFiltersItemLabel sg-title">Day:</div>
+                        <div class="advancedFiltersItem">
+                            <div class=" sg-radio-push-button-group sg-radio-push-button-group-small sg-radio-push-button-group-3 js-availability-day-filter-group-smallScreen js-pushbuttongroup">
+                                <input type="radio" checked="checked" id="rdoDayAny_small" name="dayFilter_small" value="AnyDay" class="js-availabilityDayFilter">
+                                <label class="sg-btn-small -radio-label-checked" for="rdoDayAny_small">Any Day</label>
+
+                                <input type="radio" id="rdoDayToday_small" name="dayFilter_small" value="Today" class="js-availabilityDayFilter">
+                                <label class="sg-btn-small" for="rdoDayToday_small">Today</label>
+
+                                <input type="radio" id="rdoDayNext3_small" name="dayFilter_small" value="Next3Days" class="js-availabilityDayFilter">
+                                <label class="sg-btn-small" for="rdoDayNext3_small">Next 3 Days</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advancedFiltersItemWrapper">
+                        <div class="advancedFiltersItemLabel sg-title sg-cool-grey">Other:</div>
+                        <div class="advancedFiltersItem customSelect">
+<div class=" js-form-row -form-row">
+    <div class="patientTypeDiv patientTypeCriteria">
+        <div class="js-checkbox sg-checkbox -checkbox -criteria-patient-type patientTypeChild js-search-patient-type ">
+            <label class="">
+                <input class="js-patient-type-checkbox" name="PatientTypeChild" type="checkbox" value="true">
+                <span>Sees children</span>
+            </label>
+        </div>
+    </div>
+    <div class="nopass"></div>
+</div>
+</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="js-search-critera-secondary-section-2 ch-search-critera-secondary-section-2 ">
+        <h1 class="sg-header10 ch-search-criteria-secondary-title sg-cool-grey">
+            <span class="js-search-criteria-secondary-title-no-results sg-navy hide" style="display: none;">
+                <span class="ch-search-criteria-secondary-title-no-result">Sorry, no results found.</span>
+                <span>If you need a doctor to diagnose you, here are PCPs in your area.</span>
+            </span>
+            <span class="js-search-criteria-secondary-title">
+                <span class="js-search-criteria-secondary-title-doctors"> Doctors </span>
+                <span class="js-search-criteria-secondary-title-in"> in </span>
+                <span class="js-search-criteria-secondary-title-location"> 604065, 99737 </span>
+                <span class="js-search-criteria-secondary-title-pipe">
+                </span>
+                <span class="js-search-criteria-secondary-title-insurance"></span>
+            </span>
+        </h1>
+        <div class="ch-sort-by-container">
+            <div class="ch-sort-by-link-menu  sg-link-menu js-search-sort-by-select sg-inline-block search-criteria-secondary-sort-by-dropdown"><span>default order</span><select id="sort_selection" name="sort_selection"><option selected="selected" value="DefaultOrder">default order</option>
+<option value="Distance">distance</option>
+<option value="WaitTimeRating">wait time rating</option>
+</select></div>
+            <div class="sg-header10 sg-cool-grey ch-sort-by-label">Sort by:</div>
+        </div>
+    </div>
+
+
+</div>
+
+            <input type="hidden" name="hospitalid" id="hospital_id" value="-1">
+            <input type="hidden" name="offset" id="offset" value="0">
+            <input type="hidden" name="referrerType" id="referrerType" value="">
+
+
+                        </div>
+                        <div class="js-date-network-container">
+                            <div class="sg-row">
+                                <div class=" js-search-network-bar-header ch-network-bar-header sg-columns sg-small-padding-offset-1 sg-small-17 sg-white-bg " data-test="networkBarPlaceholder"><div class="js-search-mobile-network-bar ch-insurance-col-wrapper">
+    <div class="js-search-network-status-icon ch-network-status-icon"></div>
+    <div class="js-in-network-text ch-in-network-text">Other Providers</div>
+    <div class="js-search-network-bar-insurance-img-url ch-network-bar-insurance-img-container">
+        <img class="ch-network-bar-insurance-img" src="" style="display: none;">
+    </div>
+</div>
+<div class="col-sm-3">
+					<a href="#" class="btn btn-default btn-color-bg-dark btn-no-radius" id="showmap"><span>Search on Map</span></a>
+				</div>
+<div class="js-search-timesgrid-controls ch-timesgrid-controls"><div data-reactroot="" class="DesktopTimesGridControls__timesgrid-small___1SJvc"><div class="DesktopTimesGridControls__timesgrid-desktop___2zcEY DesktopTimesGrid__timesgrid-desktop___10BgJ"><div class="DesktopTimesGridControls__tg-header___2QLyF foundation__row___1rYxV"><div><div class="DesktopTimesGridControls__arrow-column___2UtBs DesktopTimesGridControls__responsive-arrow-column___iCMvf"><div data-test="previous-button" class="DesktopTimesGridControls__previous-button-no-cursor___gXPK2"><div class="icon__icon-wrapper___21GxL"><svg class="DesktopTimesGridControls__left-arrow-disabled___1Nz-- DesktopTimesGridControls__left-arrow___41a07 DesktopTimesGridControls__arrow___1DfKp icon__icon-default___2NTfH" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" data-svgreactloader="[[&quot;http://www.w3.org/2000/svg&quot;,&quot;xlink&quot;,&quot;http://www.w3.org/1999/xlink&quot;],[&quot;http://www.w3.org/2000/svg&quot;,&quot;space&quot;,&quot;preserve&quot;]]" x="0px" y="0px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xlink="http://www.w3.org/1999/xlink" space="preserve"><g><g id="XMLID_2889_"><g id="XMLID_2891_"><g><path fill="#FFFFFF" d="M20,39.4c-10.6,0-19.3-8.6-19.4-19.2C0.5,15.1,2.4,10.2,6.1,6.4c3.6-3.7,8.5-5.8,13.7-5.9l0.3,0 c10.6,0,19.3,8.6,19.4,19.2c0.1,10.7-8.5,19.6-19.2,19.7L20,39.4z"></path></g><g><path fill="#E2E0E3" d="M20,1.1c10.3,0,18.7,8.4,18.9,18.6c0.1,10.4-8.2,19-18.6,19.1l-0.3,0c-10.3,0-18.7-8.4-18.9-18.6 C1,9.8,9.3,1.3,19.7,1.1L20,1.1 M20,0c-0.1,0-0.2,0-0.3,0C8.7,0.2-0.2,9.2,0,20.3C0.2,31.2,9.1,40,20,40c0.1,0,0.2,0,0.3,0 c11-0.2,19.9-9.2,19.7-20.3C39.8,8.8,30.9,0,20,0L20,0z"></path></g></g></g><g id="XMLID_998_"><g><polygon fill="#E2E0E3" points="22.4,28.1 14.3,20 22.4,11.9 24.6,14.1 18.7,20 24.6,25.9 			"></polygon></g></g></g></svg></div></div></div><div data-test="day-column" class="DesktopTimesGridControls__day-column___33hSn DesktopTimesGridControls__responsive-day-column___VvYOl color__navy-text___2lWDZ typography__ss-semibold-15-20___2aF5w"><div>Mon</div><div>Aug 29</div></div><div data-test="day-column" class="DesktopTimesGridControls__day-column___33hSn DesktopTimesGridControls__responsive-day-column___VvYOl color__navy-text___2lWDZ typography__ss-semibold-15-20___2aF5w"><div>Tue</div><div>Aug 30</div></div><div class="DesktopTimesGridControls__arrow-column___2UtBs DesktopTimesGridControls__responsive-arrow-column___iCMvf"><div data-test="next-button" class="DesktopTimesGridControls__next-button___mD-OB"><div class="icon__icon-wrapper-active___1ezaE"><svg class="DesktopTimesGridControls__right-arrow___1I5MX DesktopTimesGridControls__arrow___1DfKp icon__icon-default___2NTfH" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" data-svgreactloader="[[&quot;http://www.w3.org/2000/svg&quot;,&quot;xlink&quot;,&quot;http://www.w3.org/1999/xlink&quot;],[&quot;http://www.w3.org/2000/svg&quot;,&quot;space&quot;,&quot;preserve&quot;]]" x="0px" y="0px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xlink="http://www.w3.org/1999/xlink" space="preserve"><g><g id="XMLID_5_"><g id="XMLID_6_"><g><path fill="#FFFFFF" d="M20,39.4c10.7,0,19.4-8.7,19.4-19.4S30.7,0.6,20,0.6S0.6,9.3,0.6,20S9.3,39.4,20,39.4z"></path></g><g><path fill="#E2E0E3" d="M20,1.1c10.4,0,18.9,8.5,18.9,18.9S30.4,38.9,20,38.9S1.1,30.4,1.1,20S9.6,1.1,20,1.1 M20,0 C9,0,0,9,0,20s9,20,20,20c11,0,20-9,20-20S31,0,20,0L20,0z"></path></g></g></g><g id="XMLID_4_"><g><polygon fill="#132549" points="17.1,28.1 25.2,20 17.1,11.9 14.8,14.1 20.7,20 14.8,25.9 			"></polygon></g></g></g></svg><svg class="DesktopTimesGridControls__right-arrow___1I5MX DesktopTimesGridControls__arrow___1DfKp icon__icon-active___vB2ay" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" data-svgreactloader="[[&quot;http://www.w3.org/2000/svg&quot;,&quot;xlink&quot;,&quot;http://www.w3.org/1999/xlink&quot;],[&quot;http://www.w3.org/2000/svg&quot;,&quot;space&quot;,&quot;preserve&quot;]]" x="0px" y="0px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xlink="http://www.w3.org/1999/xlink" space="preserve"><g><g id="XMLID_8_"><g id="XMLID_9_"><g><path fill="#13264A" d="M20,39.4c10.7,0,19.4-8.7,19.4-19.4S30.7,0.6,20,0.6S0.6,9.3,0.6,20S9.3,39.4,20,39.4z"></path></g><g><path fill="#13264A" d="M20,1.1c10.4,0,18.9,8.5,18.9,18.9S30.4,38.9,20,38.9S1.1,30.4,1.1,20S9.6,1.1,20,1.1 M20,0 C9,0,0,9,0,20c0,11,9,20,20,20c11,0,20-9,20-20S31,0,20,0L20,0z"></path></g></g></g><g id="XMLID_7_"><g><polygon fill="#FFFFFF" points="17.6,28.1 25.7,20 17.6,11.9 15.4,14.1 21.3,20 15.4,25.9 			"></polygon></g></g></g></svg></div></div></div></div></div></div></div></div></div>
+                            </div>
+                        </div>
+                    </div>
+	<div class="doccontent">
+	<div class="doctors-list">
+	<div class="doctors-list-item">
+	<div class="docshortdesc">
+							<div class="name">
+								<h6>Mike Smithson</h6>
+								<strong>Oncology</strong>
+								<figure><img src="img/doctors/doc01.jpg" alt="//"></figure>
+							</div>
+							
+							<div class="icon-content">
+							<div class="stars-block">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							</div>
+								<ul class="icon-item">
+									<li><i class="fa fa-medkit"></i>Doctor</li>
+									<li><i class="fa fa-stethoscope"></i>Cardiac</li>
+									<li><i class="fa fa-user-md"></i>Pediatric</li>
+								</ul>
+							</div>
 		</div>
-	</section>
-	<!-- end Revolution Slider -->
-	<!-- High boxes -->
-	<div class="high-boxes">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<div class="boxes-item">
-						<i class="glyphicon glyphicon-tint"></i>
-						<h5>Know your what you are looking</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur <br> Quisquam doloribus dolorem libero, iusto quasi.</p>
-					</div>
-				</div>
-				<div class="col-md-4 ">
-					<div class="boxes-item active">
-						<i class="glyphicon glyphicon-time"></i>
-						<h5>Want to look MD by symptoms</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur <br> Quisquam doloribus dolorem libero, iusto quasi.</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="boxes-item">
-						<i class="fa fa-users"></i>
-						<h5>Book an Appt</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur <br> Quisquam doloribus dolorem libero, iusto quasi.</p>
-					</div>
-				</div>
-			</div>
-		</div>
+			<div class="docscils">
+	<h4>Alex Monett</h4>
+								<span>Outpatient Surgery</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam non obcaecati quas magnam id odio maxime pariatur voluptate porro architecto, sint rem velit aperiam veritatis ducimus neque quae, in quibusdam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+								<div class="horizontal-bar">
+								<p>Cardiac Clinic</p>
+								<div class="content-bar">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width: 77%;">
+											<span>77%</span>
+										</div>
+									</div>
+								</div>
+
+								<p>Pediatric Clinic</p>
+								<div class="content-bar">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;">
+											<span>98%</span>
+										</div>
+									</div>
+								</div>
+
+								<p>Dental Clinic</p>
+								<div class="content-bar">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 87%;">
+											<span>87%</span>
+										</div>
+									</div>
+								</div>
+							</div>
 	</div>
-	<!-- End High boxes -->
+	<div class="time-tables">
+		<div class="timetable-responsive">
+						<table>
+							<thead>
+								<tr>
+								 <th class="blue-extralight">Time</th>
+								 </tr>
+							</thead>
+							<tr>
+								<th>06:00-07:00 AM</th>
+								</tr>
+							<tr>
+								<th>08:00-09:00 AM</th>
+								</tr>
+							<tr>
+								<th>09:00-17:00 AM</th>
+								</tr>
+							<tr>
+								<th>09:00-07:00 AM</th>
+								</tr>
+							<tr>
+								<th>08:00-09:00 AM</th>
+								</tr>
+							<tr>
+								<th>09:00-17:00 AM</th>
+								</tr>
 
-	<!-- High boxes -->
-
-		<div class="container">
-			<div class="row">
-					<div class="search-first-block">
+						</table>
+						</div>
+						<div class="timetable-responsive">
 						
-						<div class="block-title">
-							<span class="block-number">1</span>
-							<div class="block-title-text">	
-								<h3>Choose by SYMPTOMS</h3>
-								<span class="bloc-text">Choose by symptoms and quickly get search results according to your location. Set you insurance from the list</span>
-							</div>	
-						</div>
-						<div class="block-img">
-							<img src="/img/section_1.jpg"/>
-						</div>
-					</div>
-			</div>
+						<table>
+							<thead>
+								<tr>
+								 <th class="blue-extralight">Time</th>
+								 </tr>
+							</thead>
+							<tr>
+								<th>06:00-07:00 AM</th>
+								</tr>
+							<tr>
+								<th>08:00-09:00 AM</th>
+								</tr>
+							<tr>
+								<th>09:00-17:00 AM</th>
+								</tr>
+							<tr>
+								<th>09:00-07:00 AM</th>
+								</tr>
+							<tr>
+								<th>08:00-09:00 AM</th>
+								</tr>
+							<tr>
+								<th>09:00-17:00 AM</th>
+								</tr>
+
+						</table>
+								
 		</div>
+	</div>		
+	</div>	
+	
+	<div class="doctors-list-item">
+	<div class="docshortdesc">
+	<div class="name">
+								<h6>Mike Smithson</h6>
+								<strong>Oncology</strong>
+								<figure><img src="img/doctors/doc01.jpg" alt="//"></figure>
+							</div>
+							<div class="icon-content">
+							<div class="stars-block">
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star"></i>
+							<i class="fa fa-star-half"></i>
+							<i class="fa fa-star-o"></i>
+							<i class="fa fa-star-o"></i>
+							</div>
+								<ul class="icon-item">
+									<li><i class="fa fa-medkit"></i>Doctor</li>
+									<li><i class="fa fa-stethoscope"></i>Cardiac</li>
+									<li><i class="fa fa-user-md"></i>Pediatric</li>
+								</ul>
+							</div>
+							</div>
+							<div class="docscils">
+	<h4>Alex Monett</h4>
+								<span>Outpatient Surgery</span>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam non obcaecati quas magnam id odio maxime pariatur voluptate porro architecto, sint rem velit aperiam veritatis ducimus neque quae, in quibusdam?Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+								<div class="horizontal-bar">
+								<p>Cardiac Clinic</p>
+								<div class="content-bar">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="77" aria-valuemin="0" aria-valuemax="100" style="width: 77%;">
+											<span>77%</span>
+										</div>
+									</div>
+								</div>
 
-	<!-- End High boxes -->
-		<!-- Icon Boxes -->
+								<p>Pediatric Clinic</p>
+								<div class="content-bar">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 98%;">
+											<span>98%</span>
+										</div>
+									</div>
+								</div>
 
-		<div class="container">
-			<div class="row">
-				<div class="search-second-block">
-						
-						<div class="block-title">
-							<span class="block-number">2</span>
-							<div class="block-title-text">	
-								<h3>Know kind of doctor are you looking for</h3>
-								<span class="bloc-text">Doctors makes it easy to compare specialist based on location, ratings and price</span>
-							</div>	
-						</div>
-						<div class="block-img">
-							<img src="/img/section_2.jpg"/>
-						</div>
-					</div>
-			</div>
-		</div>
-
-	<!-- End Icon Boxes -->
-
-	<!-- Clinical Services -->
-
-		<div class="container">
-			<div class="row">
-				<div class="search-third-block">
-						
-						<div class="block-title">
-							<span class="block-number">3</span>
-							<div class="block-title-text">	
-								<h3>book an appointment</h3>
-								<span class="bloc-text">Read testimonials and view specialists statistics to make you final decision. </br> You can also book your appointment directly from search results page</span>
-							</div>	
-						</div>
-						<div class="block-img-left">
-							<img src="/img/section_3.jpg"/>
-						</div>
-					</div>
-			</div>
-		</div>
-
-	<!-- End Clinical Services -->
-	<section class="generic appointment bg-4">
-		<div class="container">
-			<div class="row">
-			<div class="rjtitle">
-			<span class="titlerj">Ready to join and reach millions of patients?</span>
-			</div>
-			<div class="readytoj  container">
-			<div class="leftrgtext">
-			<span class="leftrjtitle">Are you a doctor?</span>
-			<ol class="punktsljt">
-			<li>Join us and get stable flow of patients </li>
-			<li>Create profile and list your practice</li>
-			<li>Increase your professionalism and update your profile</li>
-			</ol>
-			</div>
-			<div class="rightrjtext">
-			<ol class="punktsrjt">
-			<li>Participate in ratings</li>
-			<li>Strengthen your online reputation</li>
-			
-			</ol>
-			<a href="#" class="btn btn-default btn-color-border-solid-3"><span>Button Nine</span></a>
-			</div>
-			</div>
-			</div>
+								<p>Dental Clinic</p>
+								<div class="content-bar">
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100" style="width: 87%;">
+											<span>87%</span>
+										</div>
+									</div>
+								</div>
+							</div>
 	</div>
+	<div class="time-tables">
+		<div class="timetable-responsive">
+						<table>
+							<thead>
+								<tr>
+								 <th class="blue-extralight">Time</th>
+								 </tr>
+							</thead>
+							<tr>
+								<th>06:00-07:00 AM</th>
+								</tr>
+							<tr>
+								<th>08:00-09:00 AM</th>
+								</tr>
+							<tr>
+								<th>09:00-17:00 AM</th>
+								</tr>
+							<tr>
+								<th>09:00-07:00 AM</th>
+								</tr>
+							<tr>
+								<th>08:00-09:00 AM</th>
+								</tr>
+							<tr>
+								<th>09:00-17:00 AM</th>
+								</tr>
+
+						</table>
+						</div>
+						<div class="timetable-responsive">
+						
+						<table>
+							<thead>
+								<tr>
+								 <th class="blue-extralight">Time</th>
+								 </tr>
+							</thead>
+							<tr>
+								<th>06:00-07:00 AM</th>
+								</tr>
+							<tr>
+								<th>08:00-09:00 AM</th>
+								</tr>
+							<tr>
+								<th>09:00-17:00 AM</th>
+								</tr>
+							<tr>
+								<th>09:00-07:00 AM</th>
+								</tr>
+							<tr>
+								<th>08:00-09:00 AM</th>
+								</tr>
+							<tr>
+								<th>09:00-17:00 AM</th>
+								</tr>
+
+						</table>
+								
 		</div>
-	</section>
-
-	<!-- Appointment -->
-	<section class="generic appointment bg-4">
-		<div class="container">
-			<div class="row">
-				<div class="provenblock">
-					<div class="proventitle">
-						<span class="titlerj">Proven health systems choose Doctor</span>
-						<span class="titlerj">to improve and enchance their clients experience</span>
-					</div>
-					<div class="provenleft">
-						<span class="provenlefttext">Join us to quikly increase new patient acquision</span>
-					</div>
-					<div class="provenright">
-					<img class="logob" src="img/logo1.png">
-					<img class="logob" src="img/logo2.png">
-					<img class="logob" src="img/logo3.png">
-					<a href="#" class="btn proven btn-default btn-color-border-solid"><span>Button Five</span></a>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-	<!-- End Appointment -->
-
-	<!-- Testimonials -->
-	<section class="generic" >
-    	<div class="container">
-    		<div class="row">
-				<div class="col-sm-12">
-					<div class="section-title">
-						<h3>Testimonials</h3>
-					</div>
-				</div>
-			</div>
-			<div class="sky-carousel">
-				<div class="sky-carousel-wrapper">
-					<ul class="sky-carousel-container">
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/1.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Leslie Lawson</span>Doctor since 1995</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/2.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Dora Thomas</span>Doctor since 2005</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/3.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Karen Olsen</span>Doctor since 2007</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/4.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Mittie Phillips</span>Doctor since 2001</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/5.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Karen Olsen</span>Doctor since 1999</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/6.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Maria Vann</span>Doctor since 1994</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/1.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Leslie Lawson</span>Doctor since 1998</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/2.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Dora Thomas</span>Doctor since 1996</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/3.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Karen Olsen</span>Doctor since 1992</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/4.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Mittie Phillips</span>Doctor since 1994</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/5.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Mittie Phillips</span>Doctor since 1994</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/6.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Maria Vann</span>Doctor since 1999</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/1.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Leslie Lawson</span>Doctor since 1990</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/2.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Dora Thomas</span>Doctor since 1994</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/3.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Karen Olsen</span>Doctor since 2000</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/4.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Mittie Phillips</span>Doctor since 1998</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/5.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Dori Moss</span>Doctor since 1994</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/6.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Maria Vann</span>Doctor since 2004</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/1.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Leslie Lawson</span>Doctor since 2009</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/2.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Dora Thomas</span>Doctor since 2003</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/3.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Karen Olsen</span>Doctor since 1994</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/4.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Mittie Phillips</span>Doctor since 2008</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/5.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Karen Olsen</span>Doctor since 1998</p>
-							</div>
-						</li>
-						<li>
-							<i class="glyphicon glyphicon-plus"></i>
-							<img src="img/carrousell/6.jpg" alt="">
-							<div class="sc-content">
-								<h2>“Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud and rcitation ullamco laboris nisi ut aliqui"</h2>
-								<p><span>Dora Thomas</span>Doctor since 1994</p>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-    	</div>
-    </section>
-	<!-- End testimonials -->
-
-	<!-- Recent News -->
-	<section class="generic">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12">
-					<div class="section-title">
-						<h3>Recent News</h3>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6 col-md-4">
-					<a href="#" class="featured-item ct-icon">
-						<figure>
-							<img class="img-responsive" src="img/features/featured-1.jpg" alt="//">
-							<div class="icon-image"><span class="glyphicon glyphicon-picture" aria-hidden = "true"></span></div>
-						</figure>
-						<div class="content text-center">
-							<h4>Urgency Services</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, in molestiae ex... Architecto, in molestiae ex...</p>
-						</div>
-						<div class="foot">
-							<ul>
-								<li>
-									<span class="fa fa-user"></span>By Mike Joe
-								</li>
-								<li class="right">
-									<span class="fa fa-calendar-o"></span>12 April 2015
-								</li>
-							</ul>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<a href="#" class="featured-item ct-icon">
-						<figure>
-							<img class="img-responsive" src="img/features/featured-2.jpg" alt="//">
-							<div class="icon-image"><span class="glyphicon glyphicon-picture"></span></div>
-						</figure>
-						<div class="content text-center">
-							<h4>Urgency Services</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, in molestiae ex... Architecto, in molestiae ex...</p>
-						</div>
-						<div class="foot">
-							<ul>
-								<li>
-									<span class="fa fa-user"></span>By Mike Joe
-								</li>
-								<li class="right">
-									<span class="fa fa-calendar-o"></span>12 April 2015
-								</li>
-							</ul>
-						</div>
-					</a>
-				</div>
-				<div class="col-sm-6 col-md-4">
-					<a href="#" class="featured-item ct-icon">
-						<figure>
-							<img class="img-responsive" src="img/features/featured-3.jpg" alt="//">
-							<div class="icon-image"><span class="glyphicon glyphicon-picture"></span></div>
-						</figure>
-						<div class="content text-center">
-							<h4>Urgency Services</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, in molestiae ex... Architecto, in molestiae ex...</p>
-						</div>
-						<div class="foot">
-							<ul>
-								<li>
-									<span class="fa fa-user"></span>By Mike Joe
-								</li>
-								<li class="right">
-									<span class="fa fa-calendar-o"></span>12 April 2015
-								</li>
-							</ul>
-						</div>
-					</a>
-				</div>
-				<div class="text-center">
-					<a href="" class="btn btn-default btn-color-border-solid">View All News</a>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Recent News -->
-
-    <!-- Newsletter -->
-	<section class="generic newsletter bg-5">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 text-center">
-					<h6>Newsletter Subscription</h6>
-					<form id="newsletter" class="input-group" action="newsletter.php" method="post" accept-charset="utf-8" role="form">
-    					<input type="email" class="form-control" placeholder="Enter a valid E-mail">
-                        <button type="submit" class="btn btn-send" data-loading-text="Sending...">Subscribe</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- End Newsletter -->
-
+	</div>		
+	</div>	
+	</div>
+	<div class="gmap">
+	</div>
+	</div>
 	<!-- Footer -->
 	<footer>
 		<div class="footer-top">
 			<div class="container">
 				<div class="row">
 					<div class="widget col-sm-6 col-md-3">
-					<h5 class="widget-title">Company</h5>
-						<div class="ct-list">
-							<ul class="list-group list-arrow">
-								<li class="media-heading fa fa-angle-right"><a href="about-us.html">About</a></li>
-								<li class="media-heading fa fa-angle-right"><a href="news.html">Blog</a></li>
-								<li class="media-heading fa fa-angle-right"><a href="gallery.html">Press</a></li>
-								<li class="media-heading fa fa-angle-right"><a href="gallery.html">Media Kit</a></li>
-								<li class="media-heading fa fa-angle-right"><a href="help.html">Help</a></li>
-							</ul>
-						</div>
+						<h5 class="widget-title">Clinical Center</h5>
+						<p>Doctor is the official hospital of the United States Tennis Association.</p>
+						<address class="address-list">
+							<i class="fa fa-building-o"></i> PT, East 39th Street, New York, NY <br>
+							<i class="fa fa-whatsapp"></i> +5559 9654982 84 <br>
+							<i class="fa fa-envelope"></i> contact@doctor.com <br>
+							<i class="fa fa-desktop"></i> www.researchcenter.com
+						</address>
 					</div>
 					<div class="widget col-sm-6 col-md-3">
-						<h5 class="widget-title">Information</h5>
-						<div class="ct-list">
-							<ul class="list-group list-arrow">
-								<li class="media-heading fa fa-angle-right"><a href="how-it-works.html">How it Works</a></li>
-								<li class="media-heading fa fa-angle-right"><a href="#">Sign Up</a></li>
-								<li class="media-heading fa fa-angle-right"><a href="#">Our Guarantee</a></li>
-								<li class="media-heading fa fa-angle-right"><a href="#">Medical Services Provided</a></li>
-								<li class="media-heading fa fa-angle-right"><a href="d">Service Areas</a></li>
-							</ul>
-						</div>
+						<h5 class="widget-title">Recent News</h5>
+						<ul class="media-list">
+							<li class="media">
+								<a class="pull-left" href="blog-left-sidebar.html">
+									<img class="media-object" src="img/news/news-thumbnail-144x144-01.jpg" alt="//">
+								</a>
+								<div class="media-body">
+									<h5 class="media-heading"><a href="blog-left-sidebar.html">Enjoy your new dazzling cool and fresh smile!</a></h5>
+									<p class="media-meta">Post 15 April 2013</p>
+								</div>
+							</li>
+							<li class="media">
+								<a class="pull-left" href="blog-left-sidebar.html">
+									<img class="media-object" src="img/news/news-thumbnail-144x144-02.jpg" alt="//">
+								</a>
+								<div class="media-body">
+									<h5 class="media-heading"><a href="blog-left-sidebar.html">Enjoy your new dazzling cool and fresh smile!</a></h5>
+									<p class="media-meta">Post 12 April 2013</p>
+								</div>
+							</li>
+						</ul>
 					</div>
 					<div class="widget col-sm-6 col-md-3">
-						<h5 class="widget-title">Service providers</h5>
+						<h5 class="widget-title">Patient Information</h5>
 						<div class="ct-list">
 							<ul class="list-group list-arrow">
-								<li class="media-heading fa fa-angle-right"><a href="#">Medical</a></li>
-								<li class="media-heading fa fa-angle-right"><a href="how-it-works.html">How it Works</a></li>
-								
-								<li class="media-heading fa fa-angle-right"><a href="#">Join us</a></li>
+								<li class="media-heading fa fa-angle-right"><a href="#">Ernst Jung Prize</a></li>
+								<li class="media-heading fa fa-angle-right"><a href="#">William Allan Award</a></li>
+								<li class="media-heading fa fa-angle-right"><a href="#">AMA Scientific Achievement Award</a></li>
+								<li class="media-heading fa fa-angle-right"><a href="#">APUA Leadership Award</a></li>
+								<li class="media-heading fa fa-angle-right"><a href="d">ASCB Public Service Award</a></li>
 							</ul>
 						</div>
 					</div>
@@ -3389,7 +3295,7 @@
 		<div class="copy">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-6"><p class="down">iDoctory.com. Copyright 2016. All Rights Reserved.<p></div>
+					<div class="col-sm-6"><p class="down">Dotor Medical Clinic. Copyright 2018. All Rights Reserved.<p></div>
 					<div class="col-sm-6">
 						<ul class="social-links">
 							<li>
@@ -3426,32 +3332,7 @@
 	<!-- End Footer -->
 
 	<!-- ======================= JQuery libs =========================== -->
-	<!-- jQuery -->
-	<script src="js/vendors/jquery/jquery-1.11.3.min.js" ></script>
-
-	<!-- loginform js -->
-	<script src="js/loginform.js" ></script>
 	
-	<script src="js/vendors/jquery/jquery-1.11.3.min.js" ></script>
-	
-	<!-- Bootstrap-->
-	<script src="js/vendors/bootstrap.min.js" ></script>
-
-	<!-- Nav -->
-	<script src="js/vendors/jquery/jquery.nav.js" ></script>
-
-	<!-- Owl Carousel -->
-	<script src="js/vendors/owl.carousel.min.js" ></script>
-
-	<!-- Calendar -->
-	<script src="js/vendors/jquery-ui-1.10.3.custom.js"></script>
-
-	<!-- Easy Chart -->
-    <script src="js/vendors/jquery/jquery.easy-pie-chart.js" ></script>
-	<script src="js/listingdropdovn.js" ></script>	
-	<!--Twitter Feed-->
-	<script src="js/vendors/twitter/jquery.tweet.min.js"></script>
-
 	<!-- Gmaps -->
 	<script src="http://maps.google.com/maps/api/js?sensor=true" ></script>
 	<script src="js/vendors/gmaps.js" ></script>

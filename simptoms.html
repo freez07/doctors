@@ -69,14 +69,16 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand logo-nav" href="index.html"><img src="img/logo.png" alt="//"></a>
+					<a class="navbar-brand logo-nav" href="index.html"><img src="img/logo.png" alt="idoctory.com"></a>
 				</div><!-- /.nav-header -->
 
 				<div class="collapse navbar-collapse navbar-collapse navbar-right">
 					<ul class="nav navbar-nav">
 						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="doctors.html">Our Doctors</a></li>
-						<li>
+					<li><a href="doctors.html">Our Doctors</a></li>
+						<li><a href="simptoms.html">Simptoms</a></li>
+						<li><a href="listing.html">KNOW YOUR SPECIALITY?</a></li>
+						<!--<li>
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
 							<ul class="dropdown-menu" role="menu">
 								<li><a href="shortcodes.html">Shortcodes</a></li>
@@ -93,11 +95,11 @@
 								<li><a href="contact-map-right.html">Contact Map Right</a></li>
 								<li><a href="error-404.html">Error 404</a></li>
 							</ul>
-						</li>
+						</li>-->
 						<li><a href="appointment.html">Appointment</a></li>
-						<li><a href="timetable.html">Timetable</a></li>
-						<li><a href="events.html">Events</a></li>
-						<li><a href="contact.html">Contact</a></li>
+					<!--	<li><a href="timetable.html">Timetable</a></li>-->
+						<li><a href="events.html">Blog</a></li>
+						<li><a href="contact.html">Contact US</a></li>
 
 					</ul>
 				</div>
@@ -109,15 +111,55 @@
 	<div class="simptoms-main-block">
 	<div class="container">
 	<button class="show-simptoms-list btn btn-default btn-color-bg-icon">Show all simptoms</button>
+		<div class="symptoms-text">CHOOSE BY SYMPTOMS</div>
+	</div>
+  
+	<div class="container">
+	<h4 id="symptoms4">Symptoms List<span></span></h4>
+	<div class="diagnosname"><h4 id="dignosh4">Causes for Abdominal distension</h4><span class="close-cross"></span></div>
 	</div>
 	<div class="container">
 	
-	<ul class="simptoms-list hidden">
+	<ul class="simptoms-list">
 	</ul>
-	<ul class="alphabet hidden"></ul>
-	<ul class="diagnosis hidden">
+	<ul class="alphabet"></ul>
+	
+	<ul class="diagnosis">
 	</ul>
+	
+	
+	
+	
+	
+	
 	</div>
+	<div class="tabscontainer modal">
+		<div id="request-service-container" class="col-md-6 col-xs-12">
+		<span class="cross"></span>
+					<div class="row">
+						<div class="col-md-3">
+							<div id="request-service-label">
+								REQUEST SERVICE:
+							</div>
+						</div>
+					<div class="col-md-9 col-xs-12 get-started">
+						<div class="zipcode-selector">
+							<div class="zip-msg"></div>
+								<form id="request-service-form" class="form-inline" action="/" accept-charset="UTF-8" method="get"><input name="utf8" value="✓" type="hidden"><span class="ui-helper-hidden-accessible" aria-live="polite" role="status"></span><input autocomplete="off" name="zipcode" id="zipcode_hero" placeholder="Enter City, State, or Zip" class="form-control ui-autocomplete-input" type="text">
+									<a class="btn btn-default btn-openbay" href="/welcome">Get Started
+										<i class="arrow"></i>
+									</a>
+								</form>
+							</div>
+						</div>
+					</div>
+
+				
+		</div>
+	</div>
+      <div class="howmainimage">
+    <img src="img/symptoms.jpg"></img>
+    </div>
 	</div>
 	
 	<!--end simptoms-->
